@@ -69,8 +69,8 @@ Dette diagram viser hvordan bubble sort-algoritmen fungerer med dens indlejrede 
 
 ```mermaid
 flowchart TD
-    S(( )) --> I["n = længden af array"]
-    I --> I_INIT["i = 0"]
+    S(( )) --> N_INIT["n = længden af array"]
+    N_INIT --> I_INIT["i = 0"]
     I_INIT --> O1{"i &lt; n-1?"}
     O1 -->|nej| E((( )))
     O1 -->|ja| J["j = 0"]
