@@ -488,7 +488,7 @@ Antal swaps: 8
 
 ---
 
-## Udfordring – Mini-ordbok
+## Udfordring – Mini-ordbog
 
 Lav et program, der fungerer som en mini-ordbog.
 
