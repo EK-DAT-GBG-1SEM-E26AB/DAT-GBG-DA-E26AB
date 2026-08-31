@@ -367,7 +367,7 @@ Forventet output:
 90
 ```
 
-> **Hint:** Implementer en enkel sorteringsalgoritme, f.eks. "bubble sort" eller "udvalgsort".
+> **Hint:** Implementer en enkel sorteringsalgoritme, f.eks. "bubble sort" eller "selection sort", se filerne til dagens lektion.
 
 ---
 
