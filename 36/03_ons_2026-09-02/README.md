@@ -18,6 +18,7 @@ Når du har arbejdet med dagens materiale, skal du kunne:
 * gemme og hente værdier ved hjælp af et **index**
 * forklare at det første index er `0` og det sidste er `length - 1`
 * løbe et array igennem med et `for`-loop
+* bruge `foreach` til at gå gennem et array uden at arbejde med index
 * bruge `array.length` til at styre et loop
 * forklare hvad en `ArrayIndexOutOfBoundsException` er og hvornår den opstår
 * tage imod arrayværdier fra brugeren via `Scanner`
@@ -142,6 +143,68 @@ Output:
 
 Betingelsen er `i < numbers.length` – **ikke** `i <= numbers.length`. Det sikrer, at vi ikke går
 forbi det sidste element.
+
+---
+
+### Gennemløb et array med foreach
+
+Når vi kun vil læse værdierne i et array, kan vi bruge en `foreach`-løkke. Den er kortere og
+oftest lettere at læse:
+
+```java
+int[] numbers = {5, 8, 3, 7, 1};
+
+for (int tal : numbers) {
+    System.out.println(tal);
+}
+```
+
+Output:
+
+```text
+5
+8
+3
+7
+1
+```
+
+Her får variablen `tal` værdien af hvert element i arrayet, én efter én.
+
+`foreach` er især nyttig, når vi:
+
+* kun vil læse værdierne
+* ikke har brug for indexet
+* vil gøre koden mere overskuelig
+
+Eksempel med `String[]`:
+
+```java
+String[] names = {"Anna", "Bo", "Clara"};
+
+for (String navn : names) {
+    System.out.println("Hej, " + navn);
+}
+```
+
+Output:
+
+```text
+Hej, Anna
+Hej, Bo
+Hej, Clara
+```
+
+Vigtigt: i en `foreach`-løkke har vi **ikke** adgang til indexet. Hvis vi vil ændre værdierne
+eller bruge deres placering i arrayet, skal vi bruge et almindeligt `for`-loop:
+
+```java
+int[] numbers = {5, 8, 3};
+
+for (int i = 0; i < numbers.length; i++) {
+    numbers[i] = numbers[i] * 2;
+}
+```
 
 ---
 
@@ -329,6 +392,8 @@ for (int i = 0; i < names.length; i++) {
 * index starter ved `0`, det sidste gyldige index er `length - 1`
 * `array.length` (uden parenteser) giver arrayets størrelse
 * mønsteret `for (int i = 0; i < array.length; i++)` bruges til at løbe et array igennem
+* `foreach` bruges, når vi kun vil læse værdierne i et array
+* i en `foreach`-løkke har vi ikke adgang til indexet
 * går du uden for arrayet, får du en `ArrayIndexOutOfBoundsException`
 * brug `-1` som startværdi, når du søger efter noget
 
