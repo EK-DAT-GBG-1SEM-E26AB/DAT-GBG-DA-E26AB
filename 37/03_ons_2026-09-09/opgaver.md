@@ -1,26 +1,5 @@
 # Opgaver – Enum og switch
 
-## Sådan kommer du i gang
-
-Opret en ny package til dagens opgaver.
-
-I IntelliJ:
-
-1. Højreklik på `src`
-2. Vælg **New → Package**
-3. Giv pakken et passende navn
-4. Opret en klasse `Main`
-5. Tilføj en `main`-metode:
-
-```java
-public class Main {
-
-    public static void main(String[] args) {
-
-    }
-}
-```
-
 Brug `main`-metoden til at afprøve dine løsninger.
 
 ---
