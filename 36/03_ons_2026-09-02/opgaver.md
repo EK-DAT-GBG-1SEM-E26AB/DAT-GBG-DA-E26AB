@@ -2,28 +2,6 @@
 
 I disse opgaver skal du arbejde med **arrays** i Java.
 
-## Kom i gang
-
-Opret et nyt Java-projekt i IntelliJ.
-
-Opret herefter en klasse med navnet:
-
-```java
-Main
-```
-
-Lav en `main`-metode i klassen:
-
-```java
-public class Main {
-
-    public static void main(String[] args) {
-
-    }
-}
-```
-
-Lav løsningerne på opgaverne i `main`-metoden, og afprøv dem undervejs.
 
 ---
 
