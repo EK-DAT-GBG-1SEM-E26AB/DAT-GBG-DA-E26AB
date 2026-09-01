@@ -1509,6 +1509,6 @@ Efter denne forberedelse skal du især kunne:
 
 ## Aktiviteter i undervisningen  
 Inden vi starter med at løse dagens opgaver skal vi se på hvordan vi kan organisere indhold i de første uger i IntelliJ i projekter og packages.    
-[organisering i IntelliJ](intellij_organisering.md)  
+[organisering i IntelliJ](../../00_vejledninger/intellij_organisering.md)  
 
 Arbejd med disse [opgaver](opgaver.md)  
