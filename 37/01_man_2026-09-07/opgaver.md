@@ -1,25 +1,5 @@
 # Opgaver – Objekter og klasser
 
-## Kom i gang
-
-Opret et nyt Java-projekt i IntelliJ.
-
-Opret derefter en klasse med navnet:
-
-```java
-Main
-```
-
-og lav en `main`-metode:
-
-```java
-public class Main {
-
-    public static void main(String[] args) {
-
-    }
-}
-```
 
 Du skal afprøve dine løsninger fra `main`-metoden.
 
