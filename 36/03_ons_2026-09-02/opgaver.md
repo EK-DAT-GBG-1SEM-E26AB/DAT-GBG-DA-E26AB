@@ -427,7 +427,67 @@ Antal rigtige: 1 ud af 2
 
 ## Udfordring – 2D-arrays (Multiplikationstabel)
 
-Lav et program, der tegner en **multiplikationstabel** som et 2D-array.
+### Introduktion til 2D-arrays i Java
+
+Et to-dimensionelt array (2D-array) i Java kan bedst forstås som en **tabel** med rækker og kolonner. I Java er et 2D-array i virkeligheden "et array af arrays". Det betyder, at hver række i tabellen er et selvstændigt array.
+
+2D-arrays er geniale til at strukturere data, der naturligt hører til i et koordinatsystem, som f.eks. et skakbræt, pixels i et billede eller en biografsal.
+
+### 1. Deklaration og oprettelse
+
+Når du opretter et 2D-array i Java, skal du bruge to sæt firkantede parenteser `[][]`. Det første sæt angiver **rækker**, og det andet sæt angiver **kolonner**.
+
+Du kan oprette et tomt array med en fast størrelse:
+
+```java
+// Opretter en tabel med 3 rækker og 4 kolonner (alt udfyldes automatisk med 0)
+int[][] tabel = new int[3][4];
+```
+
+Eller du kan oprette og udfylde det med det samme ved hjælp af tuborg-parenteser `{}`:
+
+```java
+int[][] tabel = {
+    {1, 2, 3},  // Række 0
+    {4, 5, 6},  // Række 1
+    {7, 8, 9}   // Række 2
+};
+```
+
+### 2. Adgang til data (Indeksering)
+
+For at få fat i et specifikt element, skal du bruge formatet `array[række][kolonne]`. Husk, at Java altid starter med at tælle fra **0**.
+
+*   **Hent en værdi:** `int tal = tabel[1][2];` (Henter række 1, kolonne 2. I eksemplet ovenfor er det tallet `6`).
+*   **Ændr en værdi:** `tabel[0][0] = 10;` (Ændrer det allerførste element i øverste venstre hjørne til 10).
+
+### 3. Gennemløb med for-løkker (Nested loops)
+
+Når du skal arbejde med alle elementer i et 2D-array, bruger man to for-løkker inden i hinanden (nested loops). 
+
+I Java bruger man egenskaben `.length` til at styre løkkerne dynamisk:
+*   `tabel.length` giver dig **antallet af rækker**.
+*   `tabel[række].length` giver dig **antallet af kolonner** i den specifikke række.
+
+**Eksempel på udskrivning af en tabel:**
+
+```java
+for (int række = 0; række < tabel.length; række++) {
+    for (int kolonne = 0; kolonne < tabel[række].length; kolonne++) {
+        System.out.print(tabel[række][kolonne] + " ");
+    }
+    System.out.println(); // Skifter linje efter hver række
+}
+```
+
+### Tre vigtige Java-faldgruber
+
+*   **Række før kolonne:** Husk altid rækkefølgen `[række][kolonne]`. Hvis du bytter om på dem, leder du det forkerte sted.
+*   **ArrayIndexOutOfBoundsException:** Hvis dit array har 3 rækker, stopper indeksene ved 2 (0, 1, 2). Forsøger du at kalde `tabel[3][0]`, crasher dit program.
+*   **Ujævne arrays (Jagged arrays):** Fordi Java ser et 2D-array som arrays-i-arrays, kan rækkerne teknisk set have forskellige længder. Brug altid `tabel[række].length` i stedet for at gætte på kolonneantallet.
+
+
+Lav nu et program, der tegner en **multiplikationstabel** som et 2D-array.
 
 Start simpelt:
 
