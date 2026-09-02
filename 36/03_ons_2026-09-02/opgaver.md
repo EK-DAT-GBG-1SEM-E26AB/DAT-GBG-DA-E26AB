@@ -487,7 +487,7 @@ for (int række = 0; række < tabel.length; række++) {
 *   **Ujævne arrays (Jagged arrays):** Fordi Java ser et 2D-array som arrays-i-arrays, kan rækkerne teknisk set have forskellige længder. Brug altid `tabel[række].length` i stedet for at gætte på kolonneantallet.
 
 
-Lav nu et program, der tegner en **multiplikationstabel** som et 2D-array.
+Lav nu et program, der laver en **multiplikationstabel** som et 2D-array.
 
 Start simpelt:
 
