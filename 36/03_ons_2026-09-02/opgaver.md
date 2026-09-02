@@ -512,7 +512,7 @@ Udskriv tabellen i et pænt format:
 
 ## Udfordring – Bubble Sort med tæller
 
-Implementer [**bubble sort**](bubble_sort.md) på et array, og tæl hvor mange **swaps** (ombytninger) der skal til.
+Implementer [**bubble sort**](bubble-sort.md) på et array, og tæl hvor mange **swaps** (ombytninger) der skal til.
 
 Udskriv arrayet før og efter, samt antal swaps.
 
