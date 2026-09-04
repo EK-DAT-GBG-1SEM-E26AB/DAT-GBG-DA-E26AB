@@ -1,0 +1,6 @@
+# Klassens kodeord. Det skal IKKE på GitHub — alle kan se et offentligt repo.
+kodeord.txt
+
+target/
+.idea/
+*.iml
