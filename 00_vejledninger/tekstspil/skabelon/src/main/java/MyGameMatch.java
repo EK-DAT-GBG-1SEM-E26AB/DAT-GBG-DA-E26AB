@@ -3,13 +3,13 @@ import textgame.Player;
 import textgame.Room;
 
 /**
- * Ét spil, spillet af én gruppe. Her skriver du selve spillet.
+ * One game, played by one group. This is where you write the game itself.
  *
- * Skriv play() som et helt almindeligt program: løkker, if'er og lokale variable.
- * p.askInt(...) venter på svar præcis som en Scanner - tastaturet står bare på
- * en anden computer.
+ * Write play() as an ordinary program: loops, ifs and local variables.
+ * p.askInt(...) waits for an answer exactly like a Scanner does — the keyboard
+ * is just on somebody else's computer.
  *
- * Når play() er færdig, er spillet slut.
+ * When play() is finished, the game is over.
  */
 public class MyGameMatch implements Match {
 
@@ -32,6 +32,6 @@ public class MyGameMatch implements Match {
 
         room.tellAll(winner.name() + " vandt med " + best + "!");
 
-        // Herfra og ned: skriv dit eget spil.
+        // From here on: write your own game.
     }
 }

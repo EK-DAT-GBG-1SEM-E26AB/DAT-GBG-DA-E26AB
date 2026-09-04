@@ -51,11 +51,11 @@ en linje tekst til en af dem.
 ```
    din maskine                serveren                 Emmas maskine
  ┌──────────────┐          ┌────────────┐            ┌──────────────┐
- │ Terningespil │─────────▶│  lobby     │◀───────────│ Spiller      │
+ │ DiceGame     │─────────▶│  lobby     │◀───────────│ StartPlayer  │
  │ (dit spil)   │◀─────────│  borde     │───────────▶│ (Emma)       │
  └──────────────┘          │  beskeder  │            └──────────────┘
                            │            │            ┌──────────────┐
-                           │ INGEN      │◀───────────│ Spiller      │
+                           │ INGEN      │◀───────────│ StartPlayer  │
                            │ spilregler │───────────▶│ (Noah)       │
                            └────────────┘            └──────────────┘
 ```
@@ -95,7 +95,7 @@ ud med en anden persons computer.**
 ## To ting du kan gøre — og hvornår
 
 **Spille andres spil.** Det kan du med det samme. Du skal bare åbne skabelonen og
-køre `Spiller`. Du behøver ikke selv at lave et spil for at være med.
+køre `StartPlayer`. Du behøver ikke selv at lave et spil for at være med.
 
 **Lave dit eget spil.** Her skriver du `implements Game`, og det giver først
 mening, når vi har haft **interfaces** — det gør vi omkring Adventure-projektet.
@@ -113,9 +113,9 @@ indtil da.
 4. **Lav `kodeord.txt`** (se nedenfor).
 5. **Omdøb de to klasser**, når du skal lave dit eget spil: højreklik på
    klassenavnet → Refactor → Rename. `MyGame` og `MyGameMatch` skal begge
-   omdøbes. `Spiller` skal du lade være.
+   omdøbes. `StartPlayer` skal du lade være.
 
-Der ligger tre filer: `MyGame` og `MyGameMatch` er **dit spil**, og `Spiller` er
+Der ligger tre filer: `MyGame` og `MyGameMatch` er **dit spil**, og `StartPlayer` er
 bare en grøn pil, der starter spiller-programmet.
 
 ## Kodeordet
@@ -153,10 +153,10 @@ hver, der er med. I IntelliJ bliver de til hver sin fane nederst i Run-vinduet.
 1. **Start spilprogrammet** — grøn pil ud for `main` i `MyGame`. Nu står spillet
    i lobbyen, og alle på holdet kan se det.
 
-2. **Start en spiller** — grøn pil ud for `main` i `Spiller`.
+2. **Start en spiller** — grøn pil ud for `main` i `StartPlayer`.
 
    Skal I være flere på den samme computer, skal IntelliJ have lov at køre
-   `Spiller` mere end én gang: **Run → Edit Configurations…**, vælg `Spiller`,
+   `StartPlayer` mere end én gang: **Run → Edit Configurations…**, vælg `StartPlayer`,
    og sæt flueben i **Allow multiple instances** (den ligger under *Modify
    options*). Uden det flueben genstarter IntelliJ bare den spiller, der
    allerede kører.
@@ -176,13 +176,18 @@ Her bygger vi et helt spil fra bunden. Start med skabelonen, og følg med.
 
 ### Trin 0: Omdøb klasserne
 
-Højreklik på `MyGame` → Refactor → Rename → `Terningespil`. Gør det samme med
-`MyGameMatch` → `TerningespilMatch`. IntelliJ retter selv alle steder, hvor
-navnene bruges.
+Højreklik på `MyGame` → Refactor → Rename → `DiceGame`. Gør det samme med
+`MyGameMatch` → `DiceGameMatch`. IntelliJ retter selv alle steder, hvor navnene
+bruges.
+
+**Klassenavne, variabelnavne og kommentarer skriver vi altid på engelsk** — det
+er sådan, Java-kode ser ud alle steder uden for Danmark, og det er den vane, I
+skal have. Teksten inde i anførselstegnene er noget andet: den læser jeres
+spillere, så den skriver I på dansk.
 
 ### Trin 1: Fortæl hvad spillet hedder
 
-I `Terningespil.java` retter du de fire første metoder. Det er ren beskrivelse —
+I `DiceGame.java` retter du de fire første metoder. Det er ren beskrivelse —
 her sker der ikke noget spil.
 
 ```java
@@ -204,27 +209,27 @@ public int maxPlayers() {
 ```
 
 Kør den grønne pil. Der står nu `Terningespil` i lobbyen — prøv at starte
-`Spiller` og se efter. Spillet gør ikke noget endnu, men det er *der*.
+`StartPlayer` og se efter. Spillet gør ikke noget endnu, men det er *der*.
 
 ### Trin 2: Alle slår én gang
 
-Nu til `TerningespilMatch.java`. Her er hele spillet:
+Nu til `DiceGameMatch.java`. Her er hele spillet:
 
 ```java
 import textgame.Match;
 import textgame.Player;
 import textgame.Room;
 
-public class TerningespilMatch implements Match {
+public class DiceGameMatch implements Match {
 
     public void play(Room room) {
-        room.tellAll("Alle slaar med en terning. Hojeste slag vinder!");
+        room.tellAll("Alle slår med en terning. Højeste slag vinder!");
 
         for (Player p : room.players()) {
-            p.ask("Tryk enter for at slaa");
+            p.ask("Tryk enter for at slå");
 
-            int slag = 1 + (int) (Math.random() * 6);
-            room.tellAll(p.name() + " slog " + slag + ".");
+            int roll = 1 + (int) (Math.random() * 6);
+            room.tellAll(p.name() + " slog " + roll + ".");
         }
     }
 }
@@ -244,24 +249,24 @@ Vi skal huske det højeste slag og hvem der slog det. To variable uden for løkk
 
 ```java
 public void play(Room room) {
-    room.tellAll("Alle slaar med en terning. Hojeste slag vinder!");
+    room.tellAll("Alle slår med en terning. Højeste slag vinder!");
 
-    Player bedste = null;
-    int hojeste = 0;
+    Player winner = null;
+    int highest = 0;
 
     for (Player p : room.players()) {
-        p.ask("Tryk enter for at slaa");
+        p.ask("Tryk enter for at slå");
 
-        int slag = 1 + (int) (Math.random() * 6);
-        room.tellAll(p.name() + " slog " + slag + ".");
+        int roll = 1 + (int) (Math.random() * 6);
+        room.tellAll(p.name() + " slog " + roll + ".");
 
-        if (slag > hojeste) {
-            hojeste = slag;
-            bedste = p;
+        if (roll > highest) {
+            highest = roll;
+            winner = p;
         }
     }
 
-    room.tellAll(bedste.name() + " vandt med " + hojeste + "!");
+    room.tellAll(winner.name() + " vandt med " + highest + "!");
 }
 ```
 
@@ -279,44 +284,44 @@ import textgame.Match;
 import textgame.Player;
 import textgame.Room;
 
-public class TerningespilMatch implements Match {
+public class DiceGameMatch implements Match {
 
     public void play(Room room) {
-        List<Player> spillere = room.players();
-        int[] point = new int[spillere.size()];
+        List<Player> players = room.players();
+        int[] points = new int[players.size()];
 
-        for (int runde = 1; runde <= 3; runde++) {
+        for (int round = 1; round <= 3; round++) {
             room.tellAll("");
-            room.tellAll("--- Runde " + runde + " ---");
+            room.tellAll("--- Runde " + round + " ---");
 
-            for (int i = 0; i < spillere.size(); i++) {
-                Player p = spillere.get(i);
-                p.ask("Tryk enter for at slaa");
+            for (int i = 0; i < players.size(); i++) {
+                Player p = players.get(i);
+                p.ask("Tryk enter for at slå");
 
-                int slag = 1 + (int) (Math.random() * 6);
-                point[i] = point[i] + slag;
+                int roll = 1 + (int) (Math.random() * 6);
+                points[i] = points[i] + roll;
 
-                room.tellAll(p.name() + " slog " + slag
-                             + " og har nu " + point[i] + " point.");
+                room.tellAll(p.name() + " slog " + roll
+                             + " og har nu " + points[i] + " point.");
             }
         }
 
-        // Find den med flest point
-        int bedst = 0;
-        for (int i = 1; i < spillere.size(); i++) {
-            if (point[i] > point[bedst]) {
-                bedst = i;
+        // Find the player with the most points
+        int best = 0;
+        for (int i = 1; i < players.size(); i++) {
+            if (points[i] > points[best]) {
+                best = i;
             }
         }
 
         room.tellAll("");
-        room.tellAll(spillere.get(bedst).name() + " vandt med "
-                     + point[bedst] + " point!");
+        room.tellAll(players.get(best).name() + " vandt med "
+                     + points[best] + " point!");
     }
 }
 ```
 
-**Hvorfor virker `point[i]`?** Fordi `spillere` og `point` står i samme
+**Hvorfor virker `points[i]`?** Fordi `players` og `points` står i samme
 rækkefølge: spiller nummer `i` har sine point i felt nummer `i`. Det er
 parallelle arrays, præcis som du har brugt til navne og karakterer.
 
@@ -329,16 +334,16 @@ Nu tilføjer vi et valg, så spillet får en beslutning i sig. Man må slå én 
 mere, men så tæller kun det nye slag:
 
 ```java
-int slag = 1 + (int) (Math.random() * 6);
-p.tell("Du slog " + slag + ".");
+int roll = 1 + (int) (Math.random() * 6);
+p.tell("Du slog " + roll + ".");
 
-if (p.askYesNo("Vil du slaa om?")) {
-    slag = 1 + (int) (Math.random() * 6);
-    p.tell("Nu slog du " + slag + ".");
+if (p.askYesNo("Vil du slå om?")) {
+    roll = 1 + (int) (Math.random() * 6);
+    p.tell("Nu slog du " + roll + ".");
 }
 
-point[i] = point[i] + slag;
-room.tellAll(p.name() + " endte paa " + slag + ".");
+points[i] = points[i] + roll;
+room.tellAll(p.name() + " endte på " + roll + ".");
 ```
 
 Læg mærke til forskellen mellem `p.tell(...)` og `room.tellAll(...)`:
@@ -355,16 +360,16 @@ Vil du lave sten-saks-papir eller en afstemning, skal alle svare **på én gang*
 ingen må kunne se de andres valg først. Det er `room.askAllChoice`:
 
 ```java
-Answers valg = room.askAllChoice("Sten, saks eller papir?",
-                                 "sten", "saks", "papir");
+Answers choices = room.askAllChoice("Sten, saks eller papir?",
+                                    "sten", "saks", "papir");
 
 for (Player p : room.players()) {
-    room.tellAll(p.name() + " valgte " + valg.get(p) + ".");
+    room.tellAll(p.name() + " valgte " + choices.get(p) + ".");
 }
 ```
 
 Alle bliver spurgt i samme øjeblik, og linjen venter, til den sidste har svaret.
-`valg.get(p)` giver teksten ("sten"), og `valg.getIndex(p)` giver nummeret
+`choices.get(p)` giver teksten ("sten"), og `choices.getIndex(p)` giver nummeret
 (0 for sten, 1 for saks, 2 for papir) — det sidste er nemmest at regne på.
 
 Der findes også `askAllInt`, `askAllYesNo` og `askAll`.
@@ -386,11 +391,11 @@ Der findes også `askAllInt`, `askAllYesNo` og `askAll`.
 Du kan ikke se, hvad spillerne ser, mens du udvikler — men du har to gode
 redskaber:
 
-**Skriv til dig selv.** `System.out.println("hemmeligt tal: " + hemmeligt);`
+**Skriv til dig selv.** `System.out.println("secret number: " + secret);`
 skriver i *din* konsol i IntelliJ, hvor ingen spillere kan se det. Perfekt til
 at følge med i, hvad dit spil tænker.
 
-**Spil mod dig selv.** Start `Spiller` to gange (husk *Allow multiple
+**Spil mod dig selv.** Start `StartPlayer` to gange (husk *Allow multiple
 instances*), giv dem hvert sit navn, og sæt dem ved samme bord. Så kan du spille
 hele spillet igennem alene, før du inviterer andre.
 

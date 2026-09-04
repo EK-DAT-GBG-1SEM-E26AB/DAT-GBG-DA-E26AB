@@ -3,15 +3,18 @@ import textgame.GameServer;
 import textgame.Match;
 
 /**
- * Beskrivelsen af dit spil: hvad det hedder, og hvor mange der kan spille.
+ * Describes the game: what it is called, and how many can play.
  *
- * Omdøb klassen til noget, der passer til dit spil (højreklik -> Refactor -> Rename),
- * og husk at omdøbe MyGameMatch på samme måde.
+ * Rename this class to something that fits your game (right-click -> Refactor ->
+ * Rename), and rename MyGameMatch the same way.
+ *
+ * The text inside the quotes is what players see, so write that in Danish.
+ * Everything else — class names, variables, comments — is English.
  */
 public class MyGame implements Game {
 
     public String name() {
-        return "Mit spil";                       // vises i lobbyen
+        return "Mit spil";                       // shown in the lobby
     }
 
     public String description() {
@@ -19,20 +22,20 @@ public class MyGame implements Game {
     }
 
     public int minPlayers() {
-        return 2;                                // færrest spillere
+        return 2;                                // fewest players
     }
 
     public int maxPlayers() {
-        return 4;                                // flest spillere
+        return 4;                                // most players
     }
 
     public Match newMatch() {
-        return new MyGameMatch();                // ALTID et nyt objekt
+        return new MyGameMatch();                // ALWAYS a new object
     }
 
     public static void main(String[] args) {
-        // Klasseserveren. Kører hele tiden — du skal ikke selv starte noget.
-        // Spiller I et andet sted, skal adressen skiftes her OG i Spiller.
+        // The class server. It runs all the time, so you do not start anything.
+        // Playing somewhere else? Change the address here AND in StartPlayer.
         GameServer.connect("game.tobiasgrundtvig.dk", 4000)
                   .host(new MyGame());
     }
