@@ -318,7 +318,7 @@ Nu skal du for første gang selv oprette en klasse.
 ### Opret klassen `Person` i IntelliJ
 
 1. Find mappen `src` i **Project**-vinduet i venstre side af IntelliJ.
-2. Højreklik på `src`.
+2. Højreklik på `dag1_objekter_klasser_intro`pakken.
 3. Vælg **New → Java Class**.
 4. Skriv navnet:
 
