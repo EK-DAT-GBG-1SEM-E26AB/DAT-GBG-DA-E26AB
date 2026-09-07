@@ -648,6 +648,14 @@ Score: 8
 Anna vandt!
 ```
 
+Hint: Læg spillerne i et array:  
+```java
+Player[] players = {player1, player2};
+```
+Lav en ydre for-each der gennemløber spillerne.  
+I hvert genemløb af den ydre løkke laves en for løkke der gennemløbes tre gange.  
+i hvert gennemløb af den indre løkke findes et tilfældigt tal mellem 1 og 6 der adderes til objektets score
+
 ---
 
 ## Udfordring 2 – Find fejlen
