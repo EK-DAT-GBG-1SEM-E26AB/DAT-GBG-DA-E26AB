@@ -478,7 +478,14 @@ Opret tre forskellige `Book`-objekter.
 
 Giv dem forskellige værdier.
 
-Udskriv oplysninger om alle tre bøger.
+Opret et array med objektreferencer til de tre objekter
+
+```java
+Book[] books = {book1, book2, book3};
+```
+
+
+Udskriv oplysninger om alle tre bøger ved at benytte en for-each løkke.
 
 Find derefter den bog, der har flest sider.
 
