@@ -100,7 +100,17 @@ switch (light) {
 }
 ```
 
-Prøv programmet med alle tre værdier.
+Prøv programmet med alle tre værdier.  
+
+Prøv herefter at udskrive alle værdier i ```TrafficLight```. Det kan gæres ved at  bruge .values()-metoden, som returnerer et arrray med alle værdier i enum typen.
+Man kan nu bruge en for-each løkke til at iterer over disse:  
+
+```java
+// Løkken kører igennem alle værdier i TrafficLight enum én efter én
+for (TrafficLight light : TrafficLight.values()) {
+    System.out.println(light);
+}
+```
 
 ---
 
