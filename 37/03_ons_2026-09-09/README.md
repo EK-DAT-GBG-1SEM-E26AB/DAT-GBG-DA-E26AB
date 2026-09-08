@@ -33,7 +33,7 @@ Efter lektionen skal du kunne:
 
 ## Læs nedenstående før undervisningen
 
-### 1. Hvad er en enum?
+### Hvad er en enum?
 
 Forestil dig, at vi skal gemme en ugedag.
 
@@ -97,7 +97,7 @@ Java hjælper os dermed med at sikre, at vi kun bruger gyldige værdier.
 
 ---
 
-### 2. Hvornår kan enum være nyttigt?
+### Hvornår kan enum være nyttigt?
 
 En `enum` er især nyttig, når der findes et begrænset antal muligheder.
 
@@ -135,7 +135,7 @@ CustomerType type = CustomerType.VIP;
 
 ---
 
-### 3. Sammenligning af enum-værdier
+### Sammenligning af enum-værdier
 
 Enum-værdier kan sammenlignes med `==`.
 
@@ -173,7 +173,7 @@ Her kan `switch` være et alternativ.
 
 ---
 
-### 4. En simpel switch
+### En simpel switch
 
 ```java
 Day day = Day.MONDAY;
@@ -212,7 +212,7 @@ case MONDAY:
 
 ---
 
-### 5. Hvorfor står der break?
+### Hvorfor står der break?
 
 I en klassisk `switch` bruges `break` til at afslutte den aktuelle `case`.
 
@@ -251,7 +251,7 @@ Vi vil normalt undgå dette, og derfor bruger vi `break`.
 
 ---
 
-### 6. default
+### default
 
 En `switch` kan have en `default`.
 
@@ -276,7 +276,7 @@ Det minder om den sidste `else` i en `if-else`-konstruktion.
 
 ---
 
-### 7. Hvilke datatyper kan bruges i en switch?
+### Hvilke datatyper kan bruges i en switch?
 
 Selvom `enum` og `switch` er et perfekt par, kan en `switch` også bruges med flere andre almindelige datatyper i Java.
 
