@@ -4,7 +4,7 @@ Brug `main`-metoden til at afprøve dine løsninger.
 
 ---
 
-# Opgave 1 – Ugedage
+## Opgave 1 – Ugedage
 
 Opret en enum med navnet `Day`.
 
@@ -34,7 +34,7 @@ Udskriv værdien af `day`.
 
 ---
 
-# Opgave 2 – Sammenlign enum-værdier
+## Opgave 2 – Sammenlign enum-værdier
 
 Brug din `Day` enum fra opgave 1.
 
@@ -64,7 +64,7 @@ hvis dagen er enten `SATURDAY` eller `SUNDAY`.
 
 ---
 
-# Opgave 3 – Trafiklys med switch
+## Opgave 3 – Trafiklys med switch
 
 Opret denne enum:
 
@@ -104,7 +104,7 @@ Prøv programmet med alle tre værdier.
 
 ---
 
-# Opgave 4 – Størrelser
+## Opgave 4 – Størrelser
 
 Opret en enum:
 
@@ -138,7 +138,7 @@ afhængigt af værdien.
 
 ---
 
-# Opgave 5 – switch som expression
+## Opgave 5 – switch som expression
 
 Brug din `Size` enum fra den forrige opgave.
 
@@ -172,7 +172,7 @@ Pris: 35
 
 ---
 
-# Opgave 6 – Karakter
+## Opgave 6 – Karakter
 
 Opret en enum:
 
@@ -212,7 +212,7 @@ Eksempel:
 
 ---
 
-# Opgave 7 – Flere cases med samme resultat
+## Opgave 7 – Flere cases med samme resultat
 
 Brug enum'en `Day`.
 
@@ -247,7 +247,7 @@ case SATURDAY, SUNDAY -> ...
 
 ---
 
-# Opgave 8 – OrderStatus
+## Opgave 8 – OrderStatus
 
 Opret en enum:
 
@@ -283,7 +283,7 @@ Afprøv alle fire værdier.
 
 ---
 
-# Opgave 9 – Enum som attribut i en klasse
+## Opgave 9 – Enum som attribut i en klasse
 
 Opret en enum:
 
@@ -326,7 +326,7 @@ Udskriv derefter taskens beskrivelse og status i `main`.
 
 ---
 
-# Opgave 10 – Task og switch
+## Opgave 10 – Task og switch
 
 Byg videre på `Task` fra den forrige opgave.
 
@@ -350,7 +350,7 @@ Afprøv metoden med mindst tre forskellige `Task`-objekter.
 
 ---
 
-# Opgave 11 – Skift status
+## Opgave 11 – Skift status
 
 Byg videre på `Task`.
 
@@ -391,7 +391,7 @@ Overvej:
 
 ---
 
-# Opgave 12 – Lidt sværere: Leveringspris
+## Opgave 12 – Lidt sværere: Leveringspris
 
 Opret en enum:
 
@@ -433,7 +433,7 @@ Leveringspris: 99 kr.
 
 ---
 
-# Opgave 13 – Udfordring
+## Opgave 13 – Udfordring
 
 Lav et lille program til en café.
 
