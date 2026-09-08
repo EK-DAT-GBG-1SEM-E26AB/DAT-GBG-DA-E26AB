@@ -275,6 +275,53 @@ switch (number) {
 Det minder om den sidste `else` i en `if-else`-konstruktion.
 
 ---
+
+### 7. Hvilke datatyper kan bruges i en switch?
+
+Selvom `enum` og `switch` er et perfekt par, kan en `switch` også bruges med flere andre almindelige datatyper i Java.
+
+Du kan bruge en `switch` sammen med:
+* **Primitive heltal:** `int`, `byte`, `short`, `char`
+* **Wrapper-klasser:** `Integer`, `Byte`, `Short`, `Character`
+* **Tekststrenge:** `String` (siden Java 7)
+
+#### Eksempel med `int`:
+```java
+int month = 2;
+
+switch (month) {
+    case 1:
+        System.out.println("Januar");
+        break;
+    case 2:
+        System.out.println("Februar");
+        break;
+    default:
+        System.out.println("En anden måned");
+}
+```
+
+#### Eksempel med `String`:
+Vær opmærksom på, at når du bruger en `String`, er Javas `switch` **case-sensitive** (der er forskel på store og små bogstaver).
+
+```java
+String role = "admin";
+
+switch (role) {
+    case "admin":
+        System.out.println("Fuld adgang til systemet");
+        break;
+    case "user":
+        System.out.println("Begrænset adgang");
+        break;
+    default:
+        System.out.println("Ukendt rolle");
+}
+```
+
+> ⚠️ **Pas på:** Hvis din `String`-variabel er `null` (altså ikke har nogen værdi), vil programmet kaste en `NullPointerException`. Sørg derfor altid for, at din `String` er valideret, før den rammer en `switch`.
+
+---
 ### Ny switch-syntaks
 I nyere java (java 12) er der lavet en mere kompakt syntaks for switch:
 ```java
