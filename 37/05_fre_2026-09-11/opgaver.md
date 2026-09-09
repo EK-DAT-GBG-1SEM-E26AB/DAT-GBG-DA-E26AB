@@ -1,4 +1,4 @@
-# Opgaver – Metoders placering, synlighed og ansvar
+﻿# Opgaver – Metoders placering, synlighed og ansvar
 
 I disse opgaver arbejder du videre med metoder.
 
@@ -101,7 +101,7 @@ Kald `printAll()` fra `Main`.
 
 Forklar, hvorfor `printAll()` kan kalde begge metoder.
 
-### Opgave 2b – Tekstrepræsentation af et objekt
+### Opgave 3 – Tekstrepræsentation af et objekt
 
 Opret klassen:
 
@@ -174,7 +174,7 @@ Forklar:
 
 ## Del 2 – En biblioteksbog
 
-### Opgave 3 – Opret klassen LibraryBook
+### Opgave 4 – Opret klassen LibraryBook
 
 Opret klassen:
 
@@ -207,7 +207,7 @@ LibraryBook book1 = new LibraryBook("Clean Code");
 LibraryBook book2 = new LibraryBook("The Pragmatic Programmer");
 ```
 
-### Opgave 4 – Lån en bog
+### Opgave 5 – Lån en bog
 
 Tilføj en offentlig metode:
 
@@ -228,7 +228,7 @@ Kald derefter `borrow()` endnu en gang på samme objekt.
 
 Tilføj en relevant besked, hvis bogen allerede er udlånt.
 
-### Opgave 5 – Privat kontrolmetode
+### Opgave 6 – Privat kontrolmetode
 
 Flyt kontrollen af, om bogen kan lånes, til en privat metode:
 
@@ -248,7 +248,7 @@ Besvar:
 - Hvorfor kan `canBeBorrowed()` ikke kaldes fra `Main`?
 - Hvorfor er det passende, at kontrollen er intern i klassen?
 
-### Opgave 6 – Aflever en bog
+### Opgave 7 – Aflever en bog
 
 Tilføj en offentlig metode:
 
@@ -277,7 +277,7 @@ Afprøv følgende rækkefølge:
 
 ## Del 3 – Et valgfag med begrænset antal pladser
 
-### Opgave 7 – Opret klassen Course
+### Opgave 8 – Opret klassen Course
 
 Opret klassen:
 
@@ -307,7 +307,7 @@ Opret et valgfag med plads til tre studerende.
 
 Udskriv fagets navn og det aktuelle antal tilmeldte.
 
-### Opgave 8 – Er der en ledig plads?
+### Opgave 9 – Er der en ledig plads?
 
 Tilføj metoden:
 
@@ -325,7 +325,7 @@ Forklar:
 - Hvilket objekts oplysninger bruger metoden?
 - Hvorfor behøver antal studerende ikke blive sendt ind som argument?
 
-### Opgave 9 – Tilmeld en studerende
+### Opgave 10 – Tilmeld en studerende
 
 Tilføj metoden:
 
@@ -361,7 +361,7 @@ course.setNumberOfStudents(3);
 - Hvilken løsning sørger selv for at kontrollere kapaciteten?
 - Hvorfor bør andre klasser ikke frit kunne ændre antallet af tilmeldte?
 
-### Opgave 10 – Afmeld en studerende
+### Opgave 11 – Afmeld en studerende
 
 Tilføj metoden:
 
@@ -383,7 +383,7 @@ Afprøv både gyldige og ugyldige afmeldinger.
 
 ## Del 4 – Refaktorisering af CoffeeMachine
 
-### Opgave 11 – Kode med uhensigtsmæssigt ansvar
+### Opgave 12 – Kode med uhensigtsmæssigt ansvar
 
 Opret følgende klasser:
 
@@ -425,7 +425,7 @@ Besvar først:
 - Kan `Main` give maskinen en negativ vandmængde?
 - Beskriver kaffebrygning noget, `Main` gør, eller noget kaffemaskinen gør?
 
-### Opgave 12 – Flyt adfærden til objektet
+### Opgave 13 – Flyt adfærden til objektet
 
 Foretag følgende ændringer:
 
@@ -447,7 +447,7 @@ Forklar:
 - Hvorfor skal metoden ikke være `static`?
 - Hvorfor er det bedre, at vandmængden er privat?
 
-### Opgave 13 – Privat kontrol af vandmængden
+### Opgave 14 – Privat kontrol af vandmængden
 
 Tilføj en privat metode:
 
@@ -483,7 +483,7 @@ Afprøv:
 
 ## Del 5 – Sammenlign objekter
 
-### Opgave 14 – Opret GameCharacter
+### Opgave 15 – Opret GameCharacter
 
 Opret klassen:
 
@@ -509,7 +509,7 @@ public class GameCharacter {
 
 Opret mindst to figurer med forskellige styrker.
 
-### Opgave 15 – Sammenlign to figurer
+### Opgave 16 – Sammenlign to figurer
 
 Tilføj metoden:
 
@@ -537,7 +537,7 @@ Besvar:
 - Hvorfor er metoden ikke `static`?
 - Hvilke to objekters tilstand sammenlignes?
 
-### Opgave 16 – Gør figuren stærkere
+### Opgave 17 – Gør figuren stærkere
 
 Tilføj metoden:
 
@@ -563,7 +563,7 @@ Sammenlign derefter figurerne igen.
 
 ## Del 6 – Et hotelværelse
 
-### Opgave 17 – Opret HotelRoom
+### Opgave 18 – Opret HotelRoom
 
 Opret klassen:
 
@@ -589,7 +589,7 @@ public class HotelRoom {
 
 Opret to hotelværelser og udskriv deres status.
 
-### Opgave 18 – Indtjekning og udtjekning
+### Opgave 19 – Indtjekning og udtjekning
 
 Tilføj metoderne:
 
@@ -619,7 +619,7 @@ Afprøv:
 4. En gyldig udtjekning.
 5. Et nyt udtjekningsforsøg.
 
-### Opgave 19 – Beskriv værelset
+### Opgave 20 – Beskriv værelset
 
 Tilføj metoden:
 
@@ -645,7 +645,7 @@ Udskriv beskrivelsen før og efter indtjekning.
 
 ## Del 7 – Find fejlene
 
-### Opgave 20 – Forkert brug af static
+### Opgave 21 – Forkert brug af static
 
 Se på følgende klasse:
 
@@ -669,7 +669,7 @@ Ret klassen, opret to objekter og kald `increase()` forskelligt antal gange på 
 
 Vis, at objekterne har hver sin tilstand.
 
-### Opgave 21 – For bred synlighed
+### Opgave 22 – For bred synlighed
 
 Se på følgende klasse:
 
@@ -698,7 +698,7 @@ Overvej:
 
 Ændr synligheden, så kun den nødvendige funktionalitet er offentlig.
 
-### Opgave 22 – En setter omgår reglerne
+### Opgave 23 – En setter omgår reglerne
 
 Se på følgende klasse:
 
@@ -739,7 +739,7 @@ Afprøv begge grænser.
 
 ## Udfordring – En CoffeeCard
 
-### Opgave 23 – Design og implementér klassen
+### Opgave 24 – Design og implementér klassen
 
 Et kaffekort indeholder et antal klip. Et nyt kort oprettes med et bestemt antal klip.
 
