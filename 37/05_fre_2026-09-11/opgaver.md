@@ -101,6 +101,77 @@ Kald `printAll()` fra `Main`.
 
 Forklar, hvorfor `printAll()` kan kalde begge metoder.
 
+### Opgave 2b – Tekstrepræsentation af et objekt
+
+Opret klassen:
+
+```java
+public class Person {
+    private String name;
+    private int age;
+
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+}
+```
+
+I `Main` opretter du et objekt:
+
+```java
+Person person = new Person("Anna", 23);
+System.out.println(person);
+```
+
+Besvar:
+
+- Hvad vises i konsollen?
+- Hvorfor bliver det ikke en brugbar tekstbeskrivelse?
+- Hvilken metode bruges automatisk, når et objekt udskrives?
+- Hvad beskriver `toString()`?
+
+Løsningen er at overskrive `toString()` i `Person`:
+
+```java
+@Override
+public String toString() {
+    return name + " (" + age + " år)";
+}
+```
+
+Kald nu igen:
+
+```java
+System.out.println(person);
+```
+
+Besvar herefter:
+
+- Hvorfor er `toString()` en instansmetode?
+- Hvilken information bruger den?
+- Hvad er formålet med at skrive en egen `toString()`-metode?
+- Er `@Override` nødvendigt for, at programmet virker?
+- Hvad er fordelen ved `@Override`, selvom det teknisk set er valgfrit?
+
+#### Tænk over
+
+`@Override` er ikke nødvendigt for at få et program til at køre, men den er stadig nyttig.
+
+Forklar:
+
+- hvorfor Java ikke skal have `@Override` for at overskrive en metode
+- hvorfor `@Override` gør koden mere sikker og lettere at forstå
+- hvordan `@Override` kan hjælpe med at fange stavefejl i metodenavnet eller fejlagtige parametre
+
 ## Del 2 – En biblioteksbog
 
 ### Opgave 3 – Opret klassen LibraryBook
