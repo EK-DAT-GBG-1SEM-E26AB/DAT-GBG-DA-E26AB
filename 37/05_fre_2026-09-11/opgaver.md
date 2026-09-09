@@ -207,6 +207,65 @@ LibraryBook book1 = new LibraryBook("Clean Code");
 LibraryBook book2 = new LibraryBook("The Pragmatic Programmer");
 ```
 
+### Udfordring – Person med for- og efternavn
+
+Opret en klasse `Person`, hvor navnet er opdelt i to attributter:
+
+```java
+public class Person {
+    private String firstName;
+    private String lastName;
+}
+```
+
+Lav derefter to konstruktører:
+
+```java
+public Person(String firstName, String lastName)
+public Person(String fullName)
+```
+
+Den første konstruktor skal tage fornavn og efternavn som to separate parametre.
+
+Den anden konstruktor skal tage det fulde navn som én streng, for eksempel:
+
+```java
+Person person1 = new Person("Anna", "Jensen");
+Person person2 = new Person("Anna Jensen");
+```
+
+Overvej, hvordan den ene konstruktor kan bruge den anden, eller hvordan du kan dele navnet op i fornavn og efternavn, når én streng modtages.
+
+Tilføj derefter relevante metoder, for eksempel:
+
+```java
+public String getFirstName()
+public String getLastName()
+public String getFullName()
+```
+
+Tænk over:
+
+- Hvorfor er det nyttigt at gemme fornavn og efternavn i hver deres attribut?
+- Hvordan kan du lave en metode, der returnerer det fulde navn igen?
+- Hvilke problemer kan opstå, hvis et fuldt navn bliver sendt ind som én streng?
+- Hvorfor kan det være relevant at kende både fornavn og efternavn, hvis du senere vil lave en `LibraryBook`-klasse med en ejer eller en låner?
+- Hvorfor er det nyttigt at kunne hente det fulde navn i stedet for kun at gemme én samlet streng?
+
+#### Tænk videre om biblioteksbogen
+
+Overvej, om en `LibraryBook` kunne have en ejer eller en låner repræsenteret som et `Person`-objekt.
+
+Hvor kunne metoden `getFullName()` være relevant i en biblioteksapplikation?
+
+For eksempel:
+
+- når du vil udskrive, hvem der har lånt en bog
+- når du vil vise lånerens navn i en liste over udlån
+- når du vil sammenligne navneoplysninger mellem flere personer
+
+Dette er et eksempel på, at et objekt ikke kun skal kunne gemme data, men også tilbyde tydelige metoder til at arbejde med den data, som objektet indeholder.
+
 ### Opgave 5 – Lån en bog
 
 Tilføj en offentlig metode:
