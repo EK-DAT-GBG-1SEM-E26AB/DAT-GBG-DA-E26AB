@@ -166,11 +166,25 @@ Besvar herefter:
 
 `@Override` er ikke nødvendigt for at få et program til at køre, men den er stadig nyttig.
 
-Forklar:
+Diskuter med din gruppen:
 
 - hvorfor Java ikke skal have `@Override` for at overskrive en metode
 - hvorfor `@Override` gør koden mere sikker og lettere at forstå
 - hvordan `@Override` kan hjælpe med at fange stavefejl i metodenavnet eller fejlagtige parametre
+
+## Den lette udfordring
+
+Som en lille udfordring så for at demonstreres at meget kan programmeres, så er her et spil, der viser programmering på en mere visuel måde:
+
+https://armorgames.com/play/6061/light-bot-20/
+
+En lille robot skal rundt for at aktivere nogle kontakter, så felterne lyser op. Start med at løse de 6 opgaver under Basics, så du få en fornemmelse af spillet.
+
+Herefter er selve udfordringen at forstå, hvordan du kan løse opgaverne under Recursion, hvor funktions- eller metodekald bruges til opgaven. Grunden til at opgaverne hedder Recursion (eller rekursion) er, at programmeringssproget ingen løkke-instruktioner har, så funktionskaldet bruges at skabe gentagelse med ved kald til funktionen selv. Men det er ikke sikkert, at rekursion er nødvendigt, og når I sammenligner i gruppen, så kan I have forskellige løsninger til den samme opgave.
+
+Arbejdet med at lave en funktion/metode er at finde ud af, hvad præcis metoden skal gøre.
+
+I spillet kan ting gøres hurtigt og upræcist, da målet blot er at få tændt alle felterne, mens vi i Java skal være lidt mere omhyggelige, fordi programmet kører til ende.
 
 ## Del 2 – En biblioteksbog
 
