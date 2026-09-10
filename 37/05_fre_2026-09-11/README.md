@@ -36,9 +36,9 @@ Når du har arbejdet med dagens materiale, skal du kunne:
 
 ## Se disse videoer før undervisningen
 
-[static](https://www.youtube.com/watch?v=xTtL8E4LzTQ&list=PLEeqf0uSZqXsz7oU2U-VAxhQZ021PRVnd&t=7h14m07s) (til: 07:22:04)
-[toString](https://www.youtube.com/watch?v=xTtL8E4LzTQ&list=PLEeqf0uSZqXsz7oU2U-VAxhQZ021PRVnd&t=7h46m08s) (til: 07:51:58)
-[setters and getters](https://www.youtube.com/watch?v=xTtL8E4LzTQ&list=PLEeqf0uSZqXsz7oU2U-VAxhQZ021PRVnd&t=8h19m35s) (til: 08:29:39)
+[static](https://www.youtube.com/watch?v=xTtL8E4LzTQ&list=PLEeqf0uSZqXsz7oU2U-VAxhQZ021PRVnd&t=7h14m07s) (til: 07:22:04)  
+[toString](https://www.youtube.com/watch?v=xTtL8E4LzTQ&list=PLEeqf0uSZqXsz7oU2U-VAxhQZ021PRVnd&t=7h46m08s) (til: 07:51:58)  
+[setters and getters](https://www.youtube.com/watch?v=xTtL8E4LzTQ&list=PLEeqf0uSZqXsz7oU2U-VAxhQZ021PRVnd&t=8h19m35s) (til: 08:29:39)  
 
 ## Læs nedenstående før undervisningen
 
