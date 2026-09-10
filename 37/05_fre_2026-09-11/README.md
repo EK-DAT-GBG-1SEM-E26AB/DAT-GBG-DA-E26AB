@@ -270,7 +270,11 @@ public class Person {
 }
 ```
 
-`@Override` fortæller, at metoden overskriver en metode, som klassen har arvet. Java kan dermed kontrollere, at metoden har det korrekte navn, de korrekte parametre og den korrekte returtype.
+`@Override` fortæller, at metoden overskriver en metode, som klassen har arvet. Java kan derfor kontrollere, at navnet, parametrene og returtypen passer.
+
+`@Override` er en Java-annotation. En annotation er metadata, det vil sige ekstra information, som vi skriver i koden for at markere noget. Her bruges annotationen til at vise, at vi vil overskrive en metode fra en superclass, og at Java skal kontrollere dette.
+
+Det er teknisk set valgfrit, men meget nyttigt, fordi det fanger stavefejl og andre fejltastninger, før programmet kører.
 
 Nu bliver resultatet:
 
