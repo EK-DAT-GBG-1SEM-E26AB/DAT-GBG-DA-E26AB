@@ -186,6 +186,55 @@ Arbejdet med at lave en funktion eller metode handler om at finde ud af, præcis
 
 I spillet kan der arbejdes hurtigt og upræcist, fordi målet blot er at få tændt alle felterne. I Java skal vi derimod være mere omhyggelige, fordi programmet kører til ende.
 
+## Udfordring – Lucas-tal
+
+Denne opgave er en ekstra udfordring om rekursion og metodekald.
+
+I denne version af Lucas-tallene er første værdi valgt, så den fås ved at give `1` som argument:
+
+```java
+lucas(1) = 1
+lucas(2) = 3
+lucas(n) = lucas(n - 1) + lucas(n - 2)
+```
+
+Det vil sige, at talrækken bliver:
+
+```text
+1, 3, 4, 7, 11, 18, 29, ...
+```
+
+Skriv en rekursiv metode, der beregner det n’te tal i rækken.
+
+Eksempel:
+
+```java
+System.out.println(lucas(1)); // 1
+System.out.println(lucas(2)); // 3
+System.out.println(lucas(3)); // 4
+System.out.println(lucas(5)); // 11
+```
+
+Tænk over:
+
+- Hvad er base cases i denne metode?
+- Hvorfor må metoden ikke kalde sig selv uden at komme tættere på et base case?
+- Hvorfor er rekursion her passende?
+- Hvilken metode skal være `public`, og hvilken kan være `private`?
+- Hvordan kan metoden opdeles i mindre dele, så den løser en simplere version af samme problem?
+
+#### Tænk videre
+
+Dette er en ekstra udfordring, hvor fokus er på rekursion og metoder, ikke på objekter og tilstand.
+
+Diskuter med din gruppe:
+
+- hvorfor en rekursiv metode ofte er lettere at læse, når problemet kan beskrives som “det samme problem i mindre skala”
+- hvorfor det er vigtigt at have klare base cases
+- hvordan en metode kan kalde sig selv, men stadig bevare kontrol over, når den stopper
+- Hvad kan gå galt, hvis vi prøver at beregne et stort Lucas-tal rekursivt (prøv det i praksis)?
+- Er rekursion her den mest effektive løsning, eller kan vi løse det mere enkelt med en løkke?
+
 ## Del 2 – En biblioteksbog
 
 ### Opgave 4 – Opret klassen LibraryBook
