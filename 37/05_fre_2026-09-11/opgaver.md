@@ -235,6 +235,80 @@ Diskuter med din gruppe:
 - Hvad kan gå galt, hvis vi prøver at beregne et stort Lucas-tal rekursivt (prøv det i praksis)?
 - Er rekursion her den mest effektive løsning, eller kan vi løse det mere enkelt med en løkke?
 
+## Klassediagrammer som del af opgaven
+
+I disse opgaver skal du som del af løsningen lave et klassediagram for den relevante klasse.
+
+Det skal gøres i to faser:
+
+1. Tegn klassediagrammet først i hånden.
+2. Lav derefter samme diagram i draw.io som et UML-klassediagram.
+
+Klassediagrammet skal være retvisende i forhold til koden. Når du ændrer klassen, skal du også ændre klassediagrammet, så det altid matcher den aktuelle løsning.
+
+### Klassediagrammer til de næste 5 dele
+
+Disse opgaver er gode til klassediagrammer, fordi de har tydelige attributter, offentlige metoder og ansvar, der ligger i klassen:
+
+1. Opgave 4–7 – `LibraryBook`
+   - attributter: `title`, `borrowed`
+   - metoder: `getTitle()`, `isBorrowed()`, `borrow()`, `returnBook()`
+
+2. Opgave 8–11 – `Course`
+   - attributter: `name`, `numberOfStudents`, `maximumNumberOfStudents`
+   - metoder: `getName()`, `getNumberOfStudents()`, `hasAvailableSeats()`, `enrollStudent()`, `removeStudent()`
+
+3. Opgave 12–14 – `CoffeeMachine`
+   - attributter: `waterInMilliliters`
+   - metoder: `getWaterInMilliliters()`, `brewCoffee()`, `refillWater()`
+
+4. Opgave 18–20 – `HotelRoom`
+   - attributter: `roomNumber`, `occupied`
+   - metoder: `getRoomNumber()`, `isOccupied()`, `checkIn()`, `checkOut()`, `describe()`
+
+5. Opgave 24 – `CoffeeCard`
+   - attributter: `owner`, `clips`
+   - metoder: `getOwner()`, `getClips()`, `useClip()`, `addClips()`, `describe()`
+
+Det kan være en fordel at lave klassediagrammet sammen med gruppen, idet diagrammet bruges som kommunikation om koden, der skal skrives. Der er nogle informationer, som ikke er specificeret ovenfor, så forsøg at sætte fornuftige datatyper på, hvor det er relevant. UML, både klassediagram og de andre diagrammer som vi endnu ikke har set på, er så stærk et værktøj, at det er muligt at genere hele skelettet til Java-koden ud fra diagrammerne automatisk ved hjælp af programmer, som også har føre ændringer på koden tilbage til diagrammerne.
+
+### Krav til klassediagrammet
+
+For hver af disse opgaver skal du:
+
+- tegne klassens navn
+- angive attributter med datatype
+- angive konstruktør(er)
+- angive offentlige og private metoder
+- vise synlighed med `+` og `-`
+- bruge klassens navne og metoder korrekt
+- sikre, at diagrammet stemmer overens med koden
+
+### Vedligeholdelse af diagrammet
+
+Et klassediagram er ikke kun noget, man tegner én gang.
+
+Når du ændrer koden, skal du også opdatere klassediagrammet.
+
+Det gælder, når du:
+
+- tilføjer eller fjerner attributter
+- ændrer metode-signaturer
+- ændrer `public`/`private`-synlighed
+- flytter ansvar fra `Main` til klassen
+- refaktorerer klassens ansvar
+- ændrer navn eller logik i metoder
+
+Hvis diagrammet ikke er opdateret, er det ikke retvisende.
+
+### Arbejdsproces
+
+1. Tegn diagrammet for hånd.
+2. Kontroller, at det matcher den aktuelle kode.
+3. Lav samme diagram i draw.io.
+4. Opdater diagrammet hver gang koden ændres.
+5. Få en anden fra gruppen til at sammenlign diagram og kode at de stemmer overens.
+
 ## Del 2 – En biblioteksbog
 
 ### Opgave 4 – Opret klassen LibraryBook
