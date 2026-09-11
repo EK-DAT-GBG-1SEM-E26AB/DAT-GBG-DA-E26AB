@@ -305,7 +305,7 @@ Hvis diagrammet ikke er opdateret, er det ikke retvisende.
 
 1. Tegn diagrammet for hånd.
 2. Kontroller, at det matcher den aktuelle kode.
-3. Lav samme diagram i draw.io.
+3. Lav samme diagram i draw.io (https://draw.io, UML-figurerne er nederst til venstre).
 4. Opdater diagrammet hver gang koden ændres.
 5. Få en anden fra gruppen til at sammenlign diagram og kode at de stemmer overens.
 
