@@ -265,7 +265,7 @@ Diskuter følgende i gruppen:
 - Hvordan kan du se, at du har flyttet dig tilbage i historikken?
 - Hvilke informationer ser du i det valgte commit til højre?
 - Hvorfor kan det være nyttigt at kunne gå tilbage til et tidligere punkt i projektet?
-- Hvorfor er det måske for mange små commits i denne øvelse, når man kigges på et samlet projektforløb?
+- Hvorfor er det måske for mange små commits i denne øvelse, når man kigger på et samlet projektforløb?
 - Hvad er forskellen mellem at gå tilbage til en tidligere revision og at ændre den nuværende version permanent?
 
 ## Opgave 7 – Forbind lokalt repo med GitHub og push første commit
@@ -278,7 +278,7 @@ I denne opgave forbinder du dit lokale Git-repositorie med GitHub og pusher dine
 2. Klik på `+` (plus-ikonet) øverst til højre → `New repository`
 3. Giv repositoriet et navn, fx `lucas-numbers` eller `git-practice`
 4. Vælg `Private` (hvis du ønsker det privat) eller `Public`
-5. **Vigtig:** Undlad at afmærke "Initialize this repository with README, .gitignore or license"
+5. **Vigtig:** Undlad at tilvælge "Initialize this repository with README, .gitignore or license"
 6. Klik `Create repository`
 
 GitHub viser nu instruktioner til at forbinde dit lokale repo.
@@ -313,7 +313,7 @@ Diskuter følgende:
 
 - Hvad er forskellen på et lokalt repositorie og et remote repositorie på GitHub?
 - Hvad betyder det at `origin` er forbundet til GitHub-adressen?
-- Hvorfor er det vigtig at push'e commits til GitHub?
+- Hvorfor er det vigtigt at push'e commits til GitHub?
 - Hvornår ville du bruge `git push` vs. `git pull`?
 
 ---
@@ -480,7 +480,7 @@ Når I er færdige:
 
 ### 4. Konflikt-design — hvorfor ingen konflikter?
 
-Fordi I arbejder sekventielt (én ad gangen) og på samme branch uden at dele samme linje-koder, opstår der ingen merge-konflikter. Git kan automatisk merge indre ændringer.
+Fordi I arbejder sekventielt (én ad gangen) og på samme branch uden at dele samme kodelinjer, opstår der ingen merge-konflikter. Git kan automatisk merge indre ændringer.
 
 ### 5. Diskussion og refleksion
 
@@ -581,7 +581,7 @@ I denne opgave lærer du at redigere filer direkte på GitHub, og du undersøger
 
 ### 2. Se commit-historikken
 
-1. Gå til filens historik ved at klikke på `History` eller the clock-ikon
+1. Gå til filens historik ved at klikke på `History` eller uret-ikonet
 2. Du ser nu to commits:
    - Det oprindelige fra opgave 11
    - Det nye med stavefejlen
@@ -601,7 +601,7 @@ I denne opgave lærer du at redigere filer direkte på GitHub, og du undersøger
    - Oprettelse (opgave 11)
    - Stavefejl-introduktion
    - Stavefejl-rettelse
-3. Klik på hvert commit for at se hvad der blev ændret (the red og grøn "diff"-visning)
+3. Klik på hvert commit for at se hvad der blev ændret (rødt og grønt "diff"-visning)
 
 ### 5. Pull til din lokale computer
 
