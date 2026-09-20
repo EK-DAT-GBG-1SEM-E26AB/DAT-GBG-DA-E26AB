@@ -268,13 +268,355 @@ Diskuter følgende i gruppen:
 - Hvorfor er det måske for mange små commits i denne øvelse, når man kigges på et samlet projektforløb?
 - Hvad er forskellen mellem at gå tilbage til en tidligere revision og at ændre den nuværende version permanent?
 
-## Opgave 7 – [overskrift]
+## Opgave 7 – Forbind lokalt repo med GitHub og push første commit
 
-## Opgave 8 – [overskrift]
+I denne opgave forbinder du dit lokale Git-repositorie med GitHub og pusher dine lokale commits til det remote repositorie.
 
-## Opgave 9 – [overskrift]
+### 1. Opret tomt repositorie på GitHub
 
-## Opgave 10 – [overskrift]
+1. Log ind på [GitHub](https://github.com)
+2. Klik på `+` (plus-ikonet) øverst til højre → `New repository`
+3. Giv repositoriet et navn, fx `lucas-numbers` eller `git-practice`
+4. Vælg `Private` (hvis du ønsker det privat) eller `Public`
+5. **Vigtig:** Undlad at afmærke "Initialize this repository with README, .gitignore or license"
+6. Klik `Create repository`
+
+GitHub viser nu instruktioner til at forbinde dit lokale repo.
+
+### 2. Forbind lokalt repo med GitHub via IntelliJ
+
+I IntelliJ skal du gå til `Git` → `Manage Remotes...`:
+
+1. Klik på `+` (tilføj remote)
+2. Sæt navn til `origin`
+3. Indsæt GitHub repositoriets URL (kopier fra GitHub-siden)
+   - Eksempel: `https://github.com/dit-brugernavn/lucas-numbers.git`
+4. Klik `OK`
+
+### 3. Push til GitHub
+
+1. Gå til `Git` → `Push` (eller brug `Ctrl+Shift+K` / `⌘⇧K`)
+2. Vælg `main`-branch
+3. Klik `Push`
+
+Dine lokale commits er nu sendt til GitHub.
+
+### 4. Inspicér repositoriet på GitHub
+
+1. Gå til GitHub i browser og opdater siden
+2. Du skal nu kunne se dine filer i repositoriet
+3. Klik på commit-antallet for at se din commit-historik
+
+### 5. Diskussion og refleksion
+
+Diskuter følgende:
+
+- Hvad er forskellen på et lokalt repositorie og et remote repositorie på GitHub?
+- Hvad betyder det at `origin` er forbundet til GitHub-adressen?
+- Hvorfor er det vigtig at push'e commits til GitHub?
+- Hvornår ville du bruge `git push` vs. `git pull`?
+
+---
+
+## Opgave 8 – Klone Lucas-tal-repositoriet
+
+I denne opgave kloner du et eksisterende Lucas-tal-projekt for at undersøge en tidligere implementering.
+
+### 1. Klon repositoriet
+
+Åbn terminal eller IntelliJ's terminalvindue og kør:
+
+```bash
+cd ~/IdeaProjects
+git clone https://github.com/EK-DAT-GBG-1SEM-E26AB/lucas-number.git lucas-number
+cd lucas-number
+```
+
+Eller via IntelliJ:
+
+1. Gå til `File` → `New` → `Project from Version Control`
+2. Vælg `Git`
+3. Indsæt URL: `https://github.com/EK-DAT-GBG-1SEM-E26AB/lucas-number.git`
+4. Klik `Clone`
+
+### 2. Undersøg eksisterende kode
+
+1. Åbn projektet i IntelliJ
+2. Find den fil, der indeholder Lucas-beregning
+3. Læs koden nøje — hvilken struktur bruges?
+4. Notér dig:
+   - Hvordan beregnes Lucas-tallene i dag?
+   - Bruges der rekursion, løkke eller anden struktur?
+   - Hvor kan implementeringen blive mere elegant?
+
+### 3. Diskussion og refleksion
+
+Diskuter med din gruppe:
+
+- Hvordan var Lucas-beregningen implementeret i den originale kode?
+- Hvad er fordele og ulemper ved den nuværende løsning?
+- Hvordan kunne en løkke (for, while, eller et tredje valg) gøre implementeringen bedre?
+- Hvad betyder det at kunne læse og forstå andres kode?
+
+---
+
+## Opgave 9 – Opret branch og implementer Lucas-beregning med løkke
+
+I denne opgave arbejder du på en feature-branch og refaktorerer Lucas-beregningen til at bruge en løkke.
+
+### 1. Opret en ny branch
+
+I IntelliJ skal du gå til `Git` → `New Branch`:
+
+1. Navngiv branchen: `lucas-loop` (eller `lucas-while`, `lucas-for` osv.)
+2. Sørg for at "Checkout branch" er valgt
+3. Klik `Create`
+
+Alternativt i terminalen:
+
+```bash
+git checkout -b lucas-loop
+```
+
+Du er nu på din nye branch og ikke på `main`.
+
+### 2. Implementer Lucas-beregning som løkke
+
+1. Åbn den fil, der indeholder Lucas-funktionen
+2. Refaktorér implementeringen så den bruger en løkke (for, while eller et tredje valg)
+3. Eksempler:
+   - **For-løkke:** `for (int i = 0; i < n; i++) { ... }`
+   - **While-løkke:** `while (i < n) { ... }`
+4. Behold samme funktionalitet — outputtet skal være identisk
+5. Test at koden stadig virker
+
+### 3. Lav commit af ændringen
+
+1. Gå til `Git` → `Commit` (eller `Ctrl+K` / `⌘K`)
+2. Vælg den fil du ændrede
+3. Skriv commit-besked: `Implementer Lucas-beregning med løkke` eller `Refaktor: brug loop i stedet for rekursion`
+4. Klik `Commit`
+
+### 4. Push branchen til GitHub
+
+1. Gå til `Git` → `Push` (eller `Ctrl+Shift+K`)
+2. IntelliJ spørger om at pushe til remote — klik `OK`
+3. Branchen `lucas-loop` er nu på GitHub
+
+### 5. Inspicér branchen på GitHub
+
+1. Gå til GitHub i browser
+2. Klik på "Branch"-dropdown (normalt viser `main` eller `master`)
+3. Vælg din `lucas-loop`-branch
+4. Du kan nu se din ændring i filen direkte på GitHub
+
+### 6. Diskussion og refleksion
+
+Diskuter følgende:
+
+- Hvad er en branch, og hvorfor er det nyttigt at bruge separate branches?
+- Hvordan brugte du branchen til at arbejde uden at påvirke `main`?
+- **Note om branch-navngivning:** I større projekter bruges ofte `feature/lucas-loop` eller `refactor/lucas-loop` (med skråstreg for at dele branches efter type), men simple navne som `lucas-loop` virker fint for små projekter.
+- Hvornår ville du merge branchen tilbage til `main`?
+
+---
+
+## Opgave 10 – Pair programming — samarbejde med push/pull-cyklus
+
+I denne opgave arbejder du sammen med en anden studerende i et sekventielt push/pull-workflow. Én person laver en lille kodeændring, pusher den, og den anden puller og fortsætter.
+
+### 1. Opsætning — tilføj collaborator
+
+**Person A (repository-ejer):**
+
+1. Gå til GitHub-repositoriet (fx `lucas-numbers` fra opgave 7)
+2. Gå til `Settings` → `Collaborators`
+3. Klik `Add people` (eller `Invite a collaborator`)
+4. Indsæt GitHub-brugernavnet på Person B
+5. Send invitation
+
+**Person B (medsamarbejer):**
+
+1. Åbn invitation-emailen fra GitHub
+2. Acceptér invitationen
+3. Klon repositoriet lokalt:
+   ```bash
+   git clone https://github.com/PersonA-brugernavn/lucas-numbers.git
+   cd lucas-numbers
+   ```
+
+### 2. Pair Programming-cyklus
+
+Nu arbejder I sammen på samme branch (`main`) med dette flow:
+
+**Runde 1 — Person A:**
+
+1. Lav en lille kodeændring (fx tilføj kommentar, eller forbedre et variabelnavn)
+2. Commit: `git add .` → `Git` → `Commit` med besked fx `Tilføj kommentar til Lucas-funktion`
+3. Push: `Git` → `Push` (eller `git push`)
+
+**Runde 1 — Person B:**
+
+1. Pull ændringen: `Git` → `Pull` (eller `git pull`)
+2. Læs og forstå Person A's ændring
+3. Lav din egen lille ændring/tilføjelse (fx forbedring af variabelnavn eller ny hjælpefunktion)
+4. Commit og push
+
+**Runde 2 — Person A:**
+
+1. Pull Person B's ændring: `Git` → `Pull`
+2. Læs koden
+3. Lav ny ændring, commit og push
+
+**Fortsæt således minimum 4–6 gange** (så hver person laver 2–3 commits)
+
+### 3. Se commit-historikken
+
+Når I er færdige:
+
+1. Åbn `Git` → `Show History` for at se alle commits i rækkefølge
+2. Gå til GitHub og klik `commits` for at se den fuldstændige historie
+3. Bemærk hvordan hver commit viser forfatter, tidspunkt og besked
+
+### 4. Konflikt-design — hvorfor ingen konflikter?
+
+Fordi I arbejder sekventielt (én ad gangen) og på samme branch uden at dele samme linje-koder, opstår der ingen merge-konflikter. Git kan automatisk merge indre ændringer.
+
+### 5. Diskussion og refleksion
+
+Diskuter følgende i gruppen:
+
+- Hvordan fungerede kommunikationen mellem jer to under pair programming?
+- Hvad var udfordringerne ved at arbejde på samme branch uden branches?
+- Hvorfor ville man bruge separate branches (som i opgave 9) hvis man arbejder i grupper?
+- Hvis to personer ændrer samme kodelinje samtidig — hvad ville der ske? (Svar: merge-konflikt, som vi undgår her)
+- Hvordan kan denne sekventielle workflow bruges til kodereview?
+
+---
+
+## Opgave 11 – Udforsk GitHub webinterface — opret fil direkte
+
+I denne opgave arbejder du direkte på GitHub uden at bruge terminalen eller IntelliJ. Du opretter en dokumentationsfil direkte i browseren.
+
+### 1. Gå til dit repositorie på GitHub
+
+1. Log ind på GitHub
+2. Gå til dit `lucas-numbers`-repositorie (eller et af dine øvelse-repositorier)
+
+### 2. Opret ny fil via GitHub
+
+1. Klik `Add File` → `Create new file` (eller klik på `Create new file`-knappen)
+2. I feltet "Name your file..." skal du skrive: `LUCAS_INFO.md`
+3. I det store tekstfelt skriver du indhold om Lucas-talserien:
+
+```markdown
+# Lucas-talserien
+
+Lucas-tallene er en sekvens af heltal, der ligner Fibonacci-tallene men med forskellige startværdier.
+
+## Definition
+
+L(1) = 1
+L(2) = 3
+L(n) = L(n-1) + L(n-2) for n ≥ 3
+
+## Eksempler
+
+De første Lucas-tal er: 1, 3, 4, 7, 11, 18, 29, 47, ...
+
+## Interessante egenskaber
+
+- Lucas-tallene er relateret til Fibonacci gennem flere matematiske identiteter
+- De optræder i matematik, kunst og natur
+- De bruges i kryptografi og talteori
+```
+
+4. Skrold ned til "Commit new file"
+5. Skriv commit-besked: `Tilføj dokumentation om Lucas-talserien`
+6. Klik `Commit new file`
+
+GitHub committer nu filen direkte til `main`-branch.
+
+### 3. Pull ændringen lokalt
+
+Nu skal du hente filen ned på din computer:
+
+1. I IntelliJ: `Git` → `Pull` (eller `Ctrl+Alt+L` / `⌘⌥L`)
+2. Eller i terminalen: `git pull`
+
+Du kan nu se `LUCAS_INFO.md` i dit projekt lokalt.
+
+### 4. Inspicér filen lokalt
+
+1. Åbn `LUCAS_INFO.md` i IntelliJ
+2. Bemærk at det er en almindelig markdown-fil
+3. Diskuter: hvad er fordelen ved at have dokumentation i repositoriet?
+
+### 5. Diskussion og refleksion
+
+Diskuter følgende:
+
+- Hvornår er det praktisk at redigere direkte på GitHub (i browser)?
+- Hvornår er det bedre at arbejde lokalt (terminal/IntelliJ)?
+- Kan GitHub bruges til samarbejde uden at bruge Git lokalt?
+- Hvad er fordele og ulemper ved at committe direkte på GitHub?
+
+---
+
+## Opgave 12 – Rediger, introducer og ret stavefejl på GitHub
+
+I denne opgave lærer du at redigere filer direkte på GitHub, og du undersøger hvordan Git holder styr på hver ændring.
+
+### 1. Introducer stavefejl på GitHub
+
+1. Gå til `LUCAS_INFO.md` på GitHub
+2. Klik på blyant-ikonet (✏️ "Edit this file")
+3. Find en af disse linjer:
+   - `Lucas-tallene er en sekvens` → skift til `Luccas-tallene er en sekvans`
+   - `L(n) = L(n-1) + L(n-2)` → skift til `L(n) = L(n-1) + L(n-2` (slet sidste parentes)
+   - `De første Lucas-tal er` → skift til `De forste Luccas-tall er`
+4. Skrold ned til "Commit changes"
+5. Skriv commit-besked: `Introducer stavefejl (testformål)`
+6. Klik `Commit changes`
+
+### 2. Se commit-historikken
+
+1. Gå til filens historik ved at klikke på `History` eller the clock-ikon
+2. Du ser nu to commits:
+   - Det oprindelige fra opgave 11
+   - Det nye med stavefejlen
+3. Klik på det nye commit for at se hvad der blev ændret (diff)
+
+### 3. Ret stavefejlen på GitHub
+
+1. Gå tilbage til `LUCAS_INFO.md`
+2. Klik blyant-ikonet igen
+3. Ret stavefejlene tilbage til den originale tekst
+4. Commit med besked: `Ret stavefejl i LUCAS_INFO.md`
+
+### 4. Inspicér komplet commit-historik
+
+1. Gå til "Commits" eller "History" for `LUCAS_INFO.md`
+2. Du ser nu tre commits:
+   - Oprettelse (opgave 11)
+   - Stavefejl-introduktion
+   - Stavefejl-rettelse
+3. Klik på hvert commit for at se hvad der blev ændret (the red og grøn "diff"-visning)
+
+### 5. Pull til din lokale computer
+
+1. I IntelliJ: `Git` → `Pull`
+2. Åbn `LUCAS_INFO.md` og bekræft at stavefejlene er rettet
+
+### 6. Diskussion og refleksion
+
+Diskuter følgende:
+
+- Hvad viste Git-historikken dig? Hvordan kan man se præcis hvad der blev ændret?
+- Hvorfor er det nyttigt at have hver stavefejl-rettelse som et eget commit?
+- Hvis du ville gå tilbage til commit 2 (med stavefejlen), hvordan ville du gøre det?
+- Hvordan kan denne "patch by commit"-tilgang bruges til kodereview?
+- Hvad lærte du om Git's evne til at spore ændringer?
 
 ---
 
