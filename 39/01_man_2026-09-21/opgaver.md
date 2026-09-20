@@ -622,6 +622,180 @@ Diskuter følgende:
 
 ## Ekstra
 
-- [Skriv ekstra Git-øvelser her]
-- [Skriv refleksionsspørgsmål om commit, staging og remote her]
-- [Skriv optional opgaver om GitHub-flow her]
+## Udfordring – Find fejl i lucas-number repositoriet og send Pull Request
+
+I denne udfordring skal du undersøge lucas-number repositoriet fra GitHub, finde en autentisk implementeringsfejl, og lære hvordan du bidrager til projekter uden direkte skrive adgang ved at bruge fork og pull request.
+
+### 1. Klon lucas-number repositoriet
+
+Hvis du ikke allerede har gjort det fra opgave 8, kloner du nu repositoriet:
+
+```bash
+cd ~/IdeaProjects
+git clone https://github.com/EK-DAT-GBG-1SEM-E26AB/lucas-number.git lucas-number-debug
+cd lucas-number-debug
+```
+
+Eller åbn det som et nyt projekt i IntelliJ via `File` → `New` → `Project from Version Control`.
+
+### 2. Undersøg koden nøje — diskuter i gruppen
+
+1. Åbn projektet i IntelliJ
+2. Find den fil, der indeholder Lucas-implementeringen
+3. Læs koden nøje og test programmet
+4. Diskuter med gruppen:
+   - Hvad virker underligt eller ineffektivt ved implementeringen?
+   - Hvad sker der, hvis du prøver at beregne Lucas-tal for større værdier (fx n = 50)?
+   - Hvorfor kan det være et problem at arbejde på denne måde?
+   - Er der noget, der bliver gjort som ikke burde gøres sådan?
+
+> **Tip:** Prøv at køre programmet og bemærk performance eller anden mærkelig adfærd. Sammenlign også med den loop-baserede løsning fra opgave 9.
+
+### 3. Dokumentér fejlen
+
+Når du har identificeret problemet, skal du dokumentere det:
+
+- Hvad er fejlen eller anti-pattern'et?
+- Hvorfor er det et problem?
+- Hvordan kan det løses bedre?
+
+Skriv dine svar ned — du bruger dem senere i pull request-beskrivelsen.
+
+### 4. Fork repositoriet på GitHub
+
+Fordi du ikke har skrive adgang til det originale repositorie, må du arbejde via en "fork" (en personlig kopi).
+
+1. Gå til [https://github.com/EK-DAT-GBG-1SEM-E26AB/lucas-number](https://github.com/EK-DAT-GBG-1SEM-E26AB/lucas-number)
+2. Klik "Fork"-knappen øverst til højre
+3. GitHub opretter nu en personlig kopi af repositoriet på din konto
+
+Du kan nu se repositoriet på: `https://github.com/<dit-brugernavn>/lucas-number`
+
+### 5. Klon din fork lokalt
+
+Nu skal du arbejde med din egen kopi:
+
+```bash
+cd ~/IdeaProjects
+git clone https://github.com/<dit-brugernavn>/lucas-number.git lucas-number-fork
+cd lucas-number-fork
+```
+
+> **Bemærk:** Erstat `<dit-brugernavn>` med dit faktiske GitHub-brugernavn.
+
+### 6. Opret en fix-branch
+
+Opret en ny branch til fejlfixingen:
+
+```bash
+git checkout -b fix/lucas-performance
+```
+
+Eller i IntelliJ: `Git` → `New Branch` → navngiv den `fix/lucas-performance`.
+
+> **Branch-navngivning:** Skråstregen (`fix/`) grupperer branches efter deres formål. Andre eksempler: `feature/`, `refactor/`, `bugfix/`.
+
+### 7. Ret fejlen
+
+1. Åbn filen med Lucas-implementeringen
+2. Refaktorér eller ret implementeringen baseret på din analyse fra punkt 3
+3. Test at den nye implementering virker korrekt
+4. Sørg for at output stadig er det samme (eller bedre/hurtigere hvis det er et performance-problem)
+
+### 8. Lav commit af rettelsen
+
+Når fejlen er rettet:
+
+1. Gå til `Git` → `Commit`
+2. Vælg filerne du ændrede
+3. Skriv en klar commit-besked, fx:
+   - `Fix: refaktor Lucas-beregning for bedre performance`
+   - `Refactor: erstat rekursion med løkke for Lucas-sekvens`
+   - `Improve: optimér Lucas-talberegning`
+4. Klik `Commit`
+
+### 9. Push til din fork
+
+Push ændringerne til din personlige fork på GitHub:
+
+```bash
+git push origin fix/lucas-performance
+```
+
+Eller i IntelliJ: `Git` → `Push`.
+
+### 10. Opret en Pull Request på GitHub
+
+Nu sender du din rettelse til det originale repositorie:
+
+1. Gå til dit fork-repositorie på GitHub: `https://github.com/<dit-brugernavn>/lucas-number`
+2. Du bør se en knap som siger "Compare & pull request" — klik på den
+   - Hvis du ikke ser knappen, klik på "Pull requests" og derefter "New pull request"
+3. Vælg:
+   - **Base repository:** `EK-DAT-GBG-1SEM-E26AB/lucas-number` (det originale)
+   - **Base branch:** `main` (eller `master`)
+   - **Head repository:** `<dit-brugernavn>/lucas-number` (din fork)
+   - **Head branch:** `fix/lucas-performance`
+4. Skriv en beskrivelse af din pull request:
+
+```markdown
+## Hvad ændrer denne PR?
+
+Denne PR refaktorerer Lucas-talberegningen for at løse [dit problem].
+
+## Problem
+[Beskriv fejlen eller problemet her]
+
+## Løsning
+[Beskriv hvordan du løste det her]
+
+## Testing
+Programmet virker stadig korrekt og output er uændret.
+```
+
+5. Klik "Create pull request"
+
+### 11. Undersøg pull request processen
+
+Nu er din rettelse sendt til forfatteren af det originale repositorie:
+
+1. Gå tilbage til det originale repositorie: [https://github.com/EK-DAT-GBG-1SEM-E26AB/lucas-number](https://github.com/EK-DAT-GBG-1SEM-E26AB/lucas-number)
+2. Klik på "Pull requests"-tab
+3. Du bør se din PR i listen
+4. Bemærk:
+   - Hvilke oplysninger indeholder PR'en?
+   - Hvordan kan repository-ejeren se præcis hvad du ændrede?
+   - Hvad ville der ske hvis repository-ejeren accepterer eller afviser den?
+
+### 12. Diskussion og refleksion
+
+Diskuter følgende i gruppen:
+
+- **Om fejlfinding:**
+  - Hvad var fejlen eller problemet i den originale implementering?
+  - Hvordan opdagede I den?
+  - Kunne den have været undgået?
+
+- **Om fork og pull request:**
+  - Hvorfor er fork/pull request nyttigt når man arbejder på open source?
+  - Hvad er fordelen ved at repository-ejeren *ikke* skal give dig skrive adgang?
+  - Hvordan beskytter fork/pull request processen det originale projekt?
+  - Hvad kunne repository-ejeren gøre med din PR? (Acceptere, give feedback, afvise?)
+
+- **Om kodereview:**
+  - Hvis du var repository-ejer, hvad ville du kigge efter i en pull request?
+  - Hvordan sikrer du dig at en PR er god før du accepterer den?
+  - Hvilke spørgsmål ville du stille?
+
+- **Om samarbejde uden direkte adgang:**
+  - Er det en fordel eller ulempe at skulle bruge fork i stedet for direkte at kunne redigere?
+  - Hvordan bruges denne workflow i større open source-projekter?
+
+### 13. Ekstra — peer review
+
+*Hvis I har tid:*
+
+1. **Vælg en anden studerendes PR** og giv feedback
+2. **Stil spørgsmål** på GitHub direkte på PR'en (under "Conversation")
+3. **Foreslå ændringer** (GitHub har en "Review changes" knap)
+4. **Diskutér** hvordan feedback gjøres konstruktiv og hjælpsom
