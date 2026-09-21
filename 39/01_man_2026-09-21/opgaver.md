@@ -2,12 +2,6 @@
 
 ## Kom i gang
 
-Ny uge – opret et nyt IntelliJ-projekt eller en ny lokal mappe til Git-øvelserne, og opret dagens package:
-
-```text
-dag1_git_github_intro
-```
-
 Du skal kunne arbejde både lokalt og med GitHub. Brug enten terminalen eller IntelliJ’s Git-værktøjer, men hold dig til samme arbejdsproces gennem hele opgaveforløbet.
 
 ---
