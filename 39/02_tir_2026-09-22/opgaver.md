@@ -2,7 +2,7 @@
 
 ## Opvarmningsøvelse – skriv en user story
 
-Skriv en user story på en post-it, før I går videre til de øvrige opgaver.
+Skriv en user story på en post-it, før I går videre til de øvrige opgaver. Området som user story'en skal omhandle er noget her på EK.
 
 Tænk på jer selv som brugeren. Det handler om at beskrive, hvad I gerne vil kunne gøre, og hvorfor det er vigtigt for jer. Fokusér ikke på tekniske løsninger – fokusér på behovet og værdien.
 
@@ -12,15 +12,15 @@ Brug formatet:
 
 Eksempel:
 
-- Som bruger vil jeg kunne finde en bog hurtigt, så jeg kan spare tid og undgå frustration.
+- Som underviser vil jeg kunne se, hvem der deltager aktivt i undervisningen, så jeg kan reducere behovet for reeksamen.
 
 Del derefter jeres post-it med en makker, og brug den som udgangspunkt for resten af opgaverne.
 
-Når I har delt med en makker, så tager vi jeres user stories i plenum.
+Når I har delt med en makker, tager vi jeres user stories i plenum.
 
 ## Opgave 1: Skriv user stories
 
-Skriv 3–5 user stories til projektet bogsamling. Brug formatet:
+Skriv 3–5 user stories til projektet bogsamling, idet vi forestiller os, at vi endnu ikke er gået i gang med at kode. Brug formatet:
 
 - Som [bruger] vil jeg [handling], så [grund/behov/værdi].
 
@@ -28,13 +28,35 @@ Eksempel:
 
 - Som bruger vil jeg kunne finde en bog ud fra titel, så jeg hurtigt kan finde den rigtige bog.
 
+### Diskussion: Del jeres user stories med en makker
+
+Del jeres user stories med en makker og diskuter dem i denne rækkefølge:
+
+- Er det tydeligt, hvorfor user storyen giver værdi for brugeren?
+- Følger den formatet, så den tydeligt indeholder bruger, handling og værdi?
+- Er det klart, hvad der ønskes løst?
+
+Tal sammen om, hvad der virker tydeligt, og hvad der kan gøres mere præcist.
+
 ## Opgave 2: Skriv acceptkriterier
 
-Vælg én af dine user stories og skriv mindst 3 acceptkriterier.
+Vælg én af dine user stories og prøv at skrive mindst 3 acceptkriterier.
 
 Brug formatet:
 
 - Givet [forudsætning], når [handling], så [resultat]
+
+### Diskussion: Gennemgå jeres acceptkriterier
+
+Del jeres acceptkriterier med en makker og diskuter, om de er dækkende for user storyen.
+
+Spørg ind til:
+
+- Dækker acceptkriterierne den værdi, user storyen skal skabe?
+- Er der nogen væsentlige ting, som ikke er beskrevet, så der er huller i løsningen?
+- Mangler der edge cases, fejlmeddelelser eller tydelige resultater?
+
+Diskuter, hvor acceptkriterierne er klare og hvor de bør udvides eller præciseres.
 
 ## Opgave 3: Analyser ansvar
 
