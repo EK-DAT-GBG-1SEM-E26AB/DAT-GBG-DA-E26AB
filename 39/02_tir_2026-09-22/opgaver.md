@@ -38,6 +38,19 @@ Del jeres user stories med en makker og diskuter dem i denne rækkefølge:
 
 Tal sammen om, hvad der virker tydeligt, og hvad der kan gøres mere præcist.
 
+### Kvalitetskontrol med INVEST
+
+Gå herefter gennem hver user story med INVEST-kriterierne:
+
+- Independent: Kan user storyen løses selvstændigt?
+- Negotiable: Er den ikke for teknisk eller for låst fast?
+- Valuable: Giver den tydelig værdi for brugeren?
+- Estimable: Kan den vurderes i omfang?
+- Small: Er den lille nok til at forstå og løse?
+- Testable: Kan den testes?
+
+Vurder, hvilke user stories der er stærke, og hvilke der bør rettes eller deles op i mindre historier.
+
 ## Opgave 2: Skriv acceptkriterier
 
 Vælg én af dine user stories og prøv at skrive mindst 3 acceptkriterier.
@@ -57,6 +70,18 @@ Spørg ind til:
 - Mangler der edge cases, fejlmeddelelser eller tydelige resultater?
 
 Diskuter, hvor acceptkriterierne er klare og hvor de bør udvides eller præciseres.
+
+### Kvalitetskontrol med SMART
+
+Gå derefter gennem hvert acceptkriterium med SMART-kriterierne:
+
+- Specific: Er kriteriet præcist og tydeligt?
+- Measurable: Kan vi måle eller teste det?
+- Achievable: Er det realistisk at få lavet?
+- Relevant: Dækker det den rigtige værdi fra user storyen?
+- Time-bound: Er det tydeligt, hvornår det er færdigt?
+
+Vurder, hvilke acceptkriterier der er gode nok, og hvilke der skal gøres mere konkrete eller mere komplette.
 
 ## Opgave 3: Analyser ansvar
 
