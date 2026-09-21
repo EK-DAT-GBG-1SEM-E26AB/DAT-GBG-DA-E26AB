@@ -327,11 +327,11 @@ I denne opgave kloner du et eksisterende Lucas-tal-projekt for at undersøge en 
 
 ### 1. Klon repositoriet
 
-Åbn terminal eller IntelliJ's terminalvindue og kør:
+Åbn terminal eller Git Bash og kør:
 
 ```bash
 cd ~/IdeaProjects
-git clone https://github.com/EK-DAT-GBG-1SEM-E26AB/lucas-number.git lucas-number
+git clone https://github.com/EK-DAT-GBG-1SEM-E26AB/lucas-number.git
 cd lucas-number
 ```
 
