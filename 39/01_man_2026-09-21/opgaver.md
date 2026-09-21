@@ -288,6 +288,8 @@ GitHub viser nu instruktioner til at forbinde dit lokale repo.
 
 I IntelliJ skal du gå til `Git` → `Manage Remotes...`:
 
+> Hvis du har klonet repositoriet fra et sted, hvor du ikke her skrive adgang til, så kan du fjerne `origin` ved at markere den oprindelige og trykke på `-`.
+
 1. Klik på `+` (tilføj remote)
 2. Sæt navn til `origin`
 3. Indsæt GitHub repositoriets URL (kopier fra GitHub-siden)
