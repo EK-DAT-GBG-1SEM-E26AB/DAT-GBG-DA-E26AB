@@ -88,6 +88,13 @@ git checkout master
 
 > **Tip til terminalen:** Du behøver ikke at skrive hele branch-navnet manuelt. Når du blot har skrevet `git checkout ` og derefter de første par bogstaver (fx `ma`), kan du trykke på **Tab-tasten** 1–3 gange. Terminalen vil så automatisk auto-udfylde branch-navnet for dig!
 
+Den faktisk kommando er med `-f` efter `checkout`, da vi allerede står på den pågældende branch (´master´):
+
+```bash
+git checkout -f master
+```
+> **Vær varsom** med brugen `-f` på ´git´-kommandoer, da f'et står for *force*.
+
 Kør derefter `ls` igen for at bekræfte, at `src`-mappen og alle filerne er vendt tilbage.
 
 ### 3. Diskussion og refleksion
