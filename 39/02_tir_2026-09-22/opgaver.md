@@ -200,3 +200,45 @@ Efterfølgende skal I diskutere:
 - Er acceptkriterierne dækkende for user storyen?
 - Mangler der edge cases, fx hvis bogen allerede er udlånt?
 - Er der fejlmeddelelser eller tydelige resultater, der bør beskrives?
+
+## Udfordring: Git-versionering og ny branch til bibliotekets udlånssystem
+
+Brug git til at versionere den kode, I har afleveret for bogsamlingen, og lav derefter en ny branch, hvor I implementerer bibliotekets udlånssystem.
+
+### Git og branch
+
+1. Gem den nuværende løsning i git med en tydelig commit, fx:
+   - "Færdig bogsamling"
+2. Kontrollér, at alle ændringer er gemt, og lav derefter en ny branch til udlånssystemet, fx:
+   - `udlaanssystem`
+3. Vælg kun én user story til den første iteration af bibliotekets udlånssystem.
+4. Vælg den user story, der giver mest værdi for brugeren, men samtidig er lille nok til at kunne gennemføres hurtigt og overskueligt.
+5. Implementér kun den valgte user story på denne branch.
+6. Arbejd i små, tydelige commits, så ændringerne er nemme at følge i git-historikken.
+7. Gennemgå log og diff for at diskutere, hvad der er lavet, og hvorfor en ny branch er nyttig.
+
+### Valg af user story
+
+En god første user story kan være:
+
+- Som bruger vil jeg kunne låne en bog, så jeg kan få den med hjem.
+
+Den valgte user story skal være en user story med tydelige acceptkriterier, så det bliver klart, hvornår den er færdig, og hvad der er inkluderet i løsningen.
+
+Hvis den valgte story ikke allerede har acceptkriterier, skal I først tilføje dem, før I går i gang med implementeringen.
+
+Diskuter, hvorfor denne story er velegnet som første iteration:
+
+- den giver tydelig værdi for brugeren
+- den er relativt lille i omfang
+- den er nem at forstå og teste
+- den kan implementeres uden at gøre løsningen for kompleks tidligt i forløbet
+
+### Diskussion
+
+Diskuter følgende spørgsmål:
+
+- Hvorfor er det nyttigt at lave en ny branch, før I begynder på den næste udvikling?
+- Hvordan hjælper git jer med at bevare den fungerende bogsamling, mens I arbejder videre?
+- Hvilke krav skal en user story opfylde for at være en god første iteration?
+- Hvordan kan I lave commits, så det bliver tydeligt, hvad der er lavet i hver del af udviklingen?
