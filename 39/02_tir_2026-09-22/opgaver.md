@@ -118,3 +118,85 @@ Giv mindst ét eksempel fra bogsamlingen.
 Beskriv en bedre struktur for bogsamlingen. Hvilke klasser skal der være, og hvilke ansvar har de?
 
 Skriv en kort plan for en refaktoreret løsning.
+
+## Opgave 7: Genbrug bogsamlingen til en udlånsmaskine for et offentligt bibliotek
+
+Tag koden fra bogsamlingen og forestil jer, at den skal genbruges til et offentligt bibliotek, hvor borgere kan låne bøger ved hjælp af en udlånsmaskine.
+
+Bemærk: Det er ikke nødvendigt med mange user stories. Det er helt fint at starte med kun 2–3 user stories, så vi kan komme i gang med at forstå, hvad sådan en maskine skal kunne. Hvis I er i tvivl om, hvad en udlånsmaskine skal kunne, så kan I tænke på en stående maskine i biblioteket, hvor man kan låne og returnere bøger.
+
+### Opgave 7.1: Identificér genbrugelige dele
+
+Gennemgå jeres eksisterende design med bogsamlingen og svar på disse spørgsmål:
+
+- Hvilke klasser kan genbruges direkte?
+- Hvilke dele skal ændres, fordi et offentligt bibliotek har andre krav end en bogsamling?
+- Hvilke begreber er nye i biblioteksløsningen, fx låner, udlån, aflevering, reservation, lånetid?
+
+Skriv kort, hvilke dele af bogsamlingen der kan bruges uden ændring, og hvilke dele der skal udvides eller refaktoreres.
+
+### Opgave 7.2: Skriv få, men relevante user stories
+
+Skriv 2–3 user stories til et offentligt bibliotekssystem. Brug samme format som tidligere:
+
+- Som [bruger] vil jeg [handling], så [grund/behov/værdi].
+
+Eksempler på fokusområder:
+- låne en bog
+- returnere en bog
+- se, om en bog er tilgængelig
+- få en meddelelse, hvis bogen allerede er udlånt
+
+Eksempel på user story:
+
+- Som bruger vil jeg kunne låne en bog ved hjælp af udlånsmaskinen, så jeg hurtigt kan få den med hjem.
+
+### Opgave 7.3: Definér ansvar i det nye design
+
+Beskriv, hvilke ansvar følgende klasser bør have i et offentligt bibliotekssystem:
+
+- `Book`
+- `LibraryMember`
+- `Library`
+- `LendingSystem`
+- `LibraryController`
+- `Main`
+
+Skriv 1–2 sætninger om hver klasse, og forklar, hvor den nye kode skal ligge i forhold til bogsamlingen.
+
+### Opgave 7.4: Analyser coupling og cohesion
+
+Diskuter designet af lånesystemet ud fra disse spørgsmål:
+
+- Hvad er høj/lav coupling i en udlånsmaskine?
+- Hvad er høj/lav cohesion i en udlånsmaskine?
+- Hvorfor er det vigtigt, at ansvar er tydeligt fordelt mellem klasserne?
+- Giv mindst ét konkret eksempel fra biblioteksløsningen.
+
+### Opgave 7.5: Refaktorer til bedre struktur
+
+Lav en kort plan for en bedre struktur til udlånsmaskinen. Besvar disse spørgsmål:
+
+- Hvilke klasser skal være med?
+- Hvilke ansvar skal hver klasse have?
+- Hvad bør `Main` kun gøre?
+- Hvilke ansvar bør flyttes fra `Main` til andre klasser?
+- Hvordan kan designet gøres mere overskueligt og lettere at udvide?
+
+## Opgave 8: Acceptkriterier for udlånsflow
+
+Vælg én user story fra bibliotekssystemet og skriv mindst 3 acceptkriterier.
+
+Brug formatet:
+
+- Givet [forudsætning], når [handling], så [resultat]
+
+Eksempel:
+
+- Givet at en bog er tilgængelig, når en bruger låner bogen, så markeres den som udlånt og registreres på brugerens lån.
+
+Efterfølgende skal I diskutere:
+
+- Er acceptkriterierne dækkende for user storyen?
+- Mangler der edge cases, fx hvis bogen allerede er udlånt?
+- Er der fejlmeddelelser eller tydelige resultater, der bør beskrives?
