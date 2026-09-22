@@ -223,6 +223,10 @@ En god første user story kan være:
 
 - Som bruger vil jeg kunne låne en bog, så jeg kan få den med hjem.
 
+Den valgte user story skal være en user story med tydelige acceptkriterier, så det bliver klart, hvornår den er færdig, og hvad der er inkluderet i løsningen.
+
+Hvis den valgte story ikke allerede har acceptkriterier, skal I først tilføje dem, før I går i gang med implementeringen.
+
 Diskuter, hvorfor denne story er velegnet som første iteration:
 
 - den giver tydelig værdi for brugeren
