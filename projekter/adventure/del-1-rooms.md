@@ -261,7 +261,9 @@ alle dele af projektet for at blive indstillet til eksamen.
 
 **Hvordan:** Opret ét GitHub-repository og sørg for, at al source-koden er committed og pushed før
 deadline. Aflever linket til repositoriet – ikke til den enkelte fil eller mappe, men til
-repositoriet som et hele.
+repositoriet som et hele – i afleveringsopgaven *Adventure del 1* i itslearning.
+
+**Gruppeaflevering:** én i gruppen afleverer i itslearning på hele gruppens vegne. Tjek, at alle i gruppen er med i gruppen i itslearning, før I afleverer.
 
 **Hvornår:** Se [deadlines i projektoversigten](../../README.md#afleveringer-og-deadlines).
 

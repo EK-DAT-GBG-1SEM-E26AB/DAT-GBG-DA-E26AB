@@ -3,8 +3,7 @@
 > **Bunden forudsætning – og den endelige aflevering.**
 > Del af det samlede [Adventure-projekt](readme.md).
 >
-> **Denne del afleveres individuelt.** I må stadig gerne arbejde i jeres grupper, men hvert enkelt
-> medlem skal aflevere.
+> **Gruppeaflevering:** én i gruppen afleverer på hele gruppens vegne.
 
 ## Beskrivelse
 
@@ -303,12 +302,10 @@ fra player og stikke af med det.
 
 ## Aflevering
 
-**Del 5 – den endelige aflevering – er en individuel aflevering.**
+**Del 5 – den endelige aflevering – er en gruppeaflevering** i itslearning: én i gruppen afleverer
+på hele gruppens vegne. Tjek, at alle i gruppen er med i gruppen i itslearning, før I afleverer.
 
-I må stadig gerne arbejde i jeres grupper, men hvert enkelt medlem skal aflevere individuelt.
-
-> Det er i orden, at gruppens medlemmer afleverer den samme pdf – kravet er, at **hver enkelt**
-> afleverer den og kan stå inde for og forklare både koden og diagrammerne.
+> Alle i gruppen skal kunne stå inde for og forklare både koden og diagrammerne.
 
 ### Hvad
 

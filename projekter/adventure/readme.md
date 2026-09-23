@@ -194,8 +194,9 @@ Opgaven laves i **små grupper på 2-3 personer**, svarende til en halv studiegr
 Der er ikke mange muligheder for at dele arbejdet op imellem sig, så alle i gruppen skal arbejde
 tæt sammen om hele løsningen.
 
-> **Undtagelse:** [Del 5](del-5-enemies.md) – den endelige aflevering – er en **individuel**
-> aflevering. I må stadig gerne arbejde i jeres grupper, men hvert enkelt medlem skal aflevere.
+> Alle afleveringer – også [del 5](del-5-enemies.md), den endelige aflevering – er
+> **gruppeafleveringer** i itslearning: én i gruppen afleverer på hele gruppens vegne. Alle i gruppen
+> skal kunne stå inde for og forklare både koden og diagrammerne.
 
 ### GitHub
 
@@ -241,11 +242,13 @@ Datoerne for alle fem dele står samlet i
 [projektoversigten på forsiden](../../README.md#afleveringer-og-deadlines), sammen med semestrets
 øvrige projekter.
 
-Afleveringen sker i itslearning. For del 1-4 afleverer I **linket til jeres GitHub-repository** –
-til repositoriet som et hele, ikke til den enkelte fil eller mappe. Husk at gøre linket klikbart.
+Afleveringen sker i itslearning. Hver del har sin egen afleveringsopgave i itslearning, og det er
+**gruppeafleveringer**: én i gruppen afleverer **linket til jeres GitHub-repository** på hele gruppens
+vegne – til repositoriet som et hele, ikke til den enkelte fil eller mappe. Husk at gøre linket
+klikbart, og tjek, at alle i gruppen er med i gruppen i itslearning.
 
-Til [del 1 – refactor](del-1-refactor.md) uploades desuden en **pdf med klassediagrammet**, og til
-[del 5](del-5-enemies.md) en **pdf med dokumentation**.
+Sammen med del 1 uploades desuden en **pdf med klassediagrammet** fra [del 1 – refactor](del-1-refactor.md),
+og til [del 5](del-5-enemies.md) en **pdf med dokumentation**.
 
 Fredag 09-10 laver grupperne **kode-review** af hinandens projekter efter
 [review-skemaet](kode-review.md).

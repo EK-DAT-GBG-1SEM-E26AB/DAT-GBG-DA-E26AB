@@ -687,13 +687,14 @@ Bogsamling er ikke en bunden forudsætning. Koden afleveres som tekst, kopieret 
 ### [Adventure](projekter/adventure/readme.md)
 
 Alle fem dele er én samlet **bunden forudsætning**.
-[Del 5](projekter/adventure/del-5-enemies.md) afleveres **individuelt**, og der afleveres desuden
-en pdf med dokumentation.
+Alle afleveringer er **gruppeafleveringer** i itslearning: én i gruppen afleverer på hele gruppens
+vegne. Til [del 5](projekter/adventure/del-5-enemies.md) – den endelige aflevering – afleveres
+desuden en pdf med dokumentation.
 
 | Del | Undervisning | Deadline |
 |---|---|---|
 | Intro + [del 1](projekter/adventure/del-1-rooms.md) | ons 23-09-2026 | **fre 25-09-2026 kl. 23:59** |
-| [Del 1 refactor](projekter/adventure/del-1-refactor.md) + pdf med klassediagram | fre 25-09-2026 | inden del 2 (man 28-09-2026) |
+| [Del 1 refactor](projekter/adventure/del-1-refactor.md) + pdf med klassediagram | fre 25-09-2026 | afleveres sammen med del 1, **fre 25-09-2026 kl. 23:59** |
 | [Del 2](projekter/adventure/del-2-items.md) | man 28-09 + tir 29-09 | **tir 29-09-2026 kl. 23:59** |
 | [Del 3](projekter/adventure/del-3-food.md) | ons 30-09-2026 | **tor 01-10-2026 kl. 23:59** |
 | [Del 4](projekter/adventure/del-4-weapons.md) | man 05-10-2026 | **man 05-10-2026 kl. 23:59** |

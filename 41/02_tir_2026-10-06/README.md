@@ -11,8 +11,8 @@ indtil nu**. Der er mange udfald, og de skal alle håndteres.
 Derfor gør vi noget, der kan føles bagvendt: **vi tegner, før vi koder.** I bruger den første del
 af dagen på et aktivitetsdiagram, og først derefter går I i gang med koden.
 
-Det er også i dag, dokumentationskravet træder i kraft. Den endelige aflevering er **individuel** og
-skal indeholde både klassediagram og aktivitetsdiagram.
+Det er også i dag, dokumentationskravet træder i kraft. Den endelige aflevering er en
+**gruppeaflevering** og skal indeholde både klassediagram og aktivitetsdiagram.
 
 ## Læringsmål
 
@@ -191,9 +191,8 @@ To ting at være opmærksom på:
 * **Aktivitetsdiagrammet er et designdokument.** Det behøver ikke afspejle senere ændringer i koden.
   Det viser, hvordan I tænkte, før I kodede.
 
-> **Afleveringen er individuel.** I må stadig gerne arbejde i gruppen – men hvert enkelt medlem skal
-> aflevere sin egen pdf. Det er i orden, at gruppens medlemmer afleverer den samme pdf – kravet er,
-> at hver enkelt afleverer den og kan stå inde for og forklare både koden og diagrammerne.
+> **Afleveringen er en gruppeaflevering.** Én i gruppen afleverer pdf'en og linket på hele gruppens
+> vegne – men alle i gruppen skal kunne stå inde for og forklare både koden og diagrammerne.
 
 ---
 
@@ -205,7 +204,7 @@ To ting at være opmærksom på:
 * attack-sekvensen har mange udfald – **tegn før du koder**
 * ingen `instanceof` på våben; spørg `canUse()`
 * alle beskeder til spilleren skal gå gennem `UserInterface`
-* den endelige aflevering er **individuel** og skal indeholde klassediagram og aktivitetsdiagram
+* den endelige aflevering er en **gruppeaflevering** og skal indeholde klassediagram og aktivitetsdiagram
 
 ## Aktiviteter i undervisningen
 

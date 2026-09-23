@@ -11,11 +11,10 @@ Der er ingen ny teori i dag. Hele dagen er jeres til at:
 * gøre attack-sekvensen og resten af spillet færdig
 * rydde op i koden, så den kan tåle at blive læst af andre
 * lave dokumentationen: klassediagram og aktivitetsdiagram i en pdf
-* aflevere – **hver for sig**
+* aflevere – **én aflevering for hele gruppen**
 * forberede præsentationen i morgen
 
-> **Del 5 afleveres individuelt.** I må stadig gerne arbejde i jeres grupper, men **hvert enkelt
-> medlem** skal aflevere i itslearning.
+> **Gruppeaflevering:** én i gruppen afleverer i itslearning på hele gruppens vegne.
 
 ## Læringsmål
 
@@ -66,8 +65,7 @@ To ting at hæfte sig ved:
 * **Aktivitetsdiagrammet er et designdokument.** Det er det, I tegnede i tirsdags, før I kodede. Det
   behøver ikke at blive rettet, hvis koden endte lidt anderledes.
 
-Det er i orden, at gruppens medlemmer afleverer **den samme pdf**. Kravet er, at hver enkelt
-afleverer den og kan stå inde for og forklare både koden og diagrammerne.
+Alle i gruppen skal kunne stå inde for og forklare både koden og diagrammerne.
 
 > **Adventure er en bunden forudsætning** – alle fem dele. Fra
 > [projektbeskrivelsen](../../projekter/adventure/readme.md#obligatorisk-opgave): *"Hvis det ikke
@@ -204,7 +202,7 @@ Læg gerne diagrammerne i en `docs`-mappe i repoet også.
 
 ---
 
-### Sådan afleverer du
+### Sådan afleverer I
 
 1. **Commit og push** den sidste version.
 2. Åbn repoet på GitHub i browseren, og tjek, at den nyeste commit er der.
@@ -213,7 +211,8 @@ Læg gerne diagrammerne i en `docs`-mappe i repoet også.
 4. Åbn linket i et privat browservindue (hvor du ikke er logget ind på GitHub). Får du en fejlside,
    er repoet privat, og så kan underviseren heller ikke se det uden adgang – spørg, hvis I er i tvivl.
 5. Upload **pdf'en** i itslearning, og indsæt **GitHub-linket som klikbar tekst** i besvarelsen.
-6. **Hver** i gruppen gør det – det er en individuel aflevering.
+6. **Én** i gruppen afleverer på hele gruppens vegne – det er en gruppeaflevering. Tjek først, at
+   alle i gruppen er med i gruppen i itslearning.
 
 > Vent ikke til 23:55. itslearning og GitHub har det med at drille, når man har travlt. Aflevér hellere
 > tidligt, og aflevér igen senere, hvis I når at rette noget.
@@ -242,7 +241,7 @@ Brug en halv time sidst på dagen på at forberede det – se
 ## Det vigtigste at tage med
 
 * deadline **i aften kl. 23:59** – pdf og GitHub-link i itslearning
-* afleveringen er **individuel**: alle i gruppen afleverer
+* afleveringen er en **gruppeaflevering**: én afleverer for hele gruppen
 * pdf'en: forside (navn, billede, link klikbart **og** udskrevet, navne + GitHub-brugernavne),
   klassediagram, aktivitetsdiagram
 * klassediagrammet skal passe med den **færdige** kode; aktivitetsdiagrammet er et designdokument

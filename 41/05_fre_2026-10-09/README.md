@@ -102,7 +102,7 @@ passer? Sig kort, hvad I ville ændre, og **hvorfor**.
   Presentation Mode* gør det hele på én gang.
 * **Hav klassediagrammet klar** – fx pdf'en fra afleveringen i et vindue ved siden af.
 * **Aftal, hvem der siger hvad.** Alle i gruppen skal kunne svare på spørgsmål om koden – det var
-  også kravet til den individuelle aflevering.
+  også kravet til den endelige aflevering.
 
 ---
 

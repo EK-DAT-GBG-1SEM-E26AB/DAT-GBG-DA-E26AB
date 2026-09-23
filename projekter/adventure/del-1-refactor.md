@@ -217,10 +217,10 @@ Hvordan har I anvendt følgende principper i jeres Adventure?
 
 ## Aflevering
 
-**Hvordan:** Aflever et link til repositoriet (samme link som til del 1) som besvarelse på opgaven
-*Del 1 – refactor* i itslearning, sammen med en pdf med klassediagrammet.
+**Hvordan:** Refactor-delen afleveres sammen med del 1 i afleveringsopgaven *Adventure del 1* i
+itslearning: linket til repositoriet og en **pdf med klassediagrammet**. **Gruppeaflevering:** én i gruppen afleverer i itslearning på hele gruppens vegne. Tjek, at alle i gruppen er med i gruppen i itslearning, før I afleverer.
 
-**Hvornår:** Helst i dag, men bare inden I begynder at arbejde på Adventure del 2 – se
+**Hvornår:** I dag, **fredag 25-09-2026 kl. 23:59** – se
 [deadlines i projektoversigten](../../README.md#afleveringer-og-deadlines).
 
 **Feedback:** Der gives ingen feedback på denne del af opgaven.
