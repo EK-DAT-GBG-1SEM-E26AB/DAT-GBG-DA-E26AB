@@ -276,62 +276,62 @@
   <td>43</td>
   <td><a href="43/01_man_2026-10-19/README.md">Mandag 19-10-2026</a></td>
   <td>GitHub i grupper</td>
-  <td></td>
+  <td>TOG</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="43/02_tir_2026-10-20/README.md">Tirsdag 20-10-2026</a></td>
-  <td>ITF</td>
-  <td></td>
+  <td>Projektopstart, delopgave 1-4, user stories, CRUD</td>
+  <td>TOG</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="43/03_ons_2026-10-21/README.md">Onsdag 21-10-2026</a></td>
-  <td>Projektopstart, delopgave 1-4, user stories, CRUD</td>
-  <td></td>
+  <td>Test</td>
+  <td>TOG/MICA</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="43/04_tor_2026-10-22/README.md">Torsdag 22-10-2026</a></td>
-  <td>Test</td>
-  <td></td>
+  <td>(emne følger)</td>
+  <td>MANY</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="43/05_fre_2026-10-23/README.md">Fredag 23-10-2026</a></td>
   <td>Test (delopgave 5)</td>
-  <td></td>
+  <td>MICA</td>
   <td></td>
 </tr>
 <tr>
   <td>44</td>
   <td><a href="44/01_man_2026-10-26/README.md">Mandag 26-10-2026</a></td>
   <td>FURPS, Datoer (LocalDate) + kode og design review</td>
-  <td></td>
+  <td>MANY</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="44/02_tir_2026-10-27/README.md">Tirsdag 27-10-2026</a></td>
   <td>Exceptions (delopgave 6)</td>
-  <td></td>
+  <td>MANY</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="44/03_ons_2026-10-28/README.md">Onsdag 28-10-2026</a></td>
   <td>Exceptions</td>
-  <td></td>
+  <td>MICA/MANY</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="44/04_tor_2026-10-29/README.md">Torsdag 29-10-2026</a></td>
-  <td>Filer (version 2)</td>
+  <td>ITF</td>
   <td></td>
   <td></td>
 </tr>
@@ -339,42 +339,42 @@
   <td></td>
   <td><a href="44/05_fre_2026-10-30/README.md">Fredag 30-10-2026</a></td>
   <td>Filer</td>
-  <td></td>
+  <td>TOG</td>
   <td></td>
 </tr>
 <tr>
   <td>45</td>
   <td><a href="45/01_man_2026-11-02/README.md">Mandag 02-11-2026</a></td>
   <td>Kode review og refactorering</td>
-  <td></td>
+  <td>MICA</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="45/02_tir_2026-11-03/README.md">Tirsdag 03-11-2026</a></td>
-  <td>ITF</td>
-  <td></td>
+  <td>Sortering (interfaces)</td>
+  <td>MICA</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="45/03_ons_2026-11-04/README.md">Onsdag 04-11-2026</a></td>
-  <td>Sortering (interfaces)</td>
-  <td></td>
+  <td>Projektvejledning</td>
+  <td>MICA/MANY</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="45/04_tor_2026-11-05/README.md">Torsdag 05-11-2026</a></td>
-  <td>Projektvejledning(deadline på filmsamling)</td>
+  <td>Forberedelse af code review</td>
   <td></td>
-  <td></td>
+  <td>Deadline for filmsamling</td>
 </tr>
 <tr>
   <td></td>
   <td><a href="45/05_fre_2026-11-06/README.md">Fredag 06-11-2026</a></td>
   <td>Kode review af færdige projekter</td>
-  <td></td>
+  <td>MANY</td>
   <td></td>
 </tr>
 <tr><td colspan="5"><strong>Repetition og evaluering</strong></td></tr>
@@ -382,35 +382,35 @@
   <td>46</td>
   <td><a href="46/01_man_2026-11-09/README.md">Mandag 09-11-2026</a></td>
   <td>Repetition</td>
-  <td></td>
+  <td>TOG</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="46/02_tir_2026-11-10/README.md">Tirsdag 10-11-2026</a></td>
   <td>Repetition</td>
-  <td></td>
+  <td>TOG</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="46/03_ons_2026-11-11/README.md">Onsdag 11-11-2026</a></td>
   <td>Repetition</td>
-  <td></td>
+  <td>MICA/TOG</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="46/04_tor_2026-11-12/README.md">Torsdag 12-11-2026</a></td>
-  <td>Evaluering</td>
+  <td>ITF</td>
   <td></td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="46/05_fre_2026-11-13/README.md">Fredag 13-11-2026</a></td>
-  <td>ITF</td>
-  <td></td>
+  <td>Evaluering</td>
+  <td>MANY</td>
   <td></td>
 </tr>
 
@@ -420,62 +420,62 @@
   <td>47</td>
   <td><a href="47/01_man_2026-11-16/README.md">Mandag 16-11-2026</a></td>
   <td>Projektopstart, Domænemodel</td>
-  <td></td>
+  <td>MICA</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="47/02_tir_2026-11-17/README.md">Tirsdag 17-11-2026</a></td>
   <td>Projektets krav (user stories)</td>
-  <td></td>
+  <td>MANY</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="47/03_ons_2026-11-18/README.md">Onsdag 18-11-2026</a></td>
-  <td>ITF: Sprint planning med Product Owner (PO) OBLIGATORISK</td>
-  <td></td>
-  <td></td>
+  <td>Sprint planning, checkin</td>
+  <td>MANY/TOG</td>
+  <td>Online</td>
 </tr>
 <tr>
   <td></td>
   <td><a href="47/04_tor_2026-11-19/README.md">Torsdag 19-11-2026</a></td>
   <td>Git branching</td>
-  <td></td>
+  <td>TOG</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="47/05_fre_2026-11-20/README.md">Fredag 20-11-2026</a></td>
   <td>Projektarbejde 1. sprint</td>
-  <td></td>
+  <td>MANY</td>
   <td></td>
 </tr>
 <tr>
   <td>48</td>
   <td><a href="48/01_man_2026-11-23/README.md">Mandag 23-11-2026</a></td>
   <td>Projektarbejde 1. sprint</td>
-  <td></td>
+  <td>MICA</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="48/02_tir_2026-11-24/README.md">Tirsdag 24-11-2026</a></td>
   <td>Projektarbejde 1. sprint</td>
-  <td></td>
+  <td>TOG</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="48/03_ons_2026-11-25/README.md">Onsdag 25-11-2026</a></td>
-  <td>ITF: PO møde OBLIGATORISK</td>
-  <td></td>
-  <td></td>
+  <td>Projektarbejde 1. sprint, checkin</td>
+  <td>TOG</td>
+  <td>Online</td>
 </tr>
 <tr>
   <td></td>
   <td><a href="48/04_tor_2026-11-26/README.md">Torsdag 26-11-2026</a></td>
-  <td>Projektarbejde 1. sprint</td>
+  <td>ITF</td>
   <td></td>
   <td></td>
 </tr>
@@ -483,42 +483,42 @@
   <td></td>
   <td><a href="48/05_fre_2026-11-27/README.md">Fredag 27-11-2026</a></td>
   <td>Projektarbejde 1. sprint</td>
-  <td></td>
+  <td>TOG</td>
   <td></td>
 </tr>
 <tr>
   <td>49</td>
   <td><a href="49/01_man_2026-11-30/README.md">Mandag 30-11-2026</a></td>
-  <td>Kode review OBLIGATORISK</td>
-  <td></td>
+  <td>Kode review</td>
+  <td>MICA</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="49/02_tir_2026-12-01/README.md">Tirsdag 01-12-2026</a></td>
-  <td>ITF: Retrospektive OBLIGATORISK</td>
-  <td></td>
+  <td>Retrospektive, planning sprint 2</td>
+  <td>MICA</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="49/03_ons_2026-12-02/README.md">Onsdag 02-12-2026</a></td>
-  <td>Projektarbejde 2. sprint</td>
-  <td></td>
-  <td></td>
+  <td>Projektarbejde 2. sprint, checkin</td>
+  <td>TOG/MANY</td>
+  <td>Online</td>
 </tr>
 <tr>
   <td></td>
   <td><a href="49/04_tor_2026-12-03/README.md">Torsdag 03-12-2026</a></td>
   <td>Projektarbejde 2. sprint</td>
-  <td></td>
+  <td>TOG</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="49/05_fre_2026-12-04/README.md">Fredag 04-12-2026</a></td>
   <td>Projektarbejde 2. sprint</td>
-  <td></td>
+  <td>MANY/MICA</td>
   <td></td>
 </tr>
 <tr><td colspan="5"><strong>Projektreviews og repetition</strong></td></tr>
@@ -526,35 +526,35 @@
   <td>50</td>
   <td><a href="50/01_man_2026-12-07/README.md">Mandag 07-12-2026</a></td>
   <td>Projektarbejde 2. sprint</td>
-  <td></td>
+  <td>MANY</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="50/02_tir_2026-12-08/README.md">Tirsdag 08-12-2026</a></td>
-  <td>Projektarbejde 2. sprint, Deadline for projekt</td>
-  <td></td>
+  <td>Projektarbejde 2. sprint, deadline for projekt</td>
+  <td>MANY</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="50/03_ons_2026-12-09/README.md">Onsdag 09-12-2026</a></td>
   <td>Åben (repetition?)</td>
-  <td></td>
+  <td>MANY/MICA</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="50/04_tor_2026-12-10/README.md">Torsdag 10-12-2026</a></td>
-  <td>Peer review, vejleder-feedback OBLIGATORISK</td>
+  <td>ITF</td>
   <td></td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="50/05_fre_2026-12-11/README.md">Fredag 11-12-2026</a></td>
-  <td>Repetition</td>
-  <td></td>
+  <td>Peer review, vejleder-feedback OBLIGATORISK</td>
+  <td>TOG</td>
   <td></td>
 </tr>
 <tr><td colspan="5"><strong>Prøveeksamen</strong></td></tr>
@@ -562,21 +562,21 @@
   <td>51</td>
   <td><a href="51/01_man_2026-12-14/README.md">Mandag 14-12-2026</a></td>
   <td>Prøveeksamen</td>
-  <td></td>
+  <td>MICA</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="51/02_tir_2026-12-15/README.md">Tirsdag 15-12-2026</a></td>
   <td>Prøveeksamen</td>
-  <td></td>
+  <td>TOG/MANY</td>
   <td></td>
 </tr>
 <tr>
   <td></td>
   <td><a href="51/03_ons_2026-12-16/README.md">Onsdag 16-12-2026</a></td>
-  <td>Eksamenssnak og semesterafrundning</td>
-  <td></td>
+  <td>Eksamenssnak og semesterafrunding</td>
+  <td>TOG/MANY</td>
   <td></td>
 </tr>
 <tr>
