@@ -303,8 +303,8 @@ Delfinen er et **fælles projekt med IT- og Forretningsudvikling (ITF)**. Ud ove
 laver I **ét diasshow med jeres svar på ITF's opgaver** til projektet. I IT- og Forretningsudvikling
 skal I lave:
 
-* Interessentanalyse inkl. interessentmatrix, interessentanalysetabel, informationstabel (kommunikationsplan/håndteringsplan).
-* Risikoanalyse, herunder udvidet risikotabel.
+- Interessentanalyse inkl. interessentmatrix, interessentanalysetabel, informationstabel (kommunikationsplan/håndteringsplan).
+- Risikoanalyse, herunder udvidet risikotabel.
 
 Laves i punktform i et diasshow (PowerPoint) som afleveres 8. december. Hver gruppe præsenterer deres diasshow den 10. december i IT- og Forretningsudvikling.
 
