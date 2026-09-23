@@ -300,11 +300,12 @@ gantt
 ## IT- og Forretningsudvikling
 
 Delfinen er et **fælles projekt med IT- og Forretningsudvikling (ITF)**. Ud over programmet
-laver I **ét diasshow med jeres svar på ITF's opgaver** til projektet. I IT- og Forretningsudvikling 
-skal I lave: 
+laver I **ét diasshow med jeres svar på ITF's opgaver** til projektet. I IT- og Forretningsudvikling
+skal I lave:
 
- • Interessentanalyse inkl. interessentmatrix, interessentanalysetabel, informationstabel (kommunikationsplan/håndteringsplan).  
- • Risikoanalyse, herunder udvidet risikotabel.
+* Interessentanalyse inkl. interessentmatrix, interessentanalysetabel, informationstabel (kommunikationsplan/håndteringsplan).
+* Risikoanalyse, herunder udvidet risikotabel.
+
 Laves i punktform i et diasshow (PowerPoint) som afleveres 8. december. Hver gruppe præsenterer deres diasshow den 10. december i IT- og Forretningsudvikling.
 
 ---
@@ -315,7 +316,7 @@ Laves i punktform i et diasshow (PowerPoint) som afleveres 8. december. Hver gru
 
 1. ét klikbart link til jeres gruppes **GitHub-repository**, til repoet som et hele, ikke til en
    fil eller mappe
-2. **diasshowet med jeres svar på ITF's opgaver**, uploadet som fil (se [ITF-delen](#itf-delen))
+2. **diasshowet med jeres svar på ITF's opgaver**, uploadet som fil (se [IT- og Forretningsudvikling](#it--og-forretningsudvikling))
 
 **Hvor:** i itslearning → jeres klasserum (E26A eller E26B) → afleveringsopgaven
 **"Delfinen – aflevering"**.
