@@ -638,7 +638,7 @@
 |---|---|---|
 | [Bogsamling](projekter/bogsamling/readme.md) | uge 37–38 | |
 | [Adventure](projekter/adventure/readme.md) | uge 39–41 | **X** |
-| Filmsamling | uge 43–45 | **X** |
+| [Filmsamling](projekter/filmsamling/readme.md) | uge 43–45 | **X** |
 | [Delfinen](projekter/delfinen/readme.md) | uge 47–50 | **X** |
 
 <sub>Billeder i repoet er krediteret i [BILLEDER.md](BILLEDER.md).</sub>
@@ -701,11 +701,15 @@ desuden en pdf med dokumentation.
 | [Del 5](projekter/adventure/del-5-enemies.md) | tir 06-10-2026 | **tor 08-10-2026 kl. 23:59** |
 | Præsentation af færdige projekter | fre 09-10-2026 | – |
 
-### Filmsamling
+### [Filmsamling](projekter/filmsamling/readme.md)
 
 | Del | Undervisning | Deadline |
 |---|---|---|
 | Hele projektet | uge 43–45 | **ons 04-11-2026 kl. 23:59** |
+| Kode review af de færdige projekter | fre 06-11-2026 | – |
+
+Filmsamling er en **gruppeaflevering** i itslearning – se
+[Aflevering](projekter/filmsamling/readme.md#aflevering).
 
 ### [Delfinen](projekter/delfinen/readme.md)
 
