@@ -283,8 +283,8 @@ Tegn klassediagrammet, find aktivitetsdiagrammet frem fra tirsdag, og saml pdf'e
 
 ### 5. Aflevér
 
-Følg [Sådan afleverer du](#sådan-afleverer-du). Tjek, at **alle** i gruppen har afleveret, før I
-går hjem.
+Følg [Sådan afleverer I](#sådan-afleverer-i). Tjek, at afleveringen er registreret for hele gruppen,
+før I går hjem.
 
 ### 6. Forbered præsentationen (sidste halve time)
 
