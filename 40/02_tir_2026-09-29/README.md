@@ -402,7 +402,7 @@ sequenceDiagram
 
     UI->>A: go("north")
     A->>P: move("north")
-    P->>R: getNorthRoom()
+    P->>R: getNorth()
     R-->>P: nextRoom
     P->>P: currentRoom = nextRoom
     P-->>A: true

@@ -202,7 +202,7 @@ To ting at være opmærksom på:
 * `Room` får en særskilt liste til enemies
 * `Enemy` opdager **selv**, at den er død, dropper sit våben og fjerner sig selv fra rummet
 * attack-sekvensen har mange udfald – **tegn før du koder**
-* ingen `instanceof` på våben; spørg `canUse()`
+* ingen `instanceof` på våbentyperne; spørg `canUse()`
 * alle beskeder til spilleren skal gå gennem `UserInterface`
 * den endelige aflevering er en **gruppeaflevering** og skal indeholde klassediagram og aktivitetsdiagram
 

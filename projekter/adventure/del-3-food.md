@@ -7,8 +7,8 @@
 ## Beskrivelse
 
 I skal arbejde videre på adventure-spillet. Hvor version 2 medførte, at man kunne samle ting op og
-efterlade dem igen, skal der nu være **forskellige typer ting**: mad og våben, hvor man kan spise
-mad og affyre våben.
+efterlade dem igen, skal der nu være **forskellige typer ting**. I denne del er det **mad**, der kan
+spises – våben kommer i del 4.
 
 For at gøre det nemt for os selv, laver vi én ting ad gangen. Først mad! Altid først mad!!
 
@@ -32,7 +32,7 @@ Når du er færdig med denne del, skal du kunne:
 <img src="images/mad-aeble.jpg" alt="Et halvspist æble" width="150" align="right">
 
 De ting, der ligger i rummene, skal enten blot være "ting", eller de skal være **mad der kan
-spises**, eller **våben der kan bruges i angreb**.
+spises**.
 
 Spilleren skal have en form for **health**, som kan øges ved at spise (sundt) mad, og mindskes ved
 at spise gift eller usund mad – samt i senere udgaver blive angrebet af fjender.
@@ -52,6 +52,21 @@ nuværende health. For eksempel:
 ```text
 health: 50 - you are in good health, but avoid fighting right now
 ```
+
+Spilleren starter med health **100**, og der er **intet maksimum** – spiser man sund mad ved fuld
+health, kommer man over 100 (som `110` i eksemplet nedenfor). Teksten efter tallet afhænger af
+health sådan her:
+
+| health | Tekst |
+|---|---|
+| 100 og derover | `you are in perfect health` |
+| 50–99 | `you are in good health, but avoid fighting right now` |
+| 25–49 | `you are wounded - find something healthy to eat` |
+| 1–24 | `you are barely alive` |
+| 0 og derunder | `you should be dead` |
+
+At spilleren **dør**, når health kommer ned på 0 eller derunder, kommer først i
+[del 5](del-5-enemies.md#attack-sekvensen). I del 3 kan health bare blive ved med at falde.
 
 `eat` er noget mere kompliceret end `take` og `drop`. **Der er tre forskellige udfald:**
 
@@ -166,6 +181,12 @@ public enum EatResult { NOT_FOUND, NOT_FOOD, EATEN }
 `Player.eat` finder tingen (i inventory eller i `currentRoom`), tjekker med `instanceof Food`,
 ændrer `health`, fjerner maden fra listen og returnerer det passende `EatResult`. Brugerfladen
 `switch`er på resultatet og skriver beskeden.
+
+> **Tip:** Når maden er spist, er den væk – men brugerfladen skal bruge dens lange navn i beskeden.
+> Find derfor tingen, **før** den bliver spist (fx med en metode på `Player`, der leder i både
+> inventory og rummet), så navnet kan skrives bagefter. Om det var sund mad eller gift, kan
+> brugerfladen se på health før og efter – eller I kan give enummen flere værdier, fx
+> `EATEN_HEALTHY` og `EATEN_POISONOUS`. Begge dele er fine.
 
 ---
 

@@ -126,14 +126,12 @@ Fra [projektbeskrivelsen](../../projekter/adventure/readme.md#afleveringer-og-de
 laver grupperne **kode-review** af hinandens projekter efter
 [review-skemaet](../../projekter/adventure/kode-review.md).
 
-Skemaet beskriver et møde mellem **programmøren** og **to uvildige reviewere**:
+Reviewet foregår **gruppe mod gruppe**: to grupper sætter sig sammen og reviewer **hinanden** –
+først den ene gruppes kode, så den andens. Den gruppe, der bliver reviewet, er "programmørerne":
 
-1. Én af reviewerne cloner projektet fra GitHub og åbner det i IntelliJ.
-2. Den anden reviewer skriver noter i en kopi af skemaet.
-3. Både reviewere og programmør følger med på skærmen.
-
-I praksis: to grupper sætter sig sammen og reviewer **hinanden** – først den ene gruppes kode, så
-den andens. Den gruppe, der bliver reviewet, er "programmøren".
+1. Én fra reviewer-gruppen cloner projektet fra GitHub og åbner det i IntelliJ.
+2. En anden fra reviewer-gruppen skriver noter i en kopi af skemaet.
+3. Både reviewere og programmører følger med på skærmen.
 
 Et par ting, så det går glat:
 
@@ -145,7 +143,7 @@ Et par ting, så det går glat:
   fx afsnittet om exceptions, som I ikke har haft endnu.
 * **Ikke brugerfladen.** Der er *"ikke fokus på brugergrænseflade og brugeroplevelsen"* – det er
   koden, I kigger på.
-* **Giv skemaet til programmøren** bagefter. Det er deres feedback.
+* **Giv skemaet til programmørerne** bagefter. Det er deres feedback.
 
 #### Sådan giver I god feedback
 
@@ -166,7 +164,7 @@ Kig især efter det, I har arbejdet med i projektet:
 | Navne, der siger, hvad klasser, metoder og variable gør | *Er navnene selvforklarende?* |
 | Attributter, der er `private`, med getters kun hvor de bruges | *Har attributter korrekt access?* |
 | `System.out.println` kun i `UserInterface` | *Yderligere kommentarer* |
-| Ingen `instanceof` på våben | *Yderligere kommentarer* |
+| Ingen `instanceof` på våbentyper (`RangedWeapon`/`MeleeWeapon`) | *Yderligere kommentarer* |
 | Døde kommentarer og udkommenteret kode | *Kommentarer* 💣 |
 
 **Når I modtager feedback:** Lyt, og spørg ind, hvis noget er uklart. I behøver ikke være enige i

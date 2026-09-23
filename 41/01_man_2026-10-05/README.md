@@ -183,10 +183,6 @@ public class RangedWeapon extends Weapon {
     public void use() {
         ammunition--;
     }
-
-    public int getAmmunition() {
-        return ammunition;
-    }
 }
 ```
 
@@ -211,7 +207,6 @@ classDiagram
         -int ammunition
         +canUse() boolean
         +use()
-        +getAmmunition() int
     }
 
     Item <|-- Weapon
@@ -219,8 +214,9 @@ classDiagram
     Weapon <|-- RangedWeapon
 ```
 
-Det er det samme diagram som i opgaven – navne og returtyper er i øvrigt op til jer, det afgørende
-er, at metoderne er erklæret i `Weapon`.
+Opgavens diagram har desuden `getAttackVerb()` og `getUsesLeftText()`, som giver teksten til
+beskederne ved `attack` – samme idé: våbenet svarer selv. Navne og returtyper er i øvrigt op til
+jer, det afgørende er, at metoderne er erklæret i `Weapon`.
 
 ---
 
@@ -401,7 +397,8 @@ Arbejd med [Adventure del 4 – Weapons](../../projekter/adventure/del-4-weapons
 
 Følg den [anbefalede procedure](../../projekter/adventure/del-4-weapons.md#anbefalet-procedure).
 
-**Den vigtigste øvelse i dag:** hver gang du er ved at skrive `instanceof`, så stop og spørg:
+**Den vigtigste øvelse i dag:** hver gang du er ved at skrive `instanceof` på en våbentype, så stop
+og spørg (`instanceof Weapon` i `equip` er i orden – se opgaven):
 
 > *Hvilken metode kunne jeg lægge på `Weapon`, så jeg slap for at vide, hvilken slags våben det er?*
 

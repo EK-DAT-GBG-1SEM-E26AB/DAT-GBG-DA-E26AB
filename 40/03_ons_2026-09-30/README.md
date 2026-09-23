@@ -288,17 +288,29 @@ something.getHealthPoints();    // ← fejl! Item har den ikke
 
 Compileren kender kun typen `Item`. At objektet *tilfældigvis* er et `Food`, ved den ikke.
 
-I `eat`-kommandoen får I brug for at finde ud af, om et item faktisk er spiseligt:
+I `eat`-kommandoen får I brug for at finde ud af, om et item faktisk er spiseligt. Sådan kan
+`Player.eat` se ud – den leder i både inventory og rummet og returnerer et `EatResult`, som
+[del 3](../../projekter/adventure/del-3-food.md#food) beskriver:
 
 ```java
-Item item = currentRoom.findItem("bread");
+public EatResult eat(String shortName) {
+    Item item = findItem(shortName);                // først i inventory
+    if (item == null) {
+        item = currentRoom.findItem(shortName);     // så i rummet
+    }
 
-if (item instanceof Food) {
+    if (item == null) {
+        return EatResult.NOT_FOUND;
+    }
+    if (!(item instanceof Food)) {
+        return EatResult.NOT_FOOD;
+    }
+
     Food food = (Food) item;
-    player.changeHealth(food.getHealthPoints());
-}
-else {
-    // "You cannot eat the " + item.getLongName()
+    health += food.getHealthPoints();
+    removeItem(food);                               // maden forsvinder – fra inventory
+    currentRoom.removeItem(food);                   // eller fra rummet
+    return EatResult.EATEN;
 }
 ```
 
@@ -306,9 +318,9 @@ else {
 `Food`".
 
 > **Bemærk:** Det er i orden her, hvor vi netop *skal* skelne. Men i
-> [del 4](../../projekter/adventure/del-4-weapons.md) er `instanceof` **eksplicit forbudt** for
-> våben. Der skal objektet selv fortælle, hvad det kan – og det hedder **polymorfi**, som I får på
-> fredag.
+> [del 4](../../projekter/adventure/del-4-weapons.md) er det **eksplicit forbudt** at bruge
+> `instanceof` til at finde ud af, hvilken **slags** våben et våben er. Der skal objektet selv
+> fortælle, hvad det kan – og det hedder **polymorfi**, som I får på fredag.
 >
 > Læg mærke til forskellen allerede nu: `instanceof` er et tegn på, at man beder objektet om at
 > afsløre sin type, i stedet for bare at bede det gøre noget.

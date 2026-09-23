@@ -89,6 +89,10 @@ There is nothing like sandwich to take around here
 Eksemplet viser den pæne udgave. I første omgang er det helt fint med én ting pr. linje og
 `You have taken a shiny brass lamp` – se udvidelserne nederst.
 
+Beskeder, der bruger tingens lange navn – som `You have taken the ...` her og senere
+`You cannot eat the ...` – må gerne komme til at hedde `the a shiny brass lamp`. Det er helt i
+orden. Vil I have pænere udskrifter, så se den frivillige udvidelse [Better grammar](#better-grammar).
+
 ### Koden
 
 Det er **absolut nødvendigt**, at koden er delt op i flere objekter, som beskrevet i
@@ -113,6 +117,10 @@ det rum, player er i, til player-objektet selv – og omvendt.
 
 `takeItem` og `dropItem` returnerer det `Item`, der blev flyttet – eller `null`, hvis der ikke var
 noget med det navn. Så kan brugerfladen skrive tingens lange navn i beskeden.
+
+At `UserInterface` får et `Item` tilbage for at skrive navnet, er en **afhængighed**, ikke en
+association: brugerfladen gemmer ikke tingen i en attribut, så der skal ikke være nogen pil fra
+`UserInterface` til `Item` i klassediagrammet.
 
 #### findItem
 
@@ -140,6 +148,8 @@ classDiagram
     class Player {
         -Room currentRoom
         -ArrayList~Item~ inventory
+        +addItem(Item item)
+        +removeItem(Item item)
         +takeItem(String shortName) Item
         +dropItem(String shortName) Item
         +findItem(String shortName) Item

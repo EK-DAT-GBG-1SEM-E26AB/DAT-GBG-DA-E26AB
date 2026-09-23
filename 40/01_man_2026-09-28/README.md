@@ -67,6 +67,8 @@ Items:
 - a shiny brass lamp
 ```
 
+> Formatet på udskrifterne er op til jer i gruppen – eksemplerne her og i opgaven er forslag.
+
 Spilleren skal kunne samle disse ting op enkeltvis.
 
 Når spilleren tager et item, skal det:

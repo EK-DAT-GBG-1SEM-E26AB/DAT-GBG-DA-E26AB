@@ -11,20 +11,21 @@ exceptions og andre detaljer.
 
 ## Sådan gør I
 
-Reviewet foregår under et møde mellem **programmøren** og **to uvildige reviewere**. Alle tre
-udfylder dette dokument sammen og overdrager det efterfølgende til programmøren.
+Reviewet foregår **gruppe mod gruppe**: to grupper sætter sig sammen og reviewer hinandens kode –
+først den ene gruppes, så den andens. Den gruppe, der bliver reviewet, er "programmørerne"; den
+anden gruppe er reviewere. I udfylder dette dokument sammen, og reviewerne overdrager det
+efterfølgende til programmørerne.
 
-1. Én af reviewerne cloner projektet fra GitHub og åbner det i IntelliJ.
-2. Den anden reviewer skriver noter i en kopi af dette dokument.
-3. Både reviewere og programmør følger med på skærmen med projekt-koden.
+1. Én fra reviewer-gruppen cloner projektet fra GitHub og åbner det i IntelliJ.
+2. En anden fra reviewer-gruppen skriver noter i en kopi af dette dokument.
+3. Både reviewere og programmører følger med på skærmen med projekt-koden.
 
 | | |
 |---|---|
-| **Programmør** | *navn* |
+| **Gruppen, der reviewes** | *navne* |
 | **GitHub repository** | *url* |
 | **Commit hash** (7 cifre) | |
-| **Reviewer 1** | *navn* |
-| **Reviewer 2** | *navn* |
+| **Reviewer-gruppen** | *navne* |
 
 ### Sådan læses skemaerne
 
@@ -149,5 +150,5 @@ sted i en metode, der afviger.
 ## Yderligere kommentarer til koden fra reviewerne
 
 *Her kan I skrive yderligere noter, som I reviewere måtte have – ting der ikke lige passer ind i
-skemaerne ovenfor. Ros til særligt elegant kode, spørgsmål til hvordan programmøren fandt på en
+skemaerne ovenfor. Ros til særligt elegant kode, spørgsmål til hvordan programmørerne fandt på en
 eller anden løsning!*

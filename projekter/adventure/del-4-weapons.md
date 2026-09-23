@@ -87,7 +87,7 @@ You are carrying: a shiny brass lamp, a rusty sword, an old revolver
 Equipped: an old revolver
 
 > attack
-You fire the old revolver into the empty air. 5 shots left.
+You fire the old revolver at the empty air. 5 shots left.
 ```
 
 ### Koden
@@ -106,9 +106,10 @@ omkring i spillet, og tilføjer dem til rooms, som var de almindelige items.
 | | | |
 |:--:|:--:|:--:|
 | <img src="images/vaaben-pistol.jpg" alt="Forladepistol" width="200"> | <img src="images/vaaben-kasteknive.jpg" alt="Kasteknive" width="150"> | <img src="images/vaaben-hellebard.jpg" alt="Hellebard" width="200"> |
-| **RangedWeapon**<br/>begrænset ammunition | **RangedWeapon**<br/>tre kast, så er de væk | **MeleeWeapon**<br/>bruges igen og igen |
+| **RangedWeapon**<br/>begrænset ammunition | **RangedWeapon**<br/>tre kast, så er den tom | **MeleeWeapon**<br/>bruges igen og igen |
 
-* **`RangedWeapon`** – har et begrænset antal brug, før det "løber tør" og bliver ubrugeligt
+* **`RangedWeapon`** – har et begrænset antal brug, før det "løber tør" og bliver ubrugeligt. Et
+  tomt våben forsvinder ikke – det ligger stadig i inventory, med 0 brug tilbage
 * **`MeleeWeapon`** – kan normalt bruges et utal af gange
 
 ```mermaid
@@ -123,16 +124,21 @@ classDiagram
         +getDamage() int
         +canUse()* boolean
         +use()*
+        +getAttackVerb()* String
+        +getUsesLeftText()* String
     }
     class MeleeWeapon {
         +canUse() boolean
         +use()
+        +getAttackVerb() String
+        +getUsesLeftText() String
     }
     class RangedWeapon {
         -int ammunition
         +canUse() boolean
         +use()
-        +getAmmunition() int
+        +getAttackVerb() String
+        +getUsesLeftText() String
     }
     class Player {
         -Weapon equipped
@@ -146,6 +152,9 @@ classDiagram
     Weapon <|-- RangedWeapon
 ```
 
+Ligesom `eat` skriver `equip` og `attack` ikke selv noget ud: de returnerer et udfald – fx en enum
+som `EatResult` – og brugerfladen `switch`er på det og skriver beskeden.
+
 #### Kun superklassen må kendes
 
 Disse subklasser må **kun** bruges til at oprette våben i `Map` – alle andre steder må der kun
@@ -156,8 +165,23 @@ der er erklærede i `Weapon`-klassen.
 
 Så hvis `RangedWeapon` skal kunne sige, om der er skud tilbage, er der nødt til at være en metode
 i `Weapon` (`canUse()`), som **overrides** i både `MeleeWeapon` (altid `true`) og `RangedWeapon`
-(`ammunition > 0`). Vil I vise antal skud tilbage (som i eksemplet), så lad `use()` returnere
-antallet af resterende brug, og lad `MeleeWeapon` returnere fx `-1` for "ubegrænset".
+(`ammunition > 0`).
+
+Det samme gælder beskeden ved `attack`: et sværd skal *svinges*, og en revolver skal *affyres* –
+men brugerfladen må ikke spørge, hvilken slags våben den har fat i. Lad i stedet våbenet selv
+levere teksten: `Weapon` får en abstrakt metode `getAttackVerb()`, som `MeleeWeapon` implementerer
+med `return "swing";` og `RangedWeapon` med `return "fire";`.
+
+Vil I vise antal skud tilbage (som i eksemplet), så gør det på samme måde med `getUsesLeftText()`:
+`RangedWeapon` returnerer fx `"5 shots left."` ud fra sin `ammunition`, og `MeleeWeapon` returnerer
+en tom streng `""`. Så kan brugerfladen skrive beskeden for alle slags våben på én gang:
+
+```java
+System.out.println("You " + weapon.getAttackVerb() + " " + weapon.getLongName()
+        + " at the empty air. " + weapon.getUsesLeftText());
+```
+
+Og kommer der senere en tryllestav, skriver den bare sin egen tekst – brugerfladen skal ikke ændres.
 
 > **Så altså: der må IKKE være noget kode, der tjekker typen af et weapon-objekt**, som f.eks.:
 >
@@ -166,6 +190,10 @@ antallet af resterende brug, og lad `MeleeWeapon` returnere fx `-1` for "ubegræ
 > ```
 >
 > Det er kun i `Map`, at der hentydes til de forskellige subklasser af `Weapon`.
+>
+> `instanceof Weapon` i `equip` er derimod i orden – det er samme princip som `instanceof Food` i
+> `eat`: man spørger, om tingen overhovedet **er** et våben. Det forbudte er at tjekke, hvilken
+> **slags** våben det er.
 
 #### Weapon er abstrakt
 

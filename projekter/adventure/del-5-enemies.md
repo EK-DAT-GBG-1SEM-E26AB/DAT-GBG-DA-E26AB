@@ -69,6 +69,9 @@ Spillet skal ikke udvides med flere kommandoer, men `attack` skal ændres:
   man have at vide, at det mislykkes.
 * Har man **ikke et våben equipped**, skal man også få at vide, at det mislykkes.
 
+I hvilken rækkefølge I tjekker tingene, er jeres eget designvalg – men et forkert navn må aldrig
+koste et skud.
+
 ### Attack-sekvensen
 
 Attack af fjender er endnu mere kompliceret – så her følger en detaljeret gennemgang af, hvad der
@@ -84,6 +87,9 @@ skal foregå:
 3. **Overlever fjenden, angriber den spilleren** – det sker med det samme, og spilleren kan ikke nå
    at flygte ud af rummet, selv ikke hvis der er angrebet med et langdistancevåben. Fjenden er også
    udstyret med et våben, og spilleren mister health svarende til den damage, dét våben giver.
+   Fjendens våben bruges ligesom spillerens: et skydevåben koster et skud pr. modangreb, og er det
+   tomt, angriber fjenden ikke – spilleren mister ingen health, men får at vide, at fjenden ikke
+   kunne slå igen.
 
 4. **Forudsat at spilleren stadig er i live**, er attack-sekvensen ovre – og spilleren kan vælge at
    gå ud af rummet, skifte våben, eller attack'e igen. Fjender angriber ikke uprovokeret (i hvert
@@ -103,7 +109,7 @@ eller noget helt fjerde – det afhænger af, hvilken verden I har bygget.
 
 Derudover skal brugerfladen udvides, så man sammen med beskrivelsen af et rum får en liste over
 eventuelle fjender. Og når man træder ind i et nyt rum, skal man som minimum have at vide, **om**
-der er fjender i rummet.
+der er fjender i rummet. Skriver man `look`, skal fjendernes **beskrivelse** også vises.
 
 Eksempel:
 
@@ -113,6 +119,7 @@ You are in Room 5
 A small chamber, lit by something you cannot see.
 Here you see: a golden crown
 Beware! Here lurks: a cave troll
+A huge, grey troll guards the chamber, gripping a heavy wooden club.
 
 > attack troll
 You hit the cave troll with the rusty sword for 12 damage.
@@ -150,6 +157,15 @@ Enemy-objekter er ikke Items, men deres helt egne!
   over enemies, samt eventuelt efterlade et item (sit lig).
 * For at kunne gøre det, skal `Enemy` kende det rum, den står i – giv den en `Room`-attribut, der
   sættes i constructoren (ligesom `Player` har `currentRoom`).
+
+> **Pas på to fælder:**
+>
+> * Finder I fjenden med en for-each-løkke over rummets liste af enemies og kalder `hit` inde i
+>   løkken, så **stop løkken** (`return` eller `break`), så snart fjenden er ramt. En fjende, der dør,
+>   fjerner sig selv fra netop den liste – og ændres listen, mens løkken stadig kører, crasher
+>   programmet med en `ConcurrentModificationException`.
+> * `Map` skal **både** give fjenden dens rum i constructoren **og** tilføje den til rummets liste
+>   med `addEnemy`. Glemmer I det ene, forsvinder den døde fjende ikke fra rummet.
 
 ```mermaid
 classDiagram
