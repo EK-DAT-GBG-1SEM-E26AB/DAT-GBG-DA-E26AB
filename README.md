@@ -639,7 +639,7 @@
 | [Bogsamling](projekter/bogsamling/readme.md) | uge 37–38 | |
 | [Adventure](projekter/adventure/readme.md) | uge 39–41 | **X** |
 | Filmsamling | uge 43–45 | **X** |
-| Delfinen | uge 47–50 | **X** |
+| [Delfinen](projekter/delfinen/readme.md) | uge 47–50 | **X** |
 
 <sub>Billeder i repoet er krediteret i [BILLEDER.md](BILLEDER.md).</sub>
 
@@ -707,10 +707,13 @@ desuden en pdf med dokumentation.
 |---|---|---|
 | Hele projektet | uge 43–45 | **ons 04-11-2026 kl. 23:59** |
 
-### Delfinen
+### [Delfinen](projekter/delfinen/readme.md)
 
 | Del | Undervisning | Deadline |
 |---|---|---|
-| Hele projektet | uge 47–50 | **tir 08-12-2026** |
+| Hele projektet: GitHub-link og ITF-diasshow | uge 47–50 | **tir 08-12-2026 kl. 23:59** |
+| Præsentation af diasshowet for ITF | tor 10-12-2026 (ITF-lektionen) | – |
+| Peer review og vejlederfeedback (obligatorisk fremmøde) | fre 11-12-2026 | – |
 
-Delfinen er eksamensprojektet.
+Delfinen er eksamensprojektet og en **gruppeaflevering** i itslearning – se
+[Aflevering](projekter/delfinen/readme.md#aflevering).
