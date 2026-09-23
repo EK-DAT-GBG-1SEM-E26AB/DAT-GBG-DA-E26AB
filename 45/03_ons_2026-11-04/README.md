@@ -5,7 +5,7 @@
 I dag er sidste arbejdsdag på Filmsamlingen. **I aften kl. 23:59** er der deadline for
 afleveringen.
 
-Undervisningen foregår **online** i dag. Der er ingen ny teori – hele dagen er jeres til at:
+Undervisningen foregår **online** i dag. Der er ingen ny teori – undervisningen er jeres til at:
 
 * gøre [del 9 – Sortering](../../projekter/filmsamling/del-9-sortering.md) og eventuelle rester
   færdige

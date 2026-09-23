@@ -2,7 +2,7 @@
 
 ## Beskrivelse
 
-Første hele dag i sprint 2 – og sidste check-in med underviseren før afleveringen.
+Første hele arbejdsdag i sprint 2 – og sidste check-in med underviseren før afleveringen.
 
 Som ved de to første check-ins er **I i lokalet, og underviseren er online**. Hver gruppe har et
 kort møde. Hvornår jeres gruppe er på, får I at vide af underviseren. Resten af dagen arbejder I
