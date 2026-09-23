@@ -361,14 +361,14 @@
   <td><a href="45/03_ons_2026-11-04/README.md">Onsdag 04-11-2026</a></td>
   <td>Projektvejledning</td>
   <td>MICA/MANY</td>
-  <td>Online</td>
+  <td>Online. Deadline for filmsamling kl. 23:59</td>
 </tr>
 <tr>
   <td></td>
   <td><a href="45/04_tor_2026-11-05/README.md">Torsdag 05-11-2026</a></td>
   <td>Forberedelse af code review</td>
   <td></td>
-  <td>Deadline for filmsamling</td>
+  <td></td>
 </tr>
 <tr>
   <td></td>
@@ -704,7 +704,7 @@ en pdf med dokumentation.
 
 | Del | Undervisning | Deadline |
 |---|---|---|
-| Hele projektet | uge 43–45 | **tor 05-11-2026** |
+| Hele projektet | uge 43–45 | **ons 04-11-2026 kl. 23:59** |
 
 ### Delfinen
 
