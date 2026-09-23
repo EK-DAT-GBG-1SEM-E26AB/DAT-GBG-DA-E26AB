@@ -31,11 +31,12 @@ og hver gruppe reviewer den anden gruppes projekt – først det ene, så det an
 ### Torsdag 05-11: forberedelse
 
 1. Find den anden gruppes repository (linket står i deres `README.md`, eller spørg dem).
-2. Find den **seneste commit før deadline** onsdag 04-11 kl. 23:59 i listen over commits på GitHub,
-   og notér de første 7 tegn af dens hash. Det er den version, I reviewer.
-3. Clone repositoriet i IntelliJ (**File → New → Project from Version Control**). Har gruppen
-   pushet efter deadline, så gå til den noterede commit: i IntelliJ's **Git**-vindue, fanen
-   **Log**, højreklik på commit'en → **Checkout Revision**.
+2. Clone repositoriet i IntelliJ (**File → New → Project from Version Control**). I reviewer den
+   version, der ligger på **`main` på GitHub, når reviewet starter** fredag. Lav derfor et
+   **pull** fredag, lige før I går i gang, så I har den nyeste version – og notér de første 7 tegn
+   af hashen på den commit, I reviewer.
+3. Kan I ikke finde ud af, hvilken gruppe I skal reviewe, så review den samme gruppe som ved
+   øvelsen mandag 02-11, og skriv til underviseren.
 4. Kør programmet. Kør alle tests.
 5. Læs koden, og udfyld skemaet så langt, I kan. Skriv spørgsmål ned til fredag – ting, I ikke
    forstår, eller som I ville have løst anderledes.

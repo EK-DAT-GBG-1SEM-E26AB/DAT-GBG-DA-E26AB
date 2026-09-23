@@ -232,14 +232,17 @@ fem** punkter herunder **krav**. Mangler ét af dem, er afleveringen ikke godken
 > **Er I ikke nået alle user stories, så aflevér alligevel** – de fem krav ovenfor skal være
 > opfyldt, men skriv i README'en, hvilke user stories der mangler. Et link, der er afleveret til
 > tiden, er langt bedre end intet link.
+>
+> **Aflevér det, I har, inden deadline, og skriv i afleveringen, hvad der mangler.** Opgaven i
+> itslearning lukker ved deadline – der er ingen aflevering efter.
 
 ### Efter afleveringen
 
 Fredag 06-11 laver grupperne **code review** af hinandens afleverede projekter efter
 [review-skemaet](kode-review.md): underviseren parrer grupperne, og de to grupper sidder sammen og
 reviewer **hele gruppe mod hele gruppe** hinandens kode på skift. Torsdag 05-11 (uden underviser)
-forbereder I jer ved at clone og læse den anden gruppes kode. Reviewet foregår på den commit, der lå i repositoriet ved deadline –
-så hvad I pusher efter 04-11 kl. 23:59, tæller ikke med.
+forbereder I jer ved at clone og læse den anden gruppes kode. Reviewet foregår på den version,
+der ligger på `main` på GitHub, når reviewet starter.
 
 Datoerne står også i [projektoversigten på forsiden](../../README.md#afleveringer-og-deadlines).
 

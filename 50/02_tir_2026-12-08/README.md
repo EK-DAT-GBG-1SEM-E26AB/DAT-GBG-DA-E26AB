@@ -147,7 +147,8 @@ dem i rækkefølge, og tag dem **i dag** – ikke kl. 23:50.
 > **Vent ikke til 23:55.** itslearning og GitHub har det med at drille, når man har travlt.
 > Aflevér hellere tidligt, og aflevér igen senere, hvis I når at rette noget.
 
-**Bliver I ikke helt færdige**, så aflevér det, I har – og skriv i `README.md`, hvad der mangler.
+**Bliver I ikke helt færdige**, så aflevér det, I har, inden deadline – og skriv i afleveringen og i
+`README.md`, hvad der mangler. Opgaven i itslearning lukker kl. 23:59; der er ingen aflevering efter.
 Et program, hvor formandens og kassererens del virker og er testet, er langt bedre end ingen
 aflevering.
 

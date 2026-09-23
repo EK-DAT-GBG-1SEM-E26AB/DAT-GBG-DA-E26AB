@@ -64,8 +64,9 @@ fordi ..."* er et fint svar.
 
 * Repoets `README.md` fortæller, hvordan programmet startes, og hvilke krav der er lavet.
 * Eksempeldata ligger i repoet, så reviewerne kan prøve programmet med det samme.
-* Find **hash'en** på jeres afleverede commit (de første 7 tegn, se *Git → Log* i IntelliJ eller
-  *Commits* på GitHub). Reviewet sker på den version.
+* Find **hash'en** på den nyeste commit på `main` (de første 7 tegn, se *Git → Log* i IntelliJ
+  eller *Commits* på GitHub). Reviewet sker på den version, der ligger på `main` på GitHub, når
+  reviewet starter.
 
 ---
 
@@ -179,8 +180,9 @@ peer reviewet.
 
 Læg gerne noterne fra reviewet i `docs/peer-review.md` i jeres repo, så hele gruppen har dem.
 
-Reviewet og vejlederfeedbacken tager udgangspunkt i den commit, I afleverede 08-12. Vi anbefaler, at
-I venter med at rette i koden til efter 11-12, så alle ser den samme version. Filer i `docs/`
+Reviewet og vejlederfeedbacken tager udgangspunkt i den version, der ligger på `main` på GitHub,
+når reviewet starter. Vi anbefaler, at I venter med at rette i koden til efter 11-12, så alle ser
+den samme version – den, I afleverede. Filer i `docs/`
 må gerne komme til efter afleveringen.
 
 > **Kan en af jer ikke deltage 11-12?** Kontakt underviseren i god tid.

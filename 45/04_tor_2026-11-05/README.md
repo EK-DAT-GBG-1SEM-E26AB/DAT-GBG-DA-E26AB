@@ -18,7 +18,7 @@ ligger sorteringen i `Controller` og ikke i `MovieCollection`?"*
 
 Når du har arbejdet med dagens materiale, skal du kunne:
 
-* clone et andet repository og åbne en bestemt commit i IntelliJ
+* clone et andet repository, åbne det i IntelliJ og finde hashen på en bestemt commit
 * køre et ukendt program og dets tests og vurdere resultatet
 * læse en anden gruppes kode systematisk efter et skema
 * formulere konkrete fund og spørgsmål med klasse, metode og linjenummer
@@ -38,31 +38,28 @@ især afsnittet [Torsdag 05-11: forberedelse](../../projekter/filmsamling/kode-r
 Underviseren parrer grupperne. Parringen står der, hvor underviseren har lagt den – i itslearning
 eller Teams.
 
-**Kan I ikke finde den?** Så skriv til underviseren i itslearning eller Teams med det samme. Mens
-I venter på svar, kan I gå i gang med den gruppe, I reviewede ved øvelsen mandag 02-11 – men
-hvem I endeligt skal reviewe, aftales med underviseren.
+**Kan I ikke finde ud af, hvilken gruppe I skal reviewe?** Så review den **samme gruppe som ved
+øvelsen mandag 02-11**, og skriv til underviseren, at I gør det.
 
 Når I kender den anden gruppe, skal I bruge **linket til deres repository**. Det står i deres
 `README.md`, eller I kan spørge dem direkte. De sidder med præcis samme opgave i dag.
 
 ---
 
-### Den rigtige version: sidste commit før deadline
+### Den rigtige version: `main` på GitHub, når reviewet starter
 
-I reviewer den version, der lå i repositoriet ved deadline, **onsdag 04-11 kl. 23:59**. Har gruppen
-pushet noget efter deadline, skal det ikke med.
-
-1. Åbn repositoriet på GitHub, og klik på antallet af **commits** over fillisten.
-2. Find den **nyeste commit før onsdag kl. 23:59**. Datoen står over hver gruppe af commits, og
-   klokkeslættet ser I ved at holde musen over "committed ...".
-3. Notér de første **7 tegn** af dens hash – den står til højre, fx `a3f9c21`. Den skal i skemaet.
+I reviewer den version, der ligger på **`main` på GitHub, når reviewet starter** i morgen. I dag
+forbereder I jer på den version, der ligger der nu.
 
 **Clone** repositoriet i IntelliJ: **File → New → Project from Version Control**, og indsæt linket.
+I skal ikke committe noget i den andens repository.
 
-Har gruppen pushet efter deadline, så gå tilbage til den noterede commit: åbn **Git**-vinduet
-(<kbd>Alt</kbd>+<kbd>9</kbd>, på Mac <kbd>Cmd</kbd>+<kbd>9</kbd>), fanen **Log**, højreklik på
-commit'en → **Checkout Revision**. IntelliJ siger nu, at I er i *detached HEAD* – det betyder bare,
-at I kigger på en gammel version. I skal ikke committe noget i den andens repository.
+I morgen, lige før reviewet starter:
+
+1. Hent den nyeste version med **Git → Pull** i IntelliJ, så I har det, der ligger på `main`.
+2. Åbn repositoriet på GitHub, og klik på antallet af **commits** over fillisten. Den øverste er
+   den nyeste.
+3. Notér de første **7 tegn** af dens hash – den står til højre, fx `a3f9c21`. Den skal i skemaet.
 
 > **Pas på, I ikke kommer til at ændre i jeres eget projekt.** Clone den anden gruppes projekt i en
 > **ny** mappe og et **nyt** IntelliJ-vindue. Luk jeres eget projekt, hvis I er i tvivl om, hvilket
@@ -144,19 +141,19 @@ at vide, hvad de skal blive ved med.
 
 Nåede I ikke at aflevere i går, eller mangler noget af det, der skal til?
 
-* **Ikke afleveret?** Skriv til underviseren i dag, hvad der skete. Filmsamling skal være
-  afleveret for at kunne indstilles til eksamen, så vent ikke. Om og hvordan I kan aflevere efter
-  deadline, aftales med underviseren.
-* **Mangler et af de fem krav?** Skriv til underviseren, hvad der mangler, og hvornår det kan være
-  der. Gør det i dag – hvad der så skal ske, aftales med underviseren.
+* **Ikke afleveret?** Opgaven i itslearning lukkede ved deadline – der er ingen aflevering efter.
+  Skriv til underviseren i dag, hvad der skete. Filmsamling skal være afleveret for at kunne
+  indstilles til eksamen, så vent ikke.
+* **Mangler et af de fem krav?** Så skulle I have afleveret det, I havde, og skrevet i
+  afleveringen, hvad der mangler. Har I ikke gjort det, så skriv det til underviseren i dag.
 * **Forbered reviewet alligevel.** Den anden gruppe har krav på et ordentligt review af deres kode,
   uanset hvordan det gik med jeres. Gør forberedelsen færdig først, og brug så resten af dagen på
   jeres egne rester.
 * **Er I kun én fra gruppen i dag?** Lav forberedelsen alene, så godt du kan, og del dine noter med
   resten af gruppen.
 
-Det, I retter i jeres eget projekt i dag, kommer **ikke** med i fredagens review – det foregår på
-den version, der lå der ved deadline. Men det er stadig værd at rette.
+Fredagens review foregår på den version, der ligger på `main` på GitHub, når reviewet starter. Det
+er stadig værd at rette i jeres eget projekt – men gør forberedelsen færdig først.
 
 ---
 
@@ -175,7 +172,7 @@ skal I forklare jeres kode til den anden gruppe. Alle i gruppen skal kunne svare
 ## Det vigtigste at tage med
 
 * der er **ingen underviser** i dag – siden her er jeres plan
-* review **den sidste commit før deadline** – notér de 7 første tegn af hashen
+* review den version, der ligger på **`main` på GitHub, når reviewet starter** – notér de 7 første tegn af hashen
 * clone i en **ny** mappe og et **nyt** vindue; ændr intet i den anden gruppes repository
 * kør programmet og testene **før** I læser koden
 * del klasserne mellem jer, men gå fundene igennem **sammen**
@@ -187,7 +184,7 @@ skal I forklare jeres kode til den anden gruppe. Alle i gruppen skal kunne svare
 ### 1. Kom i gang (første halve time)
 
 Læs siden igennem sammen. Find ud af, hvilken gruppe I skal reviewe, find deres repository, og
-notér hashen på den sidste commit før deadline.
+clone det.
 
 ### 2. Kør og læs (formiddag)
 

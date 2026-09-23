@@ -38,8 +38,8 @@ ved præcis, hvad der skal afleveres.
 
 ### Sådan foregår dagen online
 
-Underviseren lægger **link og tidspunkter** til dagens online-vejledning i itslearning eller Teams.
-Hold øje med det om morgenen – planen for dagen, fx en fælles start og tider til vejledning, står
+Underviseren lægger **link og tidspunkter** til dagens online-vejledning i **klassens kanal i
+Teams** (kanal A eller B i klassens team). Hold øje med det om morgenen – planen for dagen, fx en fælles start og tider til vejledning, står
 der.
 
 Mellem vejledningerne arbejder I i gruppen. Sæt jer sammen, eller lav et fælles opkald i Teams, hvor
@@ -180,9 +180,11 @@ itslearning (E26A og E26B har hver sit).
 
 ### Efter deadline
 
-Fredagens [code review](../../projekter/filmsamling/kode-review.md) foregår på den **seneste commit
-før deadline**. Det, I pusher efter kl. 23:59, tæller ikke med – hverken i afleveringen eller i
-reviewet. I må gerne arbejde videre på projektet bagefter, men så ved I det.
+Opgaven i itslearning **lukker kl. 23:59** – der er ingen aflevering efter. Er I ikke færdige, så
+aflevér det, I har, inden deadline, og skriv i afleveringen, hvad der mangler.
+
+Fredagens [code review](../../projekter/filmsamling/kode-review.md) foregår på den version, der
+ligger på **`main` på GitHub, når reviewet starter**.
 
 I morgen, torsdag, er der ingen underviser. I forbereder fredagens review ved at læse den anden
 gruppes kode – se [torsdagens side](../04_tor_2026-11-05/README.md).
@@ -196,7 +198,7 @@ gruppes kode – se [torsdagens side](../04_tor_2026-11-05/README.md).
 * **fem krav**: README, klassediagram i `docs`, `docs/furps.md`, grønne tests og commits fra alle
 * repositoriet skal være **public** – test linket i et privat browservindue
 * push jeres kode, **før** I får vejledning, og formulér et præcist spørgsmål
-* aflevér hellere tidligt end i sidste øjeblik; efter 23:59 tæller intet med
+* aflevér hellere tidligt end i sidste øjeblik; opgaven i itslearning lukker kl. 23:59
 
 ## Aktiviteter i undervisningen
 
@@ -214,7 +216,7 @@ Arbejd **kun** på den midterste liste, indtil den er tom.
 ### 2. Gør det færdigt – med vejledning
 
 Arbejd med [del 9](../../projekter/filmsamling/del-9-sortering.md) og det, der ellers mangler.
-Vejledningen foregår online efter den plan, underviseren har lagt i itslearning eller Teams.
+Vejledningen foregår online efter den plan, underviseren har lagt i klassens kanal i Teams.
 
 > **Sæt et stoppunkt.** Aftal i gruppen, hvornår I stopper med at lave nye ting – fx kl. 14. Derefter
 > retter I kun fejl, skriver dokumentation og afleverer.

@@ -51,8 +51,8 @@ vejlederfeedback er. Hold øje med det, så alle fire er der, når det er jeres 
 
 Fra [Før 11-12: forbered jer](../../projekter/delfinen/peer-review.md#før-11-12-forbered-jer):
 
-- [ ] **Commit-hash** på den afleverede version: de første 7 tegn af den nyeste commit på `main` ved
-      deadline 08-12. Reviewet sker på den version.
+- [ ] **Commit-hash**: de første 7 tegn af den nyeste commit på `main`. Reviewet sker på den
+      version, der ligger på `main` på GitHub, når reviewet starter.
 - [ ] `README.md` fortæller, hvordan programmet startes, og hvilke krav der er lavet.
 - [ ] Eksempeldata ligger i repoet, så reviewerne kan prøve programmet med det samme.
 - [ ] **Selvrefleksion** i `docs/selvrefleksion.md` – ikke et krav, men **anbefalet**. Den er jeres

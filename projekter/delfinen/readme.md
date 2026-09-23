@@ -321,7 +321,9 @@ Laves i punktform i et diasshow (PowerPoint) som afleveres 8. december. Hver gru
 **Hvor:** i itslearning → jeres klasserum (E26A eller E26B) → afleveringsopgaven
 **"Delfinen – aflevering"**.
 
-**Hvornår:** **tirsdag 08-12-2026 kl. 23:59.**
+**Hvornår:** **tirsdag 08-12-2026 kl. 23:59.** Opgaven i itslearning lukker ved deadline – der er
+ingen aflevering efter. **Aflevér det, I har, inden deadline, og skriv i afleveringen, hvad der
+mangler.**
 
 **Hvem:** det er en **gruppeaflevering**. "Delfinen – aflevering" er sat op som en gruppeopgave i
 itslearning, og **én af jer afleverer link og diasshow på vegne af hele gruppen**. Før I

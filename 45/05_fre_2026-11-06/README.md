@@ -40,7 +40,9 @@ review-skemaet.
 ### Dagens forløb
 
 Planen herunder er et **forslag**. Underviseren fortæller ved dagens start, hvordan det bliver:
-hvem der sidder med hvem, og hvor lang tid der er til hver runde.
+hvem der sidder med hvem, og hvor lang tid der er til hver runde. Kan I ikke finde ud af, hvilken
+gruppe I skal reviewe, så review den **samme gruppe som ved øvelsen mandag 02-11**, og skriv til
+underviseren.
 
 | Del | Hvad | Forslag til tid |
 | --- | --- | --- |
@@ -131,9 +133,9 @@ opgaver. I kommer til at bruge dem igen i Delfinen.
 
 ### Efter reviewet
 
-Afleveringen er lukket, og reviewet handler om den version, der lå der ved deadline. I må gerne
-rette det, I har fået at vide – det bliver jeres kode bedre af – men det tæller ikke med i
-afleveringen.
+Afleveringen er lukket, og reviewet handler om den version, der lå på `main` på GitHub, da
+reviewet startede. I må gerne rette det, I har fået at vide – det bliver jeres kode bedre af – men
+det tæller ikke med i afleveringen.
 
 Det vigtigste, I tager med, er ikke rettelserne. Det er **vanerne**: de ting, I vil gøre fra
 starten næste gang. Det er det, refleksionen handler om.
@@ -183,8 +185,8 @@ eksamensprojekt.
 
 ### 1. Gør klar (første kvarter)
 
-Sæt jer sammen med den anden gruppe. Åbn begge projekter på den commit, der lå der ved deadline,
-og find skemaerne fra i går frem. Aftal, hvilken gruppe der starter.
+Sæt jer sammen med den anden gruppe. Hent den nyeste version af begge projekter fra `main` på
+GitHub (**Git → Pull**), notér hashen, og find skemaerne fra i går frem. Aftal, hvilken gruppe der starter.
 
 ### 2. Runde 1 og runde 2
 
