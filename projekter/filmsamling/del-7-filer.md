@@ -68,7 +68,7 @@ der skriver en stor fil igen og igen uden grund, er både langsomt og slider på
 > ```java
 > PrintStream output = new PrintStream(new File("movies.csv"));
 > output.println("en linje");
-> output.close();   // vigtigt: ellers bliver det sidste måske aldrig skrevet
+> output.close();   // vigtigt: luk altid filen, når I er færdige med den
 > ```
 >
 > **Læs fra en fil:** lav en `Scanner` med et `File`-objekt i stedet for `System.in`.
