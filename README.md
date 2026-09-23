@@ -296,7 +296,7 @@
 <tr>
   <td></td>
   <td><a href="43/04_tor_2026-10-22/README.md">Torsdag 22-10-2026</a></td>
-  <td>(emne følger)</td>
+  <td>Delfi-evaluering med de studerende</td>
   <td>MANY</td>
   <td></td>
 </tr>
@@ -361,7 +361,7 @@
   <td><a href="45/03_ons_2026-11-04/README.md">Onsdag 04-11-2026</a></td>
   <td>Projektvejledning</td>
   <td>MICA/MANY</td>
-  <td></td>
+  <td>Online</td>
 </tr>
 <tr>
   <td></td>
@@ -435,7 +435,7 @@
   <td><a href="47/03_ons_2026-11-18/README.md">Onsdag 18-11-2026</a></td>
   <td>Sprint planning, checkin</td>
   <td>MANY/TOG</td>
-  <td>Online</td>
+  <td>Underviser online, I er i lokalet</td>
 </tr>
 <tr>
   <td></td>
@@ -470,7 +470,7 @@
   <td><a href="48/03_ons_2026-11-25/README.md">Onsdag 25-11-2026</a></td>
   <td>Projektarbejde 1. sprint, checkin</td>
   <td>TOG/MANY</td>
-  <td>Online</td>
+  <td>Underviser online, I er i lokalet</td>
 </tr>
 <tr>
   <td></td>
@@ -505,7 +505,7 @@
   <td><a href="49/03_ons_2026-12-02/README.md">Onsdag 02-12-2026</a></td>
   <td>Projektarbejde 2. sprint, checkin</td>
   <td>TOG/MANY</td>
-  <td>Online</td>
+  <td>Underviser online, I er i lokalet</td>
 </tr>
 <tr>
   <td></td>
