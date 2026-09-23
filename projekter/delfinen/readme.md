@@ -297,24 +297,15 @@ gantt
 
 ---
 
-## ITF-delen
+## IT- og Forretningsudvikling
 
 Delfinen er et **fælles projekt med IT- og Forretningsudvikling (ITF)**. Ud over programmet
-laver I **ét diasshow med jeres svar på ITF's opgaver** til projektet. ITF-underviseren læser
-det og godkender eller afviser det.
+laver I **ét diasshow med jeres svar på ITF's opgaver** til projektet. I IT- og Forretningsudvikling 
+skal I lave: 
 
-* **Opgaverne står i ITF's emne i itslearning**, ikke her. Læs dem, så snart de ligger der.
-* Diasshowet **afleveres sammen med programmet** i "Delfinen – aflevering", **tirsdag 08-12-2026
-  kl. 23:59** (se [Aflevering](#aflevering)).
-* I **præsenterer diasshowet** for ITF-underviseren i ITF-timen **torsdag 10-12-2026**.
-* ITF-opgaverne handler om projektet og klubben set fra forretningens side. Fra ITF kender I fx
-  interessentanalyse og risikoanalyse (01-10). Hvad ITF præcis beder om til Delfinen, står i ITF's
-  opgaver.
-* ITF har **projektvejledning torsdag 26-11**. Tidspunktet for jeres gruppe står i ITF's plan i
-  itslearning.
-
-> **Fordel arbejdet.** ITF-delen er også gruppearbejde. Sæt den på boardet som opgaver i sprintet,
-> så den ikke bliver glemt, mens I koder.
+ • Interessentanalyse inkl. interessentmatrix, interessentanalysetabel, informationstabel (kommunikationsplan/håndteringsplan).  
+ • Risikoanalyse, herunder udvidet risikotabel.
+Laves i punktform i et diasshow (PowerPoint) som afleveres 8. december. Hver gruppe præsenterer deres diasshow den 10. december i IT- og Forretningsudvikling.
 
 ---
 
