@@ -17,6 +17,9 @@ I dag lærer I at lave branches, skifte mellem dem, merge dem, løse konflikter 
 terminalen og i IntelliJ. Og I lærer den arbejdsgang, I skal bruge i Delfinen fra i dag:
 **én branch pr. user story, og `main` kan altid køre.**
 
+Grundbegreberne og en nødhjælp, når noget går galt, står i
+[Git i IntelliJ](../../00_vejledninger/git/README.md).
+
 ## Læringsmål
 
 Når du har arbejdet med dagens materiale, skal du kunne:

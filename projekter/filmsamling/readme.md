@@ -105,7 +105,8 @@ Vi bruger **ikke branches** i dette projekt – de kommer torsdag 19-11. Alle ar
 > 5. **Push aldrig kode, der ikke kompilerer.** Resten af gruppen puller den.
 
 Går det alligevel galt, og Git melder en **merge-konflikt**, så gå ikke i panik. I øver det i del 0,
-så I ved, hvordan den ser ud, og hvordan den løses.
+så I ved, hvordan den ser ud, og hvordan den løses. Sidder I fast, så slå op i
+[Git-nødhjælpen](../../00_vejledninger/git/noedhjaelp.md).
 
 ### Kode, brugerflade og AI
 
