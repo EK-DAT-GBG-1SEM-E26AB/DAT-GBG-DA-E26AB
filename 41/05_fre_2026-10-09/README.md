@@ -1,231 +1,164 @@
-# Præsentation af færdige projekter
+# Præsentation af færdige Adventure-projekter
 
 ## Beskrivelse
 
-Adventure er afleveret. Tre uger, fem dele og jeres første rigtige objektorienterede program:
-rum, der kender deres naboer, ting i lister, mad og våben med arv og polymorfi, og fjender, der slår
-igen.
+Adventure-projektet er afsluttet. Gennem de seneste uger har I udviklet jeres første større objektorienterede program med blandt andet rum, objektreferencer, ArrayList, arv, polymorfi, abstrakte klasser, våben og fjender.
 
-I dag viser I det frem – og ser, hvordan de andre har løst de samme problemer. Det er en af de
-bedste måder at lære på: alle har bygget det samme spil ud fra de samme krav, men ingen har gjort
-det helt ens.
+I dag skal grupperne præsentere deres færdige spil i plenum.
 
-Dagen har tre dele:
+Præsentationerne gennemføres i den rækkefølge, der fremgår af klassens præsentationsplan:
 
-1. **Præsentationer** – hver gruppe viser sit spil og et stykke kode for holdet
-2. **Kode-review** – grupperne kigger hinandens kode igennem med
-   [review-skemaet](../../projekter/adventure/kode-review.md)
-3. **Refleksion** – hvad tager du med videre?
+- [Præsentationsplan – A-klassen](https://erhvervsakademikbenhavn.sharepoint.com/:x:/r/sites/Team-E26AB/_layouts/15/Doc.aspx?action=edit&sourcedoc=%7B3b88b7b6-20c0-4cac-b2cf-18449771f9ca%7D&wdExp=TEAMS-TREATMENT&web=1)
+- [Præsentationsplan – B-klassen](https://erhvervsakademikbenhavn.sharepoint.com/:x:/r/sites/Team-E26AB/_layouts/15/Doc.aspx?action=edit&sourcedoc=%7B6fbbf830-8885-4e0d-ba00-f8e15f06e3b6%7D&wdExp=TEAMS-TREATMENT&web=1)
+
+Der gennemføres ikke kode-review mellem grupperne. I stedet får hver gruppe mulighed for at vise sit spil og gennemgå en selvvalgt sekvens i koden for resten af klassen.
 
 ## Læringsmål
 
-Når du har arbejdet med dagens materiale, skal du kunne:
+Når du har deltaget i dagens aktiviteter, skal du kunne:
 
-* præsentere dit eget program kort og præcist: hvad det gør, og hvordan det er bygget
-* forklare et designvalg i jeres kode – fx arv, polymorfi eller ansvarsfordeling – med
-  klassediagrammet som støtte
-* stille spørgsmål til og give konstruktiv feedback på andres kode
-* modtage feedback og vælge, hvad du vil gøre med den
-* sætte ord på, hvad du har lært i projektet, og hvad du vil gøre anderledes næste gang
+- demonstrere et færdigt program og forklare dets vigtigste funktioner
+- gennemføre en struktureret walkthrough af en sekvens i programmet
+- forklare, hvordan flere klasser og objekter samarbejder om at løse en opgave
+- begrunde centrale valg i programmets opbygning
+- anvende relevante fagbegreber som objektreferencer, arv, polymorfi, abstrakte klasser og ansvarsfordeling
+- besvare spørgsmål om gruppens kode og løsning
 
-## Se disse videoer før undervisningen:
+## Forberedelse inden undervisningen
 
-Ingen video i dag. Kig i stedet
-[review-skemaet](../../projekter/adventure/kode-review.md) igennem, så I ved, hvad I skal kigge
-efter hos de andre.
+Gruppen skal have forberedt præsentationen inden undervisningen.
 
-## Læs nedenstående før undervisningen
+I skal:
 
----
+1. Kontrollere, at spillet kan startes og afvikles på den computer, der anvendes til præsentationen.
+2. Forberede en kort demonstration af spillet.
+3. Udvælge en sekvens i spillet til en kode-walkthrough.
+4. Finde de relevante klasser og metoder frem i IntelliJ.
+5. Aftale, hvem der præsenterer de enkelte dele.
 
-### Dagens forløb
+Gruppen bestemmer selv, om én person gennemfører hele præsentationen, eller om gruppemedlemmerne deler opgaven mellem sig.
 
-Planen herunder er et **forslag**. Underviseren fortæller ved dagens start, hvordan det bliver:
-rækkefølgen, hvor lang tid der er, og om holdet deles i mindre runder.
+Alle gruppemedlemmer skal dog kunne forklare gruppens løsning og besvare spørgsmål til koden.
 
-| Del | Hvad | Forslag til tid |
-| --- | --- | --- |
-| 1 | Præsentationer – 10 minutter pr. gruppe | formiddagen |
-| 2 | Kode-review – to grupper reviewer hinanden | efter frokost |
-| 3 | Refleksion – individuelt, derefter i gruppen | sidste halve time |
+## Præsentationen
 
-Er der mange grupper, kan holdet deles i to eller tre mindre runder, der præsenterer for hinanden
-på samme tid. Så bliver dagen ikke til tre timers lytning, og der bliver bedre tid til spørgsmål.
+Hver præsentation består af tre dele.
 
----
+### 1. Demonstration af spillet
 
-### Præsentationen: 10 minutter
+Start med at præsentere og demonstrere jeres spil.
 
-Fra [del 5](../../projekter/adventure/del-5-enemies.md#feedback) har hver gruppe **10 minutter**
-til at:
+Fortæl kort:
 
-* køre programmet (vis f.eks. en sjov feature) – brug maks. 2 minutter
-* præsentere kode, f.eks. noget I er særligt stolte over
-* tage spørgsmål fra resten af holdet (maks. 4 minutter)
+- hvad spillet hedder
+- hvilken verden eller historie spillet foregår i
+- hvad spilleren kan gøre
+- om I har lavet særlige funktioner eller udvidelser
 
-Et forslag til, hvordan de 10 minutter kan fordeles:
+Kør derefter en kort, forberedt sekvens i spillet. Det kan eksempelvis være:
 
-| Tid | Indhold |
-| --- | --- |
-| 2 min | **Demo.** Spil jeres spil – vis en sjov feature eller en kamp mod en fjende. |
-| 1 min | **Design.** Vis klassediagrammet, og peg på ét arveforhold og én association. |
-| 3 min | **Kode.** Ét stykke kode, I er stolte af – og, hvis tiden rækker, ét sted, I ville refaktorere. |
-| 4 min | **Spørgsmål** fra holdet. |
+- at bevæge sig mellem rummene
+- at samle ting op og anvende dem
+- at spise mad og ændre health
+- at equippe og anvende et våben
+- at kæmpe mod og besejre en fjende
 
-#### Hvad kan I vise?
+Vælg på forhånd de kommandoer, I vil anvende, så demonstrationen bliver kort og sammenhængende.
 
-Fra del 5 – lidt inspiration:
+### 2. Kode-walkthrough
 
-* demo af programmet og evt. interessante features
-* udvalgte kodedele, der løser et specifikt problem, f.eks. `eat`- eller `attack`-kommandoen
-* særlige elementer i jeres løsning, f.eks. arv, polymorfi eller enum
-* programmets overordnede design, f.eks. ansvarsfordelingen mellem klasserne
+Efter demonstrationen skal I gennemføre en walkthrough af en selvvalgt sekvens i spillet.
 
-**Det, I er stolte af.** Vælg noget, der var **svært** at få til at virke. Det er næsten altid det
-mest interessante for de andre, fordi de selv har kæmpet med det samme. Gode kandidater:
+En sekvens er et samlet programforløb, hvor flere dele af programmet samarbejder. Det kan eksempelvis være:
 
-* `attack` – hvordan fik I styr på alle udfaldene? Lignede koden jeres aktivitetsdiagram?
-* hvordan `Enemy` selv opdager, at den er død, og fjerner sig fra rummet
-* hvordan `Player` bruger et våben uden at vide, om det er et sværd eller en revolver
-* hvordan beskederne kommer fra `Player` og `Enemy` ud til `UserInterface`
+- `go` – hvordan spilleren flyttes mellem rummene
+- `take` eller `drop` – hvordan items flyttes mellem et rum og inventory
+- `eat` – hvordan mad findes, fjernes og påvirker spillerens health
+- `equip` – hvordan et våben vælges fra inventory
+- `attack` – hvordan spilleren, våbnet, fjenden og brugergrænsefladen samarbejder
+- en fjendes død – hvordan fjenden fjernes fra rummet og efterlader sit våben
 
-**Det, I ville refaktorere.** Det er ikke en tilståelse – det viser, at I kan se jeres egen kode
-udefra. En metode, der er blevet for lang? En klasse med for mange ansvar? Et navn, der ikke længere
-passer? Sig kort, hvad I ville ændre, og **hvorfor**.
+Walkthroughen skal være forberedt. I skal på forhånd have valgt:
 
-#### Forbered jer
+- hvilken kommando eller hændelse der starter sekvensen
+- hvilke klasser og metoder der bliver involveret
+- i hvilken rækkefølge metoderne kaldes
+- hvilke objekter der ændrer tilstand undervejs
+- hvordan resultatet kommer tilbage til `UserInterface` og vises for brugeren
 
-* **Kør programmet** fra den computer, I præsenterer fra – også i dag, selvom det virkede i går.
-* **Skriv demoen ned** som en liste af kommandoer, fx `go east`, `take sword`, `equip sword`,
-  `attack troll`. Så improviserer I ikke, og I når det, I vil vise, på 2 minutter.
-* **Gør skriften stor** i IntelliJ, så bagerste række kan læse koden. *View → Appearance → Enter
-  Presentation Mode* gør det hele på én gang.
-* **Hav klassediagrammet klar** – fx pdf'en fra afleveringen i et vindue ved siden af.
-* **Aftal, hvem der siger hvad.** Alle i gruppen skal kunne svare på spørgsmål om koden – det var
-  også kravet til den endelige aflevering.
+Følg sekvensen trin for trin i IntelliJ. Forklar ikke nødvendigvis hver enkelt kodelinje. Fokusér på samarbejdet mellem objekterne og på, hvorfor ansvaret er placeret i de valgte klasser.
 
----
+Brug de fagbegreber, der passer til jeres løsning, for eksempel:
 
-### Når de andre præsenterer: stil spørgsmål
+- objektreference
+- association
+- arv
+- polymorfi
+- abstrakt klasse
+- enum
+- ArrayList
+- indkapsling
+- ansvarsfordeling
 
-Der er 4 minutter til spørgsmål pr. gruppe. Brug dem. Gode spørgsmål handler om **hvorfor**, ikke
-bare **hvad**:
+### 3. Spørgsmål
 
-* *"Hvorfor ligger den metode i `Player` og ikke i `Room`?"*
-* *"Hvordan ved `attack`, om våbnet kan bruges?"*
-* *"Hvad skete der, da I prøvede at tilføje … ?"*
-* *"Hvis I skulle tilføje en ny slags fjende – hvor mange klasser skulle I så ændre?"*
+Efter demonstrationen og kode-walkthroughen kan underviseren og resten af klassen stille spørgsmål.
 
-Det sidste spørgsmål er værd at stille til alle. Svaret siger meget om, hvor godt polymorfien virker.
+Spørgsmålene kan eksempelvis handle om:
 
----
+- hvorfor en metode er placeret i en bestemt klasse
+- hvordan objekterne kommunikerer
+- hvordan arv eller polymorfi anvendes
+- hvordan gruppen håndterer de forskellige udfald af en kommando
+- hvilke dele af løsningen der var sværest
+- hvad gruppen ville ændre eller forbedre med mere tid
 
-### Kode-review
+## Praktiske råd
 
-Fra [projektbeskrivelsen](../../projekter/adventure/readme.md#afleveringer-og-deadlines): i dag
-laver grupperne **kode-review** af hinandens projekter efter
-[review-skemaet](../../projekter/adventure/kode-review.md).
+- Hav projektet åbent og klar i IntelliJ, inden det er jeres tur.
+- Test den planlagte spilsekvens på forhånd.
+- Hav de relevante klasser og metoder åbne i faner.
+- Gør teksten stor nok til, at hele klassen kan læse den.
+- Brug eventuelt IntelliJs **Presentation Mode**.
+- Luk uvedkommende programmer og notifikationer.
+- Hold øje med tiden, og prioritér de vigtigste dele.
+- Hav gerne jeres klasse- eller aktivitetsdiagram klar, hvis det hjælper forklaringen.
 
-Reviewet foregår **gruppe mod gruppe**: to grupper sætter sig sammen og reviewer **hinanden** –
-først den ene gruppes kode, så den andens. Den gruppe, der bliver reviewet, er "programmørerne":
+## Når de andre grupper præsenterer
 
-1. Én fra reviewer-gruppen cloner projektet fra GitHub og åbner det i IntelliJ.
-2. En anden fra reviewer-gruppen skriver noter i en kopi af skemaet.
-3. Både reviewere og programmører følger med på skærmen.
+Når en anden gruppe præsenterer, skal I lytte aktivt og være klar til at stille spørgsmål.
 
-Et par ting, så det går glat:
+Læg især mærke til:
 
-* **Commit-hash.** Skriv de første 7 tegn af den commit, I reviewer, i skemaet. På GitHub står den
-  ved siden af den nyeste commit. Så er det tydeligt, præcis hvilken version reviewet handler om.
-* **Vælg klasser.** Skemaet skal gentages for hver klasse, og det når I ikke for hele programmet.
-  Vælg 2–3 klasser, fx `Player`, `Enemy` og `Weapon` eller én af dens subklasser.
-* **Spring over, hvad der ikke passer.** Skemaet siger selv, at irrelevante spørgsmål skal slettes –
-  fx afsnittet om exceptions, som I ikke har haft endnu.
-* **Ikke brugerfladen.** Der er *"ikke fokus på brugergrænseflade og brugeroplevelsen"* – det er
-  koden, I kigger på.
-* **Giv skemaet til programmørerne** bagefter. Det er deres feedback.
+- hvordan deres løsning adskiller sig fra jeres
+- hvor ansvaret er placeret i deres klasser
+- hvordan deres objekter samarbejder
+- hvordan de anvender arv og polymorfi
+- hvilke problemer de har løst på en anden måde end jer
 
-#### Sådan giver I god feedback
-
-Feedback skal gøre koden bedre – ikke vise, hvor kloge reviewerne er.
-
-* **Vær konkret.** *"`doStuff()` i `Player` fortæller ikke, hvad den gør"* er brugbart. *"Navnene er
-  lidt dårlige"* er ikke.
-* **Tal om koden, ikke om personen.** *"Metoden er lang"* – ikke *"du skriver lange metoder"*.
-* **Spørg, før du dømmer.** Der kan være en god grund. *"Hvorfor er `health` `public`?"* åbner en
-  samtale; *"`health` skal være `private`"* lukker den.
-* **Ros det, der er godt.** Skemaet har et felt til det – *"Ros til særligt elegant kode"*. Brug
-  det. Det er lige så vigtigt at vide, hvad man skal blive ved med.
-
-Kig især efter det, I har arbejdet med i projektet:
-
-| Kig efter | Hvor i skemaet |
-| --- | --- |
-| Navne, der siger, hvad klasser, metoder og variable gør | *Er navnene selvforklarende?* |
-| Attributter, der er `private`, med getters kun hvor de bruges | *Har attributter korrekt access?* |
-| `System.out.println` kun i `UserInterface` | *Yderligere kommentarer* |
-| Ingen `instanceof` på våbentyper (`RangedWeapon`/`MeleeWeapon`) | *Yderligere kommentarer* |
-| Døde kommentarer og udkommenteret kode | *Kommentarer* 💣 |
-
-**Når I modtager feedback:** Lyt, og spørg ind, hvis noget er uklart. I behøver ikke være enige i
-alt – men skriv det ned, og tænk over det, før I afviser det.
-
----
-
-### Refleksion
-
-Skriv svarene til dig selv – 5–10 linjer i alt. Gem dem; de kan bruges, når vi senere på semestret
-evaluerer, og når I går i gang med næste projekt.
-
-1. Hvad i jeres Adventure er du **mest stolt af**?
-2. Hvilket begreb forstår du nu, som du ikke forstod i uge 39? (Objektreferencer, `ArrayList` af
-   objekter, arv, polymorfi, abstrakte klasser, …)
-3. Hvad var **sværest**, og hvad hjalp dig videre?
-4. Hvilken feedback fik I i dag, som du vil tage med dig?
-5. Hvis I startede forfra, hvad ville I så gøre **anderledes**? Tegne mere, før I kodede? Committe
-   oftere? Dele arbejdet anderledes op i gruppen?
-
-Tal derefter kort om svarene i gruppen. Er der noget, I vil gøre anderledes som gruppe i næste
-projekt?
-
----
-
-### Efter efterårsferien
-
-Efter efterårsferien (uge 42) går vi i gang med næste obligatoriske projekt, **Filmsamling**, i
-uge 43–45. Vi starter mandag 19-10 med GitHub i grupper.
-
-God ferie!
-
----
-
-## Det vigtigste at tage med
-
-* 10 minutter: kort demo, kode I er stolte af, og spørgsmål
-* vælg noget, der var **svært** – det er det mest interessante for de andre
-* forbered demoen som en liste af kommandoer, og test den på den computer, I præsenterer fra
-* god feedback er **konkret**, handler om **koden** og spørger **hvorfor**
-* ros er også feedback
-* skriv refleksionen ned – den er til dig selv
+Der findes ikke kun én korrekt måde at strukturere Adventure-spillet på. Formålet med præsentationerne er også at se flere mulige løsninger på de samme krav.
 
 ## Aktiviteter i undervisningen
 
-### 1. Sidste forberedelse (første kvarter)
+Grupperne præsenterer efter rækkefølgen i klassens præsentationsplan:
 
-Gruppen gennemgår [Forbered jer](#forbered-jer): kør programmet, find demo-kommandoerne frem, åbn
-klassediagrammet, og aftal, hvem der siger hvad.
+- [A-klassens præsentationsplan](https://erhvervsakademikbenhavn.sharepoint.com/:x:/r/sites/Team-E26AB/_layouts/15/Doc.aspx?action=edit&sourcedoc=%7B3b88b7b6-20c0-4cac-b2cf-18449771f9ca%7D&wdExp=TEAMS-TREATMENT&web=1)
+- [B-klassens præsentationsplan](https://erhvervsakademikbenhavn.sharepoint.com/:x:/r/sites/Team-E26AB/_layouts/15/Doc.aspx?action=edit&sourcedoc=%7B6fbbf830-8885-4e0d-ba00-f8e15f06e3b6%7D&wdExp=TEAMS-TREATMENT&web=1)
 
-### 2. Præsentationer
+Hver gruppe:
 
-Underviseren styrer rækkefølgen og tiden. Når I ikke selv præsenterer: lyt, og stil mindst ét
-spørgsmål i løbet af dagen.
+1. demonstrerer spillet
+2. gennemfører sin forberedte kode-walkthrough
+3. besvarer spørgsmål
 
-### 3. Kode-review
+Demonstration af spillet samt¨kode-walkthrough bør ikke tage mere end 10 minutter.  
+Herefter følger spørgsmål i ca 5 minutter.
 
-To og to grupper reviewer hinandens kode efter [review-skemaet](../../projekter/adventure/kode-review.md),
-som beskrevet i [Kode-review](#kode-review) ovenfor. Brug ca. lige lang tid på hver gruppes kode.
+## Det vigtigste at tage med
 
-### 4. Refleksion
-
-Skriv svarene på [refleksionsspørgsmålene](#refleksion) hver for sig, og tal dem derefter igennem i
-gruppen.
+- Forbered både demonstration og kode-walkthrough inden undervisningen.
+- Start med at vise spillet, før I går ind i koden.
+- Vælg én sammenhængende sekvens frem for mange løsrevne kodestykker.
+- Forklar samarbejdet mellem objekterne og klassernes ansvar.
+- Gruppen bestemmer selv, hvem der præsenterer.
+- Alle gruppemedlemmer skal kunne forklare løsningen og besvare spørgsmål.
