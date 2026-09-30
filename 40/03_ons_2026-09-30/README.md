@@ -206,7 +206,7 @@ public class Item {
 }
 ```
 
-`protected` betyder: tilgængelig i klassen selv **og i alle subklasser**.
+`protected` betyder: tilgængelig i same pakke, klassen selv **og i alle subklasser**.
 
 > Brug getteren, når der findes en. `protected` felter gør, at superklassen ikke længere selv har
 > kontrol over sine data – brug det med måde.
