@@ -27,23 +27,8 @@ På arket skriver du:
 
 Skriv så konkret som muligt.
 
-I stedet for at skrive:
-
-> Undervisningen er god.
-
-kan du eksempelvis skrive:
-
-> Gennemgangen af kodeeksempler gør det lettere at forstå dagens emne.
-
-I stedet for at skrive:
-
-> Der er for mange opgaver.
-
-kan du eksempelvis skrive:
-
-> Der kunne være tydeligere hjælp til at vælge, hvilke opgaver man skal begynde med.
-
-Skriv om undervisningen og de rammer, der kan ændres. Undgå kommentarer om navngivne medstuderende.
+Skriv kun om undervisningen og de rammer, der rent faktisk kan ændres.  
+Undgå kommentarer om navngivne medstuderende.
 
 ### 2. Arkene cirkulerer
 
