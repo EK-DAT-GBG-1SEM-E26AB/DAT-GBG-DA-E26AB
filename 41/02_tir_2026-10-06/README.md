@@ -253,7 +253,7 @@ Det skal vise alle klasser, arveforhold og associationer med multiplicitet.
 | --- | --- |
 | **ons 07-10** | UDVIKLINGSDAG DIGITAL – tjek TimeEdit/itslearning for, om der er undervisning |
 | **tor 08-10** | Arbejde med Adventure-projektet. **Endelig aflevering kl. 23:59** |
-| **fre 09-10** | Præsentation af færdige projekter |
+| **fre 09-10** | Præsentation af færdige projekter (OBLIGATORISK) |
 
 ### Forbered præsentationen
 
