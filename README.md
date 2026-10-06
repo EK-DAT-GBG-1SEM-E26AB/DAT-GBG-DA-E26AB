@@ -310,7 +310,7 @@
 <tr>
   <td>44</td>
   <td><a href="44/01_man_2026-10-26/README.md">Mandag 26-10-2026</a></td>
-  <td>FURPS, Datoer (LocalDate) + kode og design review</td>
+  <td>Midtvejsevaluering. FURPS, Datoer (LocalDate) + kode og design review</td>
   <td>MANY</td>
   <td></td>
 </tr>
