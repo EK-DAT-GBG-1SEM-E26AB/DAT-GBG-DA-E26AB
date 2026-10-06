@@ -261,7 +261,7 @@ Gå [tjeklisten over spillet](#tjekliste-virker-spillet) igennem sammen. Skriv t
 
 Arbejd **kun** på den midterste liste, indtil den er tom.
 
-### 2. Gør koden færdig (formiddag)
+### 2. Gør koden færdig
 
 Arbejd med [Adventure del 5](../../projekter/adventure/del-5-enemies.md). Følg jeres
 aktivitetsdiagram fra tirsdag, og tag én gren af attack-sekvensen ad gangen.
@@ -272,7 +272,7 @@ kæmpe alene.
 > **Sæt et stoppunkt.** Aftal i gruppen, hvornår I stopper med at lave nye ting – fx ved frokost.
 > Derefter retter I kun fejl. Frivillige udvidelser kan vente til efter afleveringen.
 
-### 3. Kvalitetstjek (efter frokost)
+### 3. Kvalitetstjek
 
 Byt skærm med en anden i gruppen, og gå [kodekvalitets-tjeklisten](#tjekliste-kodekvalitet-før-i-afleverer)
 igennem på hinandens klasser. Ret det, I finder. Commit og push efter hver ting.
