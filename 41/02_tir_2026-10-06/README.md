@@ -257,7 +257,7 @@ Det skal vise alle klasser, arveforhold og associationer med multiplicitet.
 
 ### Forbered præsentationen
 
-På fredag skal hver gruppe præsentere. I har **10 minutter**:
+På fredag skal hver gruppe præsentere. I har **15 minutter**:
 
 * kør programmet – vis f.eks. en sjov feature (maks. 2 minutter)
 * præsentér noget kode, I er særligt stolte over
