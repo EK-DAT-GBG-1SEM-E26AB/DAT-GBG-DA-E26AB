@@ -22,7 +22,7 @@ Når du har arbejdet med dagens materiale, skal du kunne:
 
 * prioritere det, der mangler, så det vigtigste bliver færdigt først
 * tjekke dit eget program mod en kravliste
-* gennemgå din egen kode med [review-skemaet](../../projekter/adventure/kode-review.md) og rette det,
+* gennemgå din egen kode for teknisk gæld og rette det,
   du finder
 * tegne et klassediagram, der passer med det færdige program
 * aflevere et GitHub-link og en pdf korrekt i itslearning
