@@ -310,7 +310,7 @@ Når I reviewer – jeres egen kode eller andres – så:
 
 ## Aktiviteter i undervisningen
 
-### Midtvejsevaluering
+### 0. Midtvejsevaluering
 Vi starter med at gennemføre midtvejevalueringen, som I har modtaget på e-mail.
 
 ### 1. FURPS
