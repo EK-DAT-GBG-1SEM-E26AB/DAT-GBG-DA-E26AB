@@ -260,7 +260,7 @@
   <td><a href="41/05_fre_2026-10-09/README.md">Fredag 09-10-2026</a></td>
   <td>Præsentation af færdige projekter</td>
   <td>MANY</td>
-  <td></td>
+  <td>OBLIGATORISK</td>
 </tr>
 <tr><td colspan="5"><strong>Efterårsferie</strong></td></tr>
 <tr>
