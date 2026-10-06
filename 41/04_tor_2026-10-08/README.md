@@ -130,8 +130,7 @@ Gå listen igennem **ved at spille jeres eget spil**. Sæt kun kryds, når I har
 
 ### Tjekliste: kodekvalitet før I afleverer
 
-I morgen skal andre kigge på jeres kode. Tag et hurtigt kig selv først, med de vigtigste spørgsmål
-fra [review-skemaet](../../projekter/adventure/kode-review.md). Spørgsmål med 💣 skal helst besvares
+Gå igennem nedenstående checkliste. Spørgsmål med 💣 skal helst besvares
 med **nej**.
 
 **GitHub**
