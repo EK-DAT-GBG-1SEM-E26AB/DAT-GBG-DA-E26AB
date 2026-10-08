@@ -6,7 +6,7 @@ Adventure-projektet er afsluttet. Gennem de seneste uger har I udviklet jeres f�
 
 I dag skal grupperne præsentere deres færdige spil i plenum.
 
-Præsentationerne gennemføres i den rækkefølge, der fremgår af klassens præsentationsplan:
+Præsentationerne gennemføres i den rækkefølge, der fremgår af klassens præsentationsplan (faneblad: Projekt Adventure fremlæggelse):
 
 - [Præsentationsplan – A-klassen](https://erhvervsakademikbenhavn.sharepoint.com/:x:/r/sites/Team-E26AB/_layouts/15/Doc.aspx?action=edit&sourcedoc=%7B3b88b7b6-20c0-4cac-b2cf-18449771f9ca%7D&wdExp=TEAMS-TREATMENT&web=1)
 - [Præsentationsplan – B-klassen](https://erhvervsakademikbenhavn.sharepoint.com/:x:/r/sites/Team-E26AB/_layouts/15/Doc.aspx?action=edit&sourcedoc=%7B6fbbf830-8885-4e0d-ba00-f8e15f06e3b6%7D&wdExp=TEAMS-TREATMENT&web=1)
