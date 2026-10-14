@@ -296,7 +296,7 @@
 <tr>
   <td></td>
   <td><a href="41/05_fre_2026-10-09/README.md">Torsdag 22-10-2026</a></td>
-  <td>Præsentation af færdige projekter</td>
+  <td>Præsentation af færdige adventure projekter</td>
   <td>MANY</td>
   <td>OBLIGATORISK</td>
 </tr>
