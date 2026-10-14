@@ -260,7 +260,7 @@
   <td><a href="41/05_fre_2026-10-09/README.md">Fredag 09-10-2026</a></td>
   <td>Præsentation af færdige projekter</td>
   <td>MANY</td>
-  <td>OBLIGATORISK</td>
+  <td>AFLYST</td>
 </tr>
 <tr><td colspan="5"><strong>Efterårsferie</strong></td></tr>
 <tr>
@@ -296,9 +296,9 @@
 <tr>
   <td></td>
   <td><a href="43/04_tor_2026-10-22/README.md">Torsdag 22-10-2026</a></td>
-  <td>Delfi-evaluering med de studerende</td>
+  <td>Præsentation af færdige projekter</td>
   <td>MANY</td>
-  <td></td>
+  <td>OBLIGATORISK</td>
 </tr>
 <tr>
   <td></td>
