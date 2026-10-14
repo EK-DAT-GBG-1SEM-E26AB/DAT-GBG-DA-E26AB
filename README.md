@@ -295,7 +295,7 @@
 </tr>
 <tr>
   <td></td>
-  <td><a href="43/04_tor_2026-10-22/README.md">Torsdag 22-10-2026</a></td>
+  <td><a href="41/05_fre_2026-10-09/README.md">Torsdag 22-10-2026</a></td>
   <td>Præsentation af færdige projekter</td>
   <td>MANY</td>
   <td>OBLIGATORISK</td>
