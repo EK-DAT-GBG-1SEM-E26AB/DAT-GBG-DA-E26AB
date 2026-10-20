@@ -63,6 +63,16 @@ krav pr. bogstav** til jeres filmsamling, og angiv for hvert krav, om det er opf
 | R | Programmet går ikke ned ved bogstaver i årstal | Nej – del 6 | |
 | ... | | | |
 ```
+Renderet:  
+# FURPS – vores filmsamling
+
+| | Krav | Opfyldt? | Hvor |
+|---|---|---|---|
+| F | Man kan søge på en del af en titel | Ja | US4, `MovieCollection.searchMovies` |
+| R | Programmet går ikke ned ved bogstaver i årstal | Nej – del 6 | |
+| ... | | | |
+
+
 
 Et godt krav kan **afprøves**: "Programmet er brugervenligt" kan ikke afprøves. "Menuen viser
 højst ti valg, og ukendte valg giver en besked" kan.  
