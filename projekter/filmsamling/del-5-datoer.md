@@ -50,6 +50,7 @@ handler netop om dem: [del 6](del-6-exceptions.md) om **R**, [del 7](del-7-filer
 
 ### Krav: docs/furps.md
 
+Vi skal benytte en såkaldt markdown fil (.md) til dokumentation af FURPS krav.  En markdown fil benytter markdown syntaks til formatering af elementer. Dette er et meget simpelt markup-sprog, der f.eks. benyttes i README filer på GitHub. En oversigt over vigtige tags kan findes her [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/).  
 Opret mappen `docs` i roden af repositoriet og filen `docs/furps.md`. Skriv **mindst ét konkret
 krav pr. bogstav** til jeres filmsamling, og angiv for hvert krav, om det er opfyldt, og hvor:
 
@@ -64,7 +65,11 @@ krav pr. bogstav** til jeres filmsamling, og angiv for hvert krav, om det er opf
 ```
 
 Et godt krav kan **afprøves**: "Programmet er brugervenligt" kan ikke afprøves. "Menuen viser
-højst ti valg, og ukendte valg giver en besked" kan.
+højst ti valg, og ukendte valg giver en besked" kan.  
+  
+IntelliJ kan rendere markdown filer.    
+Gå til File -> Settings (eller Cmd + , på Mac) -> Plugins. Søg efter Markdown under "Installed" og tjek, at det er slået til. Genstart IntelliJ, hvis det er nødvendigt.
+
 
 ---
 
