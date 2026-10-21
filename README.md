@@ -408,8 +408,8 @@
 </tr>
 <tr>
   <td></td>
-  <td><a href="46/05_fre_2026-11-13/README.md">Fredag 13-11-2026</a></td>
-  <td>Evaluering</td>
+  <td><a href="43/04_tor_2026-10-22/README.md">Fredag 13-11-2026</a></td> 43/04_tor_2026-10-22
+  <td>Delfi evaluering</td>
   <td>MANY</td>
   <td></td>
 </tr>
