@@ -51,7 +51,7 @@ En **sprint** er en fast periode, hvor gruppen arbejder mod ét mål. I slutning
 der være et **stykke software, der virker**: ikke *næsten* virker, men virker, og som man kan
 vise frem.  
 
-### Sprintens længde
+### Sprint længde
 
 Et sprint har en fast længde på **højst én måned**. Mange Scrum-teams arbejder med sprints på
 **én eller to uger**. Sprintens længde ændres normalt ikke fra sprint til sprint, fordi den faste
