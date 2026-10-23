@@ -84,8 +84,8 @@ The Scrum Guide deler sprint planning i tre spørgsmål. Oversat til Delfinen:
 
 | Spørgsmål | Det kommer der ud af |
 |---|---|
-| **Hvorfor** er denne sprint værdifuld? | Et **sprintmål** i én sætning |
-| **Hvad** kan blive færdigt i denne sprint? | User stories flyttet fra *Product Backlog* til *Sprint Backlog* |
+| **Hvorfor** er dette sprint værdifuld? | Et **sprintmål** i én sætning |
+| **Hvad** kan blive færdigt i dette sprint? | User stories flyttet fra *Product Backlog* til *Sprint Backlog* |
 | **Hvordan** får vi det lavet? | Opgaver under hver story, og hvem der starter på hvad |
 
 #### 1. Sprintmålet
