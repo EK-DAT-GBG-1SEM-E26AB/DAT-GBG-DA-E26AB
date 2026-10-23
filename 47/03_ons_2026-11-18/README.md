@@ -45,11 +45,22 @@ Ingen ny video. Har du ikke set den, så se
 
 ---
 
-### Hvad er en sprint?
+### Hvad er et sprint?
 
 En **sprint** er en fast periode, hvor gruppen arbejder mod ét mål. I slutningen af sprinten skal
 der være et **stykke software, der virker**: ikke *næsten* virker, men virker, og som man kan
-vise frem.
+vise frem.  
+
+### Sprintens længde
+
+Et sprint har en fast længde på **højst én måned**. Mange Scrum-teams arbejder med sprints på
+**én eller to uger**. Sprintens længde ændres normalt ikke fra sprint til sprint, fordi den faste
+rytme gør planlægning og opfølgning lettere.
+
+Korte sprints giver hurtig feedback og gør det muligt at opdage problemer tidligt. Til gengæld
+skal teamet oftere gennemføre Sprint Planning, Sprint Review og Sprint Retrospective.
+
+I Delfinen arbejder I med to sprints. Hver sprint har på forhånd fastlagte start- og slutdatoer.
 
 I Delfinen er der to sprints:
 
