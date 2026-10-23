@@ -63,6 +63,12 @@ kan bygge og køre.
 
 Når du har arbejdet med dagens materiale, skal du kunne:
 
+* placere dagens arbejde med user stories og Product Backlog i den samlede **Scrum-proces**
+* forklare forskellen på **Product Backlog** og **Sprint Backlog**
+* forklare, hvordan Product Backlog bruges som udgangspunkt for **Sprint Planning**
+* forklare formålet med et **sprintmål** og et færdigt **produktinkrement**
+* beskrive formålet med **Daily Scrum**, **Sprint Review** og **Sprint Retrospective**
+* forklare, hvornår en user story er færdig ud fra gruppens **Definition of Done**
 * skrive en user story i formatet *Som ... vil jeg ... så ...* ud fra en kundes tekst
 * skrive **acceptkriterier** i formatet *Givet – når – så*, med konkrete tal og **grænsetilfælde**
 * skrive acceptkriterier for det, der kan **gå galt**
