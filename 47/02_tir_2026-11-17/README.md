@@ -17,6 +17,48 @@ Dagens spørgsmål er derfor:
 * Hvordan bliver en bunke user stories til en **prioriteret backlog**, når der ikke er nogen
   Product Owner, der bestemmer rækkefølgen?
 
+## Fra kundekrav til sprint – dagens plads i Scrum-processen
+
+Dagens arbejde er en del af projektets **Scrum-proces**. I omsætter kundens krav til user stories
+og samler dem i en prioriteret **Product Backlog**. Product Backlog indeholder alt det arbejde,
+gruppen forventer, at produktet skal omfatte, ordnet med det vigtigste øverst.
+
+I dag arbejder I med **backlog refinement**: I gør user stories tydelige, skriver
+acceptkriterier, deler store stories op, prioriterer dem og giver dem en størrelse. Backlog
+refinement er ikke et særskilt Scrum-event, men en løbende aktivitet, der gør backloggen klar til
+planlægning.
+
+I morgen bruger I backloggen under **Sprint Planning**:
+
+1. Gruppen formulerer et **sprintmål**.
+2. I vælger de vigtigste user stories, som realistisk kan gøres færdige i sprinten.
+3. De valgte stories bliver en del af **Sprint Backlog**.
+4. I deler arbejdet op i konkrete opgaver og aftaler, hvordan I begynder.
+
+Under sprinten mødes I til korte **Daily Scrums**, hvor I følger fremdriften mod sprintmålet og
+tilpasser planen. Sprinten afsluttes med et **Sprint Review**, hvor det færdige produkt vises, og
+et **Retrospective**, hvor gruppen beslutter, hvordan samarbejdet kan forbedres i næste sprint.
+
+```text
+Kundekrav
+    ↓
+Product Backlog og refinement  ← dagens arbejde
+    ↓
+Sprint Planning
+    ↓
+Sprint Backlog og sprintmål
+    ↓
+Sprint og Daily Scrum
+    ↓
+Færdigt produktinkrement
+    ↓
+Sprint Review og Retrospective
+```
+
+En user story er først færdig, når den opfylder gruppens **Definition of Done**. Det betyder blandt
+andet, at acceptkriterierne er opfyldt, koden er testet og merget til `main`, og programmet stadig
+kan bygge og køre.
+
 ## Læringsmål
 
 Når du har arbejdet med dagens materiale, skal du kunne:
