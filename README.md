@@ -426,7 +426,7 @@
 <tr>
   <td></td>
   <td><a href="47/02_tir_2026-11-17/README.md">Tirsdag 17-11-2026</a></td>
-  <td>Projektets krav (user stories)</td>
+  <td>Scrum: Projektets krav, user stories og Product Backlog</td>
   <td>MANY</td>
   <td></td>
 </tr>
