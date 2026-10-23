@@ -26,7 +26,7 @@ gruppen forventer, at produktet skal omfatte, ordnet med det vigtigste øverst.
 <img src="images/scrum-proces.png" alt="Kvinde ved en hulkortmaskine, US Census Bureau" width="800">  
 
 *Scrum-processen fra Product Backlog og Sprint Planning til sprintens produktinkrement,
-Sprint Review og Sprint Retrospective. Dev = Developers, SM = Scrum Master og PO = Product
+Sprint Review og Sprint Retrospective. US = User Stories, Dev = Developers, SM = Scrum Master og PO = Product
 Owner. I Delfinen er alle gruppemedlemmer Developers, Scrum Master-rollen går på skift, og
 gruppen varetager i fællesskab prioriteringen af Product Backlog.*
 
