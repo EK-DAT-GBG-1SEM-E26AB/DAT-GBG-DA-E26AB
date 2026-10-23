@@ -1,4 +1,4 @@
-# Projektets krav: user stories og product backlog
+# Scrum: Projektets krav, user stories og Product Backlog
 
 ## Beskrivelse
 
