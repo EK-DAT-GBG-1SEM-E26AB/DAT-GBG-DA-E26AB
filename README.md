@@ -361,7 +361,7 @@
   <td><a href="45/03_ons_2026-11-04/README.md">Onsdag 04-11-2026</a></td>
   <td>Projektvejledning</td>
   <td>MICA/MANY</td>
-  <td>Online. Deadline for filmsamling kl. 23:59</td>
+  <td>Hold A: E212/Online<br/>Hold B: Online<br/>Deadline for filmsamling kl. 23:59</td>
 </tr>
 <tr>
   <td></td>
