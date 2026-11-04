@@ -17,6 +17,42 @@ Dagens spørgsmål er derfor:
 * Hvordan bliver en bunke user stories til en **prioriteret backlog**, når der ikke er nogen
   Product Owner, der bestemmer rækkefølgen?
 
+## Læringsmål
+
+Når du har arbejdet med dagens materiale, skal du kunne:
+
+* placere dagens arbejde med user stories og Product Backlog i den samlede **Scrum-proces**
+* forklare forskellen på **Product Backlog** og **Sprint Backlog**, og hvordan de bruges ved
+  **Sprint Planning**
+* forklare formålet med **sprintmål**, **Daily Scrum**, **Sprint Review** og
+  **Sprint Retrospective**
+* forklare, hvornår en user story er færdig ud fra gruppens **Definition of Done**
+* skrive en user story i formatet *Som ... vil jeg ... så ...* ud fra en kundes tekst
+* skrive **acceptkriterier** i formatet *Givet – når – så*, med konkrete tal og **grænsetilfælde**
+* skrive acceptkriterier for det, der kan **gå galt**
+* vurdere en user story med **INVEST** og forklare, hvad der er galt med en dårlig
+* **dele en for stor user story op** i mindre, der hver især giver værdi
+* forklare forskellen på en **user story** og en **opgave** (task)
+* bygge en **product backlog** og **prioritere** den med begrundelser
+* give user stories en grov **størrelse** (S, M, L)
+
+## Se disse videoer før undervisningen:
+
+* [Scrum in 20 mins... (with examples)](https://www.youtube.com/watch?v=SWDhGSZNF9M) (Codex
+  Community) – hele Scrum-forløbet på 20 minutter: backlog, sprint planning, stand-up, review og
+  retrospektiv. I skal bruge det hele de næste tre uger.
+* [How to Estimate User Stories with Planning Poker!](https://www.youtube.com/watch?v=_jYiuYtrpp8)
+  – den metode til estimering, der står i [Scrum i Delfinen](../../projekter/delfinen/scrum.md#estimering).
+
+## Læs nedenstående før undervisningen
+
+* Genopfrisk [user stories og acceptkriterier fra 22-09](../../39/02_tir_2026-09-22/README.md#user-stories-i-bogsamling).
+* Læs [Scrum i Delfinen](../../projekter/delfinen/scrum.md), især *Backlog og user stories* og
+  *Hvem prioriterer?*
+* [User stories with examples and a template](https://www.atlassian.com/agile/project-management/user-stories)
+  (Atlassian) – kort og godt om, hvad en user story er, og hvad den ikke er.
+
+---
 ## Fra kundekrav til sprint – dagens plads i Scrum-processen
 
 Dagens arbejde er en del af projektets **Scrum-proces**. I omsætter kundens krav til user stories
@@ -66,42 +102,6 @@ En user story er først færdig, når den opfylder gruppens **Definition of Done
 andet, at acceptkriterierne er opfyldt, koden er testet og merget til `main`, og programmet stadig
 kan bygge og køre.
 
-## Læringsmål
-
-Når du har arbejdet med dagens materiale, skal du kunne:
-
-* placere dagens arbejde med user stories og Product Backlog i den samlede **Scrum-proces**
-* forklare forskellen på **Product Backlog** og **Sprint Backlog**, og hvordan de bruges ved
-  **Sprint Planning**
-* forklare formålet med **sprintmål**, **Daily Scrum**, **Sprint Review** og
-  **Sprint Retrospective**
-* forklare, hvornår en user story er færdig ud fra gruppens **Definition of Done**
-* skrive en user story i formatet *Som ... vil jeg ... så ...* ud fra en kundes tekst
-* skrive **acceptkriterier** i formatet *Givet – når – så*, med konkrete tal og **grænsetilfælde**
-* skrive acceptkriterier for det, der kan **gå galt**
-* vurdere en user story med **INVEST** og forklare, hvad der er galt med en dårlig
-* **dele en for stor user story op** i mindre, der hver især giver værdi
-* forklare forskellen på en **user story** og en **opgave** (task)
-* bygge en **product backlog** og **prioritere** den med begrundelser
-* give user stories en grov **størrelse** (S, M, L)
-
-## Se disse videoer før undervisningen:
-
-* [Scrum in 20 mins... (with examples)](https://www.youtube.com/watch?v=SWDhGSZNF9M) (Codex
-  Community) – hele Scrum-forløbet på 20 minutter: backlog, sprint planning, stand-up, review og
-  retrospektiv. I skal bruge det hele de næste tre uger.
-* [How to Estimate User Stories with Planning Poker!](https://www.youtube.com/watch?v=_jYiuYtrpp8)
-  – den metode til estimering, der står i [Scrum i Delfinen](../../projekter/delfinen/scrum.md#estimering).
-
-## Læs nedenstående før undervisningen
-
-* Genopfrisk [user stories og acceptkriterier fra 22-09](../../39/02_tir_2026-09-22/README.md#user-stories-i-bogsamling).
-* Læs [Scrum i Delfinen](../../projekter/delfinen/scrum.md), især *Backlog og user stories* og
-  *Hvem prioriterer?*
-* [User stories with examples and a template](https://www.atlassian.com/agile/project-management/user-stories)
-  (Atlassian) – kort og godt om, hvad en user story er, og hvad den ikke er.
-
----
 
 ### Genopfriskning: hvad er en user story?
 
