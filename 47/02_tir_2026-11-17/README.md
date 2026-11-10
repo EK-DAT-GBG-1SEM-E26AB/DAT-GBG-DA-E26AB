@@ -35,6 +35,7 @@ Når du har arbejdet med dagens materiale, skal du kunne:
 * forklare forskellen på en **user story** og en **opgave** (task)
 * bygge en **product backlog** og **prioritere** den med begrundelser
 * give user stories en grov **størrelse** (S, M, L)
+* Scrum i GitHub projects
 
 ## Se disse videoer før undervisningen:
 
