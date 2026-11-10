@@ -44,6 +44,12 @@ Når du har arbejdet med dagens materiale, skal du kunne:
   retrospektiv. I skal bruge det hele de næste tre uger.
 * [How to Estimate User Stories with Planning Poker!](https://www.youtube.com/watch?v=_jYiuYtrpp8)
   – den metode til estimering, der står i [Scrum i Delfinen](../../projekter/delfinen/scrum.md#estimering).
+* [Scrum with GitHub Projects: Create Your First Project (Demo)](https://www.youtube.com/watch?v=SLcsLW23Dnc&list=PLGxFXI4dC2siB2ENZ6OhagfwSId5FcWmY&index=2)
+* [Scrum with GitHub Projects: The Product Backlog (Demo)](https://www.youtube.com/watch?v=X8wO-_Yv1jo&list=PLGxFXI4dC2siB2ENZ6OhagfwSId5FcWmY&index=3)
+* [GitHub Projects: Requirement Details, Markdown, and Estimates (Demo)](https://www.youtube.com/watch?v=N49LNfPw83k&list=PLGxFXI4dC2siB2ENZ6OhagfwSId5FcWmY&index=4)
+* [GitHub Projects: Prioritizing Your Backlog (Demo)](https://www.youtube.com/watch?v=zg6JmIyvpa0&list=PLGxFXI4dC2siB2ENZ6OhagfwSId5FcWmY&index=5)
+* [GitHub Projects: Demystifying Issues vs. Draft Issues](https://www.youtube.com/watch?v=lnPGWiH6Aqs&list=PLGxFXI4dC2siB2ENZ6OhagfwSId5FcWmY&index=6)
+* [GitHub Projects: Converting Draft to "Real" Issues + Issue Types (Demo)](https://www.youtube.com/watch?v=rAnQkYk9nAM&list=PLGxFXI4dC2siB2ENZ6OhagfwSId5FcWmY&index=7)  
 
 ## Læs nedenstående før undervisningen
 
