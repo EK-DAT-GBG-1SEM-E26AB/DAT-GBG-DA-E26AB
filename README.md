@@ -449,7 +449,7 @@
   <td><a href="47/05_fre_2026-11-20/README.md">Fredag 20-11-2026</a></td>
   <td>Projektarbejde 1. sprint</td>
   <td>MANY</td>
-  <td></td>
+  <td>Underviser online, tutor er i lokalet</td>
 </tr>
 <tr>
   <td>48</td>
