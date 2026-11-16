@@ -21,7 +21,7 @@ I skal arbejde tæt sammen i fire uger. Gør jer klart fra start, hvad I forvent
 
 Brug [Team Canvas](https://theteamcanvas.com/) (se den
 [korte introvideo](https://www.youtube.com/watch?v=EiAuIPCHNf0)). Udfyld den fulde udgave, ikke
-"Lite". Brug især tid på:
+"Basic". Brug især tid på:
 
 * **Mål:** Hvad vil I have ud af projektet, som gruppe og hver for sig? Er målet at bestå, eller
   at lave udvidelser?
