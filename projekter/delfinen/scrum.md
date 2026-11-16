@@ -97,7 +97,7 @@ Vi anbefaler **GitHub Projects**, fordi det ligger lige ved jeres repo, og I all
 GitHub.
 
 1. Den, der ejer gruppens repo, går til sin **profil på GitHub → Projects → New project** og vælger
-   skabelonen **Board**. Kald projektet noget med Delfinen og jeres gruppenavn.
+   skabelonen **Team planning**. Kald projektet noget med Delfinen og jeres gruppenavn.
 2. Under **Settings → Manage access** inviteres de tre andre med skriveadgang.
 3. Under **Settings** sættes **Visibility** til **Public**, så underviserne kan se boardet.
 4. I repoet: **Projects → Link a project**, så boardet kan findes fra repoet.
