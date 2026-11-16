@@ -101,16 +101,10 @@ GitHub.
 2. Under **Settings → Manage access** inviteres de tre andre med skriveadgang.
 3. Under **Settings** sættes **Visibility** til **Public**, så underviserne kan se boardet.
 4. I repoet: **Projects → Link a project**, så boardet kan findes fra repoet.
-5. Sørg for, at boardet har disse kolonner (tilføj eller omdøb dem):
-
-   | Product Backlog | Sprint Backlog | I gang | Færdig |
-   |---|---|---|---|
-   | Alle user stories, vigtigste øverst | Valgt til denne sprint | Nogen arbejder på den nu | Opfylder Definition of Done |
-
-6. Opret hver user story som et kort. Skriv acceptkriterierne og opgave-tjeklisten i kortets
+5. Opret hver user story som et Issue. Skriv acceptkriterierne og opgave-tjeklisten i kortets
    beskrivelse.
-7. Når nogen går i gang med en user story, sætter de sig selv på (**Assignees**) og flytter kortet
-   til *I gang*.
+6. Nedbryd user storien i Task og lav et sub-issue for hver task
+7. Når nogen går i gang med en user story, sætter de sig selv på (**Assignees**)
 
 Vil I, kan I også tilføje et felt til estimatet (se nedenfor) og et felt til sprinten. GitHubs
 egen vejledning er [Quickstart for Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/quickstart-for-projects).
