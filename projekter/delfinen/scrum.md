@@ -107,7 +107,9 @@ GitHub.
 7. Når nogen går i gang med en user story, sætter de sig selv på (**Assignees**)
 
 Vil I, kan I også tilføje et felt til estimatet (se nedenfor) og et felt til sprinten. GitHubs
-egen vejledning er [Quickstart for Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/quickstart-for-projects).
+egen vejledning er [Quickstart for Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/quickstart-for-projects). 
+
+I [denne video](https://erhvervsakademikbenhavn.sharepoint.com/:v:/r/sites/Team-E26AB/Delte%20dokumenter/General/Delfinen.mp4?d=w921b2357da4646259cada1f183551eeb&csf=1&web=1&e=qz8b50) kan I se hvordan man kan sætte det op i Github projects 
 
 ### Trello
 
