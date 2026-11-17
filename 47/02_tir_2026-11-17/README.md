@@ -49,7 +49,8 @@ Når du har arbejdet med dagens materiale, skal du kunne:
 * [GitHub Projects: Requirement Details, Markdown, and Estimates (Demo)](https://www.youtube.com/watch?v=N49LNfPw83k&list=PLGxFXI4dC2siB2ENZ6OhagfwSId5FcWmY&index=4)
 * [GitHub Projects: Prioritizing Your Backlog (Demo)](https://www.youtube.com/watch?v=zg6JmIyvpa0&list=PLGxFXI4dC2siB2ENZ6OhagfwSId5FcWmY&index=5)
 * [GitHub Projects: Demystifying Issues vs. Draft Issues](https://www.youtube.com/watch?v=lnPGWiH6Aqs&list=PLGxFXI4dC2siB2ENZ6OhagfwSId5FcWmY&index=6)
-* [GitHub Projects: Converting Draft to "Real" Issues + Issue Types (Demo)](https://www.youtube.com/watch?v=rAnQkYk9nAM&list=PLGxFXI4dC2siB2ENZ6OhagfwSId5FcWmY&index=7)  
+* [GitHub Projects: Converting Draft to "Real" Issues + Issue Types (Demo)](https://www.youtube.com/watch?v=rAnQkYk9nAM&list=PLGxFXI4dC2siB2ENZ6OhagfwSId5FcWmY&index=7)
+* [Github projects i Delfinen](https://erhvervsakademikbenhavn.sharepoint.com/:v:/r/sites/Team-E26AB/Delte%20dokumenter/General/Delfinen.mp4?d=w921b2357da4646259cada1f183551eeb&csf=1&web=1&e=qz8b50)
 
 ## Læs nedenstående før undervisningen
 
