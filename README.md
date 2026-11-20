@@ -527,14 +527,14 @@
   <td><a href="50/01_man_2026-12-07/README.md">Mandag 07-12-2026</a></td>
   <td>Projektarbejde 2. sprint</td>
   <td>MANY</td>
-  <td></td>
+  <td>Underviser online, tutor er i lokalet</td>
 </tr>
 <tr>
   <td></td>
   <td><a href="50/02_tir_2026-12-08/README.md">Tirsdag 08-12-2026</a></td>
   <td>Projektarbejde 2. sprint, deadline for projekt</td>
   <td>MANY</td>
-  <td></td>
+  <td>Underviser online, tutor er i lokalet</td>
 </tr>
 <tr>
   <td></td>
