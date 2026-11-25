@@ -519,7 +519,7 @@
   <td><a href="49/05_fre_2026-12-04/README.md">Fredag 04-12-2026</a></td>
   <td>Projektarbejde 2. sprint</td>
   <td>MANY/MICA</td>
-  <td></td>
+  <td>A: Underviser online, tutor er i lokalet</td>
 </tr>
 <tr><td colspan="5"><strong>Projektreviews og repetition</strong></td></tr>
 <tr>
